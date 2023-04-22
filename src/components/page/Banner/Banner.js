@@ -46,7 +46,6 @@ const Text = styled.div`
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-
   p {
     color: var(--clr-tan);
   }
