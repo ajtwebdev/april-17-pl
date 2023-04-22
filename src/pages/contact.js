@@ -12,7 +12,7 @@ export default function Contact() {
     <Layout>
       <SEO
         title="Contact Us - Call Your Professional Landscapers in Calgary"
-        description="Project Landscape is happy to offer year-round landscaping services, from lawn care to snow removal. Contact us today to schedule your services."
+        description="Project Landscape is happy to offer you year-round landscaping services, from lawn care to snow removal. Contact us today to schedule your services."
       />
       <Banner
         img={BannerImg}
