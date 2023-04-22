@@ -34,12 +34,12 @@ export default function ImageRight({ subheader, title, body, image }) {
 
             <ButtonPrimary to="/contact">talk to us today</ButtonPrimary>
           </Text>
-          {/* <StyledImg
+          <StyledImg
             image={image.localFile.childImageSharp.gatsbyImageData}
             alt={image.altText}
             className="stretch"
-          /> */}
-          <StaticImage src="../../../images/ph.jpg" className="stretch" />
+          />
+          {/* <StaticImage src="../../../images/ph.jpg" className="stretch" /> */}
         </Flex>
       </Container>
     </Section>

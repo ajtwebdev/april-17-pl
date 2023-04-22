@@ -23,7 +23,7 @@ export default function index() {
   return (
     <Layout>
       <SEO title="home" description="" />
-      {/* <HeroSlider />
+      <HeroSlider />
       <MainServicesLinks />
       <AllServicesBanner />
       <ProductsImg
@@ -35,17 +35,32 @@ export default function index() {
       />
       <ShowroomSection />
       <MainVideo />
-      <ImageLeft img={LandscapingImg} alt="landscaping services in calgary, AB" subheader="" title="Landscaping services in Calgary" body="Since 2016, Project landscape has helped hundreds of homeowners create beautiful and functional outdoor living spaces that are filled with relaxation and enjoyment. Whether it's a complete landscape design and construction transformation or helping homeowners create a jaw-dropping curb appeal to be the envy of your neighbours, experienced and certified landscaping professionals are here to help.
+      <ImageLeft
+        img={LandscapingImg}
+        alt="landscaping services in calgary, AB"
+        subheader=""
+        title="Landscaping services in Calgary"
+        body="Since 2016, Project landscape has helped hundreds of homeowners create beautiful and functional outdoor living spaces that are filled with relaxation and enjoyment. Whether it's a complete landscape design and construction transformation or helping homeowners create a jaw-dropping curb appeal to be the envy of your neighbours, experienced and certified landscaping professionals are here to help.
 
 We understand how frustrating it can be to deal with unreliable landscapers and ones that promise more than they can truly offer. Improving your landscape shouldn't be an impossible task, filled with exhausting research of unreliable landscape companies. 
-If you're going to invest your time and money into hiring a landscape company for your Calgary home, you deserve the attention,expertise, great customer service and detailed focus that you invested into." to="/about" button="more about us" />
-<ImageRight img={LandscapingImg2} alt="best landscaper in calgary, AB" title="Bring your outdoor oasis to life  " body="Imagine stepping out into a perfect backyard oasis. A perfect place for relaxing, entertaining and everything in between. Get the ease of a single landscape provider, who understands and can help with all your outdoor needs. Use a proven Calgary landscape company that has mastered how to bring your outdoor dreams to life.
-From creative softscapes to the most lucrative hardscapes, through an integrated approach, your landscape project can benefit from our seamless landscaping process. A company of professional landscape designers will take your project from concept to completion, by carefully listening to your ideas, goals and how you dream of using your outdoor space." to="/contact" button="let's get in touch" />      
-<MainTrends />
+If you're going to invest your time and money into hiring a landscape company for your Calgary home, you deserve the attention,expertise, great customer service and detailed focus that you invested into."
+        to="/about"
+        button="more about us"
+      />
+      <ImageRight
+        img={LandscapingImg2}
+        alt="best landscaper in calgary, AB"
+        title="Bring your outdoor oasis to life  "
+        body="Imagine stepping out into a perfect backyard oasis. A perfect place for relaxing, entertaining and everything in between. Get the ease of a single landscape provider, who understands and can help with all your outdoor needs. Use a proven Calgary landscape company that has mastered how to bring your outdoor dreams to life.
+From creative softscapes to the most lucrative hardscapes, through an integrated approach, your landscape project can benefit from our seamless landscaping process. A company of professional landscape designers will take your project from concept to completion, by carefully listening to your ideas, goals and how you dream of using your outdoor space."
+        to="/contact"
+        button="let's get in touch"
+      />
+      <MainTrends />
       <Why />
       <Ebook title="download our landscaping ebook" href="" />
       <MainTestimonials />
-      <FaqFeatured /> */}
+      <FaqFeatured />
     </Layout>
   )
 }
