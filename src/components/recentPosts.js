@@ -18,7 +18,7 @@ export default function RecentPosts() {
         <Text>
           <h2 className="title">recent landscaping articles</h2>
         </Text>
-        {data.allWpPost.nodesmap(post => {
+        {data.allWpPost.nodes.map(post => {
           return (
             <GridThree>
               <Article className="spacing">
