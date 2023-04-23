@@ -16,7 +16,7 @@ export default function ImageSlider({ subheader, title, body }) {
   const before =
     "http://21-pl.purpleparrotwebsites.com/wp-content/uploads/2023/04/11111-lighting-59fb9b0d7dbbc.jpg"
   const after =
-    "http://21-pl.purpleparrotwebsites.com/wp-content/uploads/2023/03/Belgard-Light-Post.webp"
+    "http://21-pl.purpleparrotwebsites.com/wp-content/uploads/2023/04/11111-lighting-59fb9b0d7dbbc.jpg"
   return (
     <Section>
       <Container className="spacing">
