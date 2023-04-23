@@ -1,7 +1,7 @@
 import React from "react"
 import { Container, Section } from "../../layoutComponents"
 import styled from "styled-components"
-import { ButtonSecondaryDark } from "../../buttons"
+import { ButtonSe, ButtonSecondaryLightcondaryLight } from "../../buttons"
 
 const Wrapper = styled.div`
   background: var(--clr-accent);
@@ -13,6 +13,7 @@ const Text = styled.div`
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 `
 
 export default function Cta3({ title, description }) {
@@ -24,9 +25,9 @@ export default function Cta3({ title, description }) {
             <h2 className="title tan">
               your outdoor oasis is just a click away
             </h2>
-            <ButtonSecondaryDark to="/contact">
+            <ButtonSecondaryLight to="/contact">
               what's your project?
-            </ButtonSecondaryDark>
+            </ButtonSecondaryLight>
           </Text>
         </Container>
       </Section>
