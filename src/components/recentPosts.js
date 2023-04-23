@@ -3,12 +3,23 @@ import { Section, Container, GridThree } from "./layoutComponents"
 import styled from "styled-components"
 import { useRecentPosts } from "../hooks/useRecentPosts"
 import { GatsbyImage } from "gatsby-plugin-image"
+import { ButtonInline } from "./buttons"
 
 const Text = styled.div`
   text-align: center;
 `
 
-const Article = styled.article``
+const Article = styled.article`
+  div {
+    padding: 2em;
+  }
+`
+
+const StyledImg = styled(GatsbyImage)`
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+`
 
 export default function RecentPosts() {
   const data = useRecentPosts()
@@ -22,13 +33,18 @@ export default function RecentPosts() {
           return (
             <GridThree>
               <Article className="spacing">
-                {/* <GatsbyImage
-                  image={
-                    post.featuredImage.node.localFile.childImageSharp
-                      .gatsbyImageData
-                  }
-                /> */}
-                <h3 className="subheader">{post.title}</h3>
+                {post.featuredImage ? (
+                  <StyledImg
+                    image={
+                      post.featuredImage.node.localFile.childImageSharp
+                        .gatsbyImageData
+                    }
+                  />
+                ) : null}
+                <div>
+                  <h3 className="subheader">{post.title}</h3>
+                  <ButtonInline to={post.uri}>Read more</ButtonInline>
+                </div>
               </Article>
             </GridThree>
           )
