@@ -10,13 +10,14 @@ const Wrapper = styled.div`
 
 const Text = styled.div`
   color: var(--txt-light);
+  p {
+    color: var(--txt-light);
+  }
 `
 
 const StyledImg = styled(GatsbyImage)`
   box-shadow: -20px 20px 0px 1px var(--clr-tan);
   min-height: 300px;
-  object-fit: cover;
-  align-self: stretch;
 `
 
 export default function ImageLeftDark({ subheader, title, body, image }) {
@@ -36,11 +37,11 @@ export default function ImageLeftDark({ subheader, title, body, image }) {
                 <p className="subheader accent">{subheader}</p>
                 <h2 className="title">{title}</h2>
               </div>
-              <div
+              <p
                 dangerouslySetInnerHTML={{
                   __html: `${body}`,
                 }}
-              ></div>
+              ></p>
               <ButtonSecondaryLight to="/contact">
                 talk to us today
               </ButtonSecondaryLight>

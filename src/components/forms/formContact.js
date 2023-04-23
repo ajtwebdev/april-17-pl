@@ -21,9 +21,10 @@ export default function FormContact(props) {
             <span className="italics">{props.title}</span>
           </h3>
           <p className="caps center">
-            Call{" "}
+            Take a moment to tell us your outdoor living wish list by filling
+            out the form. Can't wait to talk to us? Call{" "}
             <AnchorInline href="tel: 403-257-4059">403-257-4059</AnchorInline>{" "}
-            or send us a message below!
+            now!
           </p>
         </div>
         <Flex className="spacing-lg">

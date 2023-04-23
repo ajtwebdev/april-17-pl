@@ -55,6 +55,15 @@ const Item = styled.div`
 
   div {
     padding: 1em;
+    p {
+      color: var(--txt-light);
+    }
+    ul {
+      margin-top: 4px;
+      margin-bottom: 4px;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
   }
 `
 

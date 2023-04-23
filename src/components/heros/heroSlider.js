@@ -99,7 +99,10 @@ export default function HeroSlider(props) {
               <Carousel.Caption style={captionStyle} className="spacing">
                 <div className="spacing">
                   <h2 className="title">outdoor living done right</h2>
-                  {/* <p className="">your personal paradise starts here</p> */}
+                  <p className="subheader tan">
+                    Transform Your calgary Outdoor Living Space with Our
+                    Expertise
+                  </p>
                   <ButtonPrimary to="/contact">
                     what's your project?
                   </ButtonPrimary>
@@ -113,7 +116,10 @@ export default function HeroSlider(props) {
               <Carousel.Caption style={captionStyle} className="spacing">
                 <div className="spacing">
                   <h2 className="title">hardscaping services</h2>
-                  {/* <p className="">your personal paradise starts here</p> */}
+                  <p className="subheader tan">
+                    Create a Stunning Outdoor Oasis with Our Hardscaping
+                    Services
+                  </p>
                   <ButtonPrimary to="/contact">
                     what's your project?
                   </ButtonPrimary>
@@ -127,7 +133,9 @@ export default function HeroSlider(props) {
               <Carousel.Caption style={captionStyle} className="spacing">
                 <div className="spacing">
                   <h2 className="title">softscaping services</h2>
-                  {/* <p className="">your personal paradise starts here</p> */}
+                  <p className="subheader tan">
+                    Enhance Your Garden with Beautiful Softscaping Designs
+                  </p>
                   <ButtonPrimary to="/contact">
                     what's your project?
                   </ButtonPrimary>

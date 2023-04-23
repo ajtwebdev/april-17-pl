@@ -228,6 +228,7 @@ hr {
 
 .stretch {
   align-self: stretch;
+  object-fit: cover;
 }
 
 /* clip paths */

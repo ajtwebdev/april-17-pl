@@ -194,6 +194,14 @@
       }
      
  
+      fragment Page_Cta3 on WpPage_Pagecomponents_PageComponents_Cta3 {
+        
+    title
+    description
+      
+      }
+     
+ 
       fragment Page_Ebook on WpPage_Pagecomponents_PageComponents_Ebook {
         
     title

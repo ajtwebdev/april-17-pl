@@ -16,11 +16,11 @@ export default function Contact() {
       />
       <Banner
         img={BannerImg}
-        title="GREAT SERVICE, BEAUTIFUL LANDSCAPES, WITH A TEAM OF EXPERTS FOCUSED ON YOU"
-        subheader="contact us here"
+        title="you've made contact!"
+        subheader="what's your project? We are Currently booking for the 2023 Season. We can’t wait to hear your ideas and share some of ours!"
         description="At Project Landscape Ltd., our premier outdoor landscaping services will increase the value and overall aesthetic of your home. We use quality brands, and unique products to help keep your lawn healthy, and your home looking incredible. This means an overall better living experience for you and your family."
       />
-      <FormContact title="Contact" />
+      <FormContact title="complete your outdoor wish list" />
       <PortfolioBanner />
     </Layout>
   )

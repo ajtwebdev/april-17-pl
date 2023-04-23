@@ -38,11 +38,11 @@ export default function Cta2({ title, image, body }) {
       <Container>
         <Grid>
           <Img>
-            {/* <GatsbyImage
+            <GatsbyImage
               image={image.localFile.childImageSharp.gatsbyImageData}
               alt={image.altText}
-            /> */}
-            <StaticImage src="../../../images/ph.jpg" className="stretch" />
+            />
+            {/* <StaticImage src="../../../images/ph.jpg" className="stretch" /> */}
           </Img>
           <Bg />
           <Text className="spacing">

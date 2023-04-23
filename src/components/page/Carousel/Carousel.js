@@ -30,7 +30,11 @@ const SliderWrapper = styled.div`
 `
 
 const SliderItem = styled.div`
-  padding: 0.5em;
+  border: 2px solid var(--clr-tan);
+  border-radius: var(--br);
+  div {
+    padding: 2em;
+  }
 `
 
 const StyledImg = styled(GatsbyImage)`
@@ -90,16 +94,18 @@ export default function Carousel({ subheader, title, carouselContent }) {
                     image={item.image.localFile.childImageSharp.gatsbyImageData}
                     alt={item.image.altText}
                   />
-                  {item.title ? (
-                    <h3 className="subheader ">{item.title}</h3>
-                  ) : null}
-                  {item.description ? (
-                    <p
-                      dangerouslySetInnerHTML={{
-                        __html: `${item.description}`,
-                      }}
-                    />
-                  ) : null}
+                  <div>
+                    {item.title ? (
+                      <h3 className="subheader ">{item.title}</h3>
+                    ) : null}
+                    {item.description ? (
+                      <p
+                        dangerouslySetInnerHTML={{
+                          __html: `${item.description}`,
+                        }}
+                      />
+                    ) : null}
+                  </div>
                 </SliderItem>
               )
             })}

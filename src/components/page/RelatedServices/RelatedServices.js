@@ -59,7 +59,7 @@ export default function RelatedServices({ serviceContent }) {
                   s
                 />
                 <div>
-                  <h3 className="subheader accent">{item.title}</h3>
+                  <h3 className="subheader tan">{item.title}</h3>
                   {item.link ? (
                     <p
                       dangerouslySetInnerHTML={{

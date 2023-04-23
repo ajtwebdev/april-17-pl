@@ -25,12 +25,12 @@ export default function Cta1({ subheader, title, body, image }) {
   return (
     <Wrapper>
       <Flex>
-        {/* <StyledImg
+        <StyledImg
           image={image.localFile.childImageSharp.gatsbyImageData}
           alt={image.altText}
           className="stretch"
-        /> */}
-        <StaticImage src="../../../images/ph.jpg" className="stretch" />
+        />
+        {/* <StaticImage src="../../../images/ph.jpg" className="stretch" /> */}
         <Text>
           <Container className="spacing">
             <div>

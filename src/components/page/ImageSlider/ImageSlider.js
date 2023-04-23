@@ -14,9 +14,9 @@ const Text = styled.div`
 
 export default function ImageSlider({ subheader, title, body }) {
   const before =
-    "https://staging.innerspiritphoto.com/wp-content/uploads/2022/08/before-boudoir.jpg"
+    "http://21-pl.purpleparrotwebsites.com/wp-content/uploads/2023/04/11111-lighting-59fb9b0d7dbbc.jpg"
   const after =
-    "https://staging.innerspiritphoto.com/wp-content/uploads/2022/08/after-boudoir.jpg"
+    "http://21-pl.purpleparrotwebsites.com/wp-content/uploads/2023/03/Belgard-Light-Post.webp"
   return (
     <Section>
       <Container className="spacing">
@@ -25,11 +25,13 @@ export default function ImageSlider({ subheader, title, body }) {
             <p className="subheader accent">{subheader}</p>
             <h2 className="title">{title}</h2>
           </div>
-          <p
-            dangerouslySetInnerHTML={{
-              __html: `${body}`,
-            }}
-          />
+          {body ? (
+            <p
+              dangerouslySetInnerHTML={{
+                __html: `${body}`,
+              }}
+            />
+          ) : null}
         </Text>
         <ReactCompareImage leftImage={before} rightImage={after} />
       </Container>
