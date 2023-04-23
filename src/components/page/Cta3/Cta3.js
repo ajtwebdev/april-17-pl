@@ -1,7 +1,7 @@
 import React from "react"
 import { Container, Section } from "../../layoutComponents"
 import styled from "styled-components"
-import { ButtonSe, ButtonSecondaryLightcondaryLight } from "../../buttons"
+import { ButtonSecondaryLight } from "../../buttons"
 
 const Wrapper = styled.div`
   background: var(--clr-accent);
