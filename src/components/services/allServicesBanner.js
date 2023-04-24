@@ -11,6 +11,8 @@ const Text = styled.div`
   margin-right: auto;
   margin-left: auto;
   text-align: center;
+
+  margin-bottom: var(--spacer);
 `
 
 const WrapperDark = styled.div`
@@ -78,7 +80,7 @@ export default function AllServicesBanner() {
     <Section className="spacing-lg">
       <Container>
         <Text>
-          <p className="subheader accent">find the service you need</p>
+          {/* <p className="subheader accent">find the service you need</p> */}
           <h2 className="title">
             take a closer look at our calgary landscaping services
           </h2>
