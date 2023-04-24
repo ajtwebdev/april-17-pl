@@ -5,7 +5,7 @@ import styled from "styled-components"
 const Feed = styled.div`
   iframe {
     width: 100%;
-    max-height: 500px;
+    height: 540px;
   }
 
   hr {

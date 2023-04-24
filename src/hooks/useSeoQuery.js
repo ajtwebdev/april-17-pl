@@ -1,12 +1,12 @@
 // import { useStaticQuery, graphql } from "gatsby"
 
 // export const useSeoQuery = () => {
-//   const data = useStaticQuery(graphql`
-//     query PageQuery($id: String!) {
+//   const seoData = useStaticQuery(graphql`
+//     query SeoQuery($id: String!) {
 //       wpPage(id: { eq: $id }) {
 //         title
 //       }
 //     }
 //   `)
-//   return data
+//   return seoData
 // }
