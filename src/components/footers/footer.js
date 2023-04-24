@@ -191,7 +191,7 @@ const Author = styled.div`
   div {
     display: flex;
     gap: 0.5em;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     text-align: right;
   }
