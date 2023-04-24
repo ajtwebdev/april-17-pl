@@ -11,7 +11,6 @@ import SEO from "../../src/components/seo"
 
 const PageTemplate = pageProps => {
   // const seoData = useSeoQuery()
-  const seoData = combineFields(pageProps.data.wpPage, "page")
   let components
   // ### COMPONENTS VARIABLE ### DO NOT MODIFY OR MOVE THIS COMMENT ###
   components = components.map(component => {
@@ -23,7 +22,7 @@ const PageTemplate = pageProps => {
   return (
     <>
       <Layout>
-        <SEO title={seoData.title} description="description" />
+        <SEO title={pageProps.data.wpPage.title} description="description" />
         {components.map((component, index) => {
           // ### COMPONENT RENDERING ### DO NOT MODIFY OR MOVE THIS COMMENT ###
           return <div>Error: The component {component.name} was not found</div>
@@ -42,9 +41,6 @@ export const query = graphql`
   query PageQuery($id: String!) {
     wpPage(id: { eq: $id }) {
       title
-      page {
-        title
-      }
     }
   }
 `
