@@ -6,15 +6,25 @@ import { FcGoogle } from "react-icons/fc"
 import styled from "styled-components"
 
 const Wrapper = styled.div`
-  max-width: 200px;
-  border-top: 3px solid var(--clr-tan);
+  padding: 2em;
+  border-top: 5px solid var(--clr-accent);
+  box-shadow: var(--shadow-light);
   background: var(--clr-light);
   position: fixed;
-  top: 500px;
+  bottom: 20px;
   right: 20px;
   z-index: 1000000;
   .header {
-    color: gold;
+    color: orange;
+    display: flex;
+    align-items: center;
+    & > * + * {
+      margin-left: 5px;
+    }
+  }
+
+  .body--small {
+    color: var(--txt-dark-secondary);
   }
 `
 
@@ -26,18 +36,23 @@ const FlexStars = styled.div`
 `
 
 const fontStyle = {
-  color: "gold",
+  color: "orange",
+  fontSize: "26px",
+}
+
+const googleStyle = {
+  fontSize: "60px",
 }
 
 export default function GoogleBadge() {
   return (
     <Wrapper>
       <Flex>
-        <FaGoogle />
+        <FcGoogle style={googleStyle} />
         <div className="spacing">
-          <p>Google Rating</p>
+          <p className="body--small">Google Rating</p>
           <p className="header">
-            4.8{" "}
+            <span>4.8</span>
             <FlexStars>
               <FaStar style={fontStyle} />
               <FaStar style={fontStyle} />
@@ -46,7 +61,7 @@ export default function GoogleBadge() {
               <FaStar style={fontStyle} />
             </FlexStars>
           </p>
-          <p>Based on 74 reviews</p>
+          <p className="body--small">Based on 74 reviews</p>
         </div>
       </Flex>
     </Wrapper>

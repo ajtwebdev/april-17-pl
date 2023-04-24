@@ -202,7 +202,7 @@ const Author = styled.div`
   }
 
   .img {
-    width: 80px;
+    width: 1500px;
   }
 `
 
@@ -214,7 +214,6 @@ export default function Footer() {
         <Container className="spacing">
           <div>
             <InstagramFeed />
-            <hr />
           </div>
           <Flex>
             <Flex>
