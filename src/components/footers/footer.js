@@ -202,7 +202,7 @@ const Author = styled.div`
   }
 
   .img {
-    width: 1500px;
+    width: 150px;
   }
 `
 

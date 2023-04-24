@@ -14,7 +14,15 @@ const Wrapper = styled.a`
   bottom: 20px;
   right: 20px;
   z-index: 1000000;
+  p {
+    margin-bottom: 0;
+  }
   .header {
+    font-family: var(--ff-alfa);
+    font-size: var(--fs-2);
+    font-weight: var(--fw-400);
+    text-transform: capitalize;
+    line-height: 1.1;
     color: orange;
     display: flex;
     align-items: center;
