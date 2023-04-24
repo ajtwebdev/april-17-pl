@@ -53,7 +53,7 @@ If you're going to invest your time and money into hiring a landscape company fo
       <ImageRight
         img={LandscapingImg2}
         alt="best landscaper in calgary, AB"
-        title="Bring your outdoor oasis to life  "
+        title="Bring your outdoor oasis to life"
         body="Imagine stepping out into a perfect backyard oasis. A perfect place for relaxing, entertaining and everything in between. Get the ease of a single landscape provider, who understands and can help with all your outdoor needs. Use a proven Calgary landscape company that has mastered how to bring your outdoor dreams to life.
 From creative softscapes to the most lucrative hardscapes, through an integrated approach, your landscape project can benefit from our seamless landscaping process. A company of professional landscape designers will take your project from concept to completion, by carefully listening to your ideas, goals and how you dream of using your outdoor space."
         to="/contact"
