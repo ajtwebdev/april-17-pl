@@ -19,6 +19,7 @@ import ImageRight from "../components/sections/imageRight"
 import LandscapingImg from "../images/banner-image-2.jpg"
 import LandscapingImg2 from "../images/banner-image-4.jpg"
 import Cta3 from "../components/cta/cta3"
+import ImageLeftDark from "../components/sections/imageLeftDark"
 
 export default function index() {
   return (
@@ -37,7 +38,7 @@ export default function index() {
       />
       <ShowroomSection />
       <MainVideo />
-      <ImageLeft
+      <ImageLeftDark
         img={LandscapingImg}
         alt="landscaping services in calgary, AB"
         subheader=""

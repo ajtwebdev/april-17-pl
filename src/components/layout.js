@@ -7,7 +7,7 @@ import FinanceBanner from "./financeBanner"
 import ContactBanner from "./contactBanner"
 import RecentPosts from "./recentPosts"
 import GoogleBadge from "./googleBadge"
-import Cta3 from "./cta/cta3"
+import styled from "styled-components"
 
 const Wrapper = styled.div`
   .floating-google-badge {
@@ -24,7 +24,6 @@ export default function Layout({ children }) {
       <HeaderBasic />
       <main>{children}</main>
       <RecentPosts />
-      <Cta3 />
       <FinanceBanner />
       <ContactBanner />
       <Footer />
