@@ -10,6 +10,10 @@ const Text = styled.div`
   width: 100%;
 `
 
+const WrapperDark = styled.div`
+  background: var(--clr-accent);
+`
+
 const GridAuto = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
@@ -65,14 +69,14 @@ const ItemLink = styled(props => <Link {...props} />)`
 
 export default function AllServicesBanner() {
   return (
-    <Section>
+    <Section className="spacing-lg">
+      <Text>
+        <p className="subheader accent">find the service you need</p>
+        <h2 className="title">
+          take a closer look at our calgary landscaping services
+        </h2>
+      </Text>
       <Container className="spacing">
-        <Text>
-          <p className="subheader accent">find the service you need</p>
-          <h2 className="title">
-            take a closer look at our calgary landscaping services
-          </h2>
-        </Text>
         <GridAuto>
           <ItemLink to="/residential-services/hardscaping/decks">
             <StaticImage
@@ -183,7 +187,232 @@ export default function AllServicesBanner() {
             <div className="overlay"></div>
           </ItemLink>
         </GridAuto>
-        {/* <ButtonPrimary to="">view all services</ButtonPrimary> */}
+      </Container>
+      <WrapperDark>
+        <Container>
+          <GridAuto>
+            <ItemLink to="/residential-services/hardscaping/decks">
+              <StaticImage
+                className="service-img"
+                src="../../images/calgary-decks.jpg"
+                alt="calgary landscaping services"
+              />
+              <h3 className="upper">decks</h3>
+              <div className="overlay"></div>
+            </ItemLink>
+            <ItemLink to="/residential-services/hardscaping/fence-builders-calgary">
+              <StaticImage
+                className="service-img"
+                src="../../images/calgary-fences.jpg"
+                alt="calgary landscaping services"
+              />
+              <h3 className="upper">fences</h3>
+              <div className="overlay"></div>
+            </ItemLink>
+            <ItemLink to="/residential-services/hardscaping/pavers">
+              <StaticImage
+                className="service-img"
+                src="../../images/calgary-pavers.jpg"
+                alt="calgary landscaping services"
+              />
+              <h3 className="upper">pavers</h3>
+              <div className="overlay"></div>
+            </ItemLink>
+            <ItemLink to="/residential-services/outdoor-living/outdoor-landscape-lighting-calgary">
+              <StaticImage
+                className="service-img"
+                src="../../images/calgary-lighting.jpg"
+                alt="calgary landscaping services"
+              />
+              <h3 className="upper">lighting</h3>
+              <div className="overlay"></div>
+            </ItemLink>
+            <ItemLink to="/residential-services/hardscaping/concrete-contractors-calgary">
+              <StaticImage
+                className="service-img"
+                src="../../images/calgary-concrete.jpg"
+                alt="calgary landscaping services"
+              />
+              <h3 className="upper">concrete</h3>
+              <div className="overlay"></div>
+            </ItemLink>
+            <ItemLink to="/residential-services/hardscaping/patios">
+              <StaticImage
+                className="service-img"
+                src="../../images/calgary-patios.jpg"
+                alt="calgary landscaping services"
+              />
+              <h3 className="upper">patios</h3>
+              <div className="overlay"></div>
+            </ItemLink>
+            <ItemLink to="/residential-services/outdoor-living/calgary-pergolas-and-patio-structures">
+              <StaticImage
+                className="service-img"
+                src="../../images/calgary-pergolas.png"
+                alt="calgary landscaping services"
+              />
+              <h3 className="upper">pergolas</h3>
+              <div className="overlay"></div>
+            </ItemLink>
+            <ItemLink to="/residential-services/hardscaping/outdoor-fireplace-calgary-landscaper">
+              <StaticImage
+                className="service-img"
+                src="../../images/calgary-fire-pits.jpg"
+                alt="calgary landscaping services"
+              />
+              <h3 className="upper">fire pits</h3>
+              <div className="overlay"></div>
+            </ItemLink>
+            <ItemLink to="/residential-services/hardscaping/stairs-and-stepping-stones">
+              <StaticImage
+                className="service-img"
+                src="../../images/calgary-stairs.png"
+                alt="calgary landscaping services"
+              />
+              <h3 className="upper">stairs & stepping stones</h3>
+              <div className="overlay"></div>
+            </ItemLink>
+            <ItemLink to="/residential-services/outdoor-living/outdoor-kitchen-calgary-landscaping-services">
+              <StaticImage
+                className="service-img"
+                src="../../images/calgary-outdoor-kitchens.jpg"
+                alt="calgary landscaping services"
+              />
+              <h3 className="upper">outdoor kitchens</h3>
+              <div className="overlay"></div>
+            </ItemLink>
+            <ItemLink to="/residential-services/outdoor-living/calgary-landscape-water-features">
+              <StaticImage
+                className="service-img"
+                src="../../images/calgary-water-features.jpg"
+                alt="calgary landscaping services"
+              />
+              <h3 className="upper">water features</h3>
+              <div className="overlay"></div>
+            </ItemLink>
+            <ItemLink to="/residential-services/outdoor-living/concrete-curbing-calgary">
+              <StaticImage
+                className="service-img"
+                src="../../images/calgary-curbing.png"
+                alt="calgary landscaping services"
+              />
+              <h3 className="upper">curbing</h3>
+              <div className="overlay"></div>
+            </ItemLink>
+          </GridAuto>
+        </Container>
+      </WrapperDark>
+      <Container>
+        <GridAuto>
+          <ItemLink to="/residential-services/hardscaping/decks">
+            <StaticImage
+              className="service-img"
+              src="../../images/calgary-decks.jpg"
+              alt="calgary landscaping services"
+            />
+            <h3 className="upper">decks</h3>
+            <div className="overlay"></div>
+          </ItemLink>
+          <ItemLink to="/residential-services/hardscaping/fence-builders-calgary">
+            <StaticImage
+              className="service-img"
+              src="../../images/calgary-fences.jpg"
+              alt="calgary landscaping services"
+            />
+            <h3 className="upper">fences</h3>
+            <div className="overlay"></div>
+          </ItemLink>
+          <ItemLink to="/residential-services/hardscaping/pavers">
+            <StaticImage
+              className="service-img"
+              src="../../images/calgary-pavers.jpg"
+              alt="calgary landscaping services"
+            />
+            <h3 className="upper">pavers</h3>
+            <div className="overlay"></div>
+          </ItemLink>
+          <ItemLink to="/residential-services/outdoor-living/outdoor-landscape-lighting-calgary">
+            <StaticImage
+              className="service-img"
+              src="../../images/calgary-lighting.jpg"
+              alt="calgary landscaping services"
+            />
+            <h3 className="upper">lighting</h3>
+            <div className="overlay"></div>
+          </ItemLink>
+          <ItemLink to="/residential-services/hardscaping/concrete-contractors-calgary">
+            <StaticImage
+              className="service-img"
+              src="../../images/calgary-concrete.jpg"
+              alt="calgary landscaping services"
+            />
+            <h3 className="upper">concrete</h3>
+            <div className="overlay"></div>
+          </ItemLink>
+          <ItemLink to="/residential-services/hardscaping/patios">
+            <StaticImage
+              className="service-img"
+              src="../../images/calgary-patios.jpg"
+              alt="calgary landscaping services"
+            />
+            <h3 className="upper">patios</h3>
+            <div className="overlay"></div>
+          </ItemLink>
+          <ItemLink to="/residential-services/outdoor-living/calgary-pergolas-and-patio-structures">
+            <StaticImage
+              className="service-img"
+              src="../../images/calgary-pergolas.png"
+              alt="calgary landscaping services"
+            />
+            <h3 className="upper">pergolas</h3>
+            <div className="overlay"></div>
+          </ItemLink>
+          <ItemLink to="/residential-services/hardscaping/outdoor-fireplace-calgary-landscaper">
+            <StaticImage
+              className="service-img"
+              src="../../images/calgary-fire-pits.jpg"
+              alt="calgary landscaping services"
+            />
+            <h3 className="upper">fire pits</h3>
+            <div className="overlay"></div>
+          </ItemLink>
+          <ItemLink to="/residential-services/hardscaping/stairs-and-stepping-stones">
+            <StaticImage
+              className="service-img"
+              src="../../images/calgary-stairs.png"
+              alt="calgary landscaping services"
+            />
+            <h3 className="upper">stairs & stepping stones</h3>
+            <div className="overlay"></div>
+          </ItemLink>
+          <ItemLink to="/residential-services/outdoor-living/outdoor-kitchen-calgary-landscaping-services">
+            <StaticImage
+              className="service-img"
+              src="../../images/calgary-outdoor-kitchens.jpg"
+              alt="calgary landscaping services"
+            />
+            <h3 className="upper">outdoor kitchens</h3>
+            <div className="overlay"></div>
+          </ItemLink>
+          <ItemLink to="/residential-services/outdoor-living/calgary-landscape-water-features">
+            <StaticImage
+              className="service-img"
+              src="../../images/calgary-water-features.jpg"
+              alt="calgary landscaping services"
+            />
+            <h3 className="upper">water features</h3>
+            <div className="overlay"></div>
+          </ItemLink>
+          <ItemLink to="/residential-services/outdoor-living/concrete-curbing-calgary">
+            <StaticImage
+              className="service-img"
+              src="../../images/calgary-curbing.png"
+              alt="calgary landscaping services"
+            />
+            <h3 className="upper">curbing</h3>
+            <div className="overlay"></div>
+          </ItemLink>
+        </GridAuto>
       </Container>
     </Section>
   )

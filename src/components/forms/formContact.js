@@ -18,7 +18,7 @@ export default function FormContact(props) {
       <Container>
         <div>
           <h3 className="title center">
-            <span className="italics">{props.title}</span>
+            <span className="italics accent">{props.title}</span>
           </h3>
           <p className="caps center">
             Take a moment to tell us your outdoor living wish list by filling

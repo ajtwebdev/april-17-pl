@@ -19,7 +19,6 @@ const Text = styled.div`
 
 const StyledImg = styled(GatsbyImage)`
   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0 52%, 0% 0%);
-  max-height: 400px;
 `
 
 export default function Cta1({ subheader, title, body, image }) {

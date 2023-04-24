@@ -12,6 +12,7 @@ import FormFooter from "../forms/formFooter"
 import { Info } from "../info"
 import { useMenuQuery } from "../../hooks/useMenuQuery"
 import Map from "../map"
+import InstagramFeed from "../instagramFeed"
 
 const device = {
   md: "48em",
@@ -211,6 +212,10 @@ export default function Footer() {
     <Wrapper>
       <FooterWrapperTop>
         <Container className="spacing-lg">
+          <div>
+            <InstagramFeed />
+            <hr />
+          </div>
           <Flex>
             <Flex>
               <div className="spacing">
@@ -293,18 +298,33 @@ export default function Footer() {
                 <Socials>
                   <h4 className="subheader">let's connect!</h4>
                   <div>
-                    <a target="_blank" href="">
-                      <img src={Facebook} alt="" />
+                    <a
+                      target="_blank"
+                      href="https://www.facebook.com/profile.php?id=100063556661393&ref=aymt_homepage_panel"
+                    >
+                      <img
+                        src={Facebook}
+                        alt="calgary landscaping company facebook"
+                      />
                     </a>
                   </div>
                   <div>
-                    <a target="_blank" href="">
-                      <img src={Instagram} alt="" />
+                    <a target="_blank" href="c">
+                      <img
+                        src={Instagram}
+                        alt="calgary landscaping company instagram"
+                      />
                     </a>
                   </div>
                   <div>
-                    <a target="_blank" href="">
-                      <img src={Youtube} alt="" />
+                    <a
+                      target="_blank"
+                      href="https://www.youtube.com/@projectlandscapeltd.9811"
+                    >
+                      <img
+                        src={Youtube}
+                        alt="calgary landscaping company youtube"
+                      />
                     </a>
                   </div>
                 </Socials>

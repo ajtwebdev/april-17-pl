@@ -33,7 +33,7 @@ export default function RecentPosts() {
         <GridThree>
           {data.allWpPost.nodes.map(post => {
             return (
-              <Article className="spacing">
+              <Article className="">
                 {post.featuredImage ? (
                   <StyledImg
                     image={
@@ -44,7 +44,9 @@ export default function RecentPosts() {
                 ) : null}
                 <div>
                   <h3 className="subheader">{post.title}</h3>
-                  <ButtonInline to={post.uri}>Read more</ButtonInline>
+                  <ButtonInline className="bold" to={post.uri}>
+                    Read more &#8594;
+                  </ButtonInline>
                 </div>
               </Article>
             )

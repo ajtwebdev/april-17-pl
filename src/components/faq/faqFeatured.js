@@ -171,7 +171,7 @@ export default function FaqFeatured(props) {
             </Accordion>
             <div className="spacing">
               <div>
-                <p className="subheader">learn from the leaders</p>
+                <p className="subheader tan">learn from the leaders</p>
                 <h2 className="title">frequently asked questions</h2>
               </div>
 

@@ -70,7 +70,7 @@ export default function MainServicesLinks() {
         <Container>
           <Text className="spacing">
             <div>
-              <p className="subheader accent">find the services you need</p>
+              {/* <p className="subheader accent">find the services you need</p> */}
               <h2 className="title">
                 bring your landscaping calgary project to life
               </h2>

@@ -18,6 +18,7 @@ import ImageLeft from "../components/sections/imageLeft"
 import ImageRight from "../components/sections/imageRight"
 import LandscapingImg from "../images/banner-image-2.jpg"
 import LandscapingImg2 from "../images/banner-image-4.jpg"
+import Cta3 from "../components/cta/cta3"
 
 export default function index() {
   return (
@@ -25,6 +26,7 @@ export default function index() {
       <SEO title="home" description="" />
       <HeroSlider />
       <MainServicesLinks />
+      <Cta3 />
       <AllServicesBanner />
       <ProductsImg
         subheader=""
@@ -47,6 +49,7 @@ If you're going to invest your time and money into hiring a landscape company fo
         to="/about"
         button="more about us"
       />
+      <Cta3 />
       <ImageRight
         img={LandscapingImg2}
         alt="best landscaper in calgary, AB"

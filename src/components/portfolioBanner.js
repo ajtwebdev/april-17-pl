@@ -34,7 +34,7 @@ export default function PortfolioBanner() {
               </ButtonPrimaryDark>
             </Text>
             <StaticImage
-              src="../images/calgary-pergolas.png"
+              src="../images/project-landscape-calgary-contractor.png"
               alt="calgary landscaping company featured portfolio"
             />
           </Flex>

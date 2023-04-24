@@ -14,7 +14,8 @@ const Text = styled.div`
 
 const ImageWrapper = styled.div`
   max-height: 600px;
-  max-width: 80%;
+  height: 100%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
 `
