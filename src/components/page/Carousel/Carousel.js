@@ -30,8 +30,6 @@ const SliderWrapper = styled.div`
 `
 
 const SliderItem = styled.div`
-  border: 2px solid var(--clr-tan);
-  border-radius: var(--br);
   div {
     padding: 2em;
   }

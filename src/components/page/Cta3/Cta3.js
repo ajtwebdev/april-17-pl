@@ -22,9 +22,7 @@ export default function Cta3({ title, description }) {
       <Section>
         <Container>
           <Text className="spacing">
-            <h2 className="title tan">
-              your outdoor oasis is just a click away
-            </h2>
+            <h2 className="title">your outdoor oasis is just a click away</h2>
             <ButtonSecondaryLight to="/contact">
               what's your project?
             </ButtonSecondaryLight>

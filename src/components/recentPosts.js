@@ -12,6 +12,7 @@ const Text = styled.div`
 const Article = styled.article`
   div {
     padding: 2em;
+    background: var(--clr-tan);
   }
 `
 
@@ -29,9 +30,9 @@ export default function RecentPosts() {
         <Text>
           <h2 className="title">recent landscaping articles</h2>
         </Text>
-        {data.allWpPost.nodes.map(post => {
-          return (
-            <GridThree>
+        <GridThree>
+          {data.allWpPost.nodes.map(post => {
+            return (
               <Article className="spacing">
                 {post.featuredImage ? (
                   <StyledImg
@@ -46,9 +47,9 @@ export default function RecentPosts() {
                   <ButtonInline to={post.uri}>Read more</ButtonInline>
                 </div>
               </Article>
-            </GridThree>
-          )
-        })}
+            )
+          })}
+        </GridThree>
       </Container>
     </Section>
   )

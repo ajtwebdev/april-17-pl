@@ -12,6 +12,13 @@ const Text = styled.div`
   margin-right: auto;
 `
 
+const ImageWrapper = styled.div`
+  max-height: 600px;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+`
+
 export default function ImageSlider({ subheader, title, body }) {
   const before =
     "http://21-pl.purpleparrotwebsites.com/wp-content/uploads/2023/04/11111-lighting-59fb9b0d7dbbc.jpg"
@@ -33,7 +40,9 @@ export default function ImageSlider({ subheader, title, body }) {
             />
           ) : null}
         </Text>
-        <ReactCompareImage leftImage={before} rightImage={after} />
+        <ImageWrapper>
+          <ReactCompareImage leftImage={before} rightImage={after} />
+        </ImageWrapper>
       </Container>
     </Section>
   )
