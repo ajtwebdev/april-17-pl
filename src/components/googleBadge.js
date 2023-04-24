@@ -6,8 +6,13 @@ import { FcGoogle } from "react-icons/fc"
 import styled from "styled-components"
 
 const Wrapper = styled.div`
+  max-width: 200px;
   border-top: 3px solid var(--clr-tan);
   background: var(--clr-light);
+  position: fixed;
+  top: 500px;
+  right: 20px;
+  z-index: 1000000;
   .header {
     color: gold;
   }
@@ -28,11 +33,7 @@ export default function GoogleBadge() {
   return (
     <Wrapper>
       <Flex>
-        <StaticImage
-          src="../images/google-badge.svg"
-          alt="reviews for top rated calgary landscaping company"
-          className="stretch"
-        />
+        <FaGoogle />
         <div className="spacing">
           <p>Google Rating</p>
           <p className="header">

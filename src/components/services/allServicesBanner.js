@@ -16,6 +16,8 @@ const Text = styled.div`
 const WrapperDark = styled.div`
   background: var(--clr-accent);
   margin-bottom: var(--spacer);
+  padding-top: 2em;
+  padding-bottom: 2em;
 `
 
 const GridAuto = styled.div`
@@ -83,7 +85,9 @@ export default function AllServicesBanner() {
         </Text>
       </Container>
       <Container className="spacing">
-        <h3 className="header accent center">popular hardscaping services</h3>
+        <h3 className="subheader accent center">
+          popular hardscaping services
+        </h3>
         <GridAuto>
           <ItemLink to="/residential-services/hardscaping/decks">
             <StaticImage
@@ -197,7 +201,7 @@ export default function AllServicesBanner() {
       </Container>
       <WrapperDark>
         <Container>
-          <h3 className="header light center">
+          <h3 className="subheader light center">
             popular outdoor living services
           </h3>
           <GridAuto>
@@ -313,7 +317,9 @@ export default function AllServicesBanner() {
         </Container>
       </WrapperDark>
       <Container>
-        <h3 className="header center accent">popular softscaping services</h3>
+        <h3 className="subheader center accent">
+          popular softscaping services
+        </h3>
         <GridAuto>
           <ItemLink to="/residential-services/hardscaping/decks">
             <StaticImage

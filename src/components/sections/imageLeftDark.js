@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import { ButtonPrimary } from "../buttons"
+import { ButtonSecondaryLight } from "../buttons"
 import { Container, Flex, FlexMobileOpp, Section } from "../layoutComponents"
 
 const Wrapper = styled.div`
@@ -32,7 +32,9 @@ export default function ImageLeftDark(props) {
                 <h2 className="title">{props.title}</h2>
               </div>
               <p>{props.body}</p>
-              <ButtonPrimary to={props.to}>{props.button}</ButtonPrimary>
+              <ButtonSecondaryLight to={props.to}>
+                {props.button}
+              </ButtonSecondaryLight>
             </Text>
           </FlexMobileOpp>
         </Container>
