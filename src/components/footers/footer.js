@@ -211,7 +211,7 @@ export default function Footer() {
   return (
     <Wrapper>
       <FooterWrapperTop>
-        <Container className="spacing-lg">
+        <Container className="spacing">
           <div>
             <InstagramFeed />
             <hr />

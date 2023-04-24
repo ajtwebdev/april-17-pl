@@ -8,10 +8,14 @@ import { ButtonPrimary } from "../buttons"
 const Text = styled.div`
   max-width: 110ch;
   width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
 `
 
 const WrapperDark = styled.div`
   background: var(--clr-accent);
+  margin-bottom: var(--spacer);
 `
 
 const GridAuto = styled.div`
@@ -70,13 +74,16 @@ const ItemLink = styled(props => <Link {...props} />)`
 export default function AllServicesBanner() {
   return (
     <Section className="spacing-lg">
-      <Text>
-        <p className="subheader accent">find the service you need</p>
-        <h2 className="title">
-          take a closer look at our calgary landscaping services
-        </h2>
-      </Text>
+      <Container>
+        <Text>
+          <p className="subheader accent">find the service you need</p>
+          <h2 className="title">
+            take a closer look at our calgary landscaping services
+          </h2>
+        </Text>
+      </Container>
       <Container className="spacing">
+        <h3 className="header accent center">popular hardscaping services</h3>
         <GridAuto>
           <ItemLink to="/residential-services/hardscaping/decks">
             <StaticImage
@@ -190,6 +197,9 @@ export default function AllServicesBanner() {
       </Container>
       <WrapperDark>
         <Container>
+          <h3 className="header light center">
+            popular outdoor living services
+          </h3>
           <GridAuto>
             <ItemLink to="/residential-services/hardscaping/decks">
               <StaticImage
@@ -303,6 +313,7 @@ export default function AllServicesBanner() {
         </Container>
       </WrapperDark>
       <Container>
+        <h3 className="header center accent">popular softscaping services</h3>
         <GridAuto>
           <ItemLink to="/residential-services/hardscaping/decks">
             <StaticImage

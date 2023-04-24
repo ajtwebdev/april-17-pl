@@ -10,10 +10,12 @@ import GoogleBadge from "./googleBadge"
 import styled from "styled-components"
 
 const Wrapper = styled.div`
-  .floating-google-badge {
-    position: fixed;
+  position: relative;
+  .badge {
+    position: absolute;
     bottom: 20px;
     right: 20px;
+    z-index: 1000000;
   }
 `
 
@@ -27,7 +29,7 @@ export default function Layout({ children }) {
       <FinanceBanner />
       <ContactBanner />
       <Footer />
-      <GoogleBadge className="floating-google-badge" />
+      <GoogleBadge className="badge" />
     </Wrapper>
   )
 }

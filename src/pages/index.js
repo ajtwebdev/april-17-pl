@@ -29,6 +29,7 @@ export default function index() {
       <MainServicesLinks />
       <Cta3 />
       <AllServicesBanner />
+      <Cta3 />
       <ProductsImg
         subheader=""
         title="get the highest quality calgary landscape materials"
@@ -50,7 +51,7 @@ If you're going to invest your time and money into hiring a landscape company fo
         to="/about"
         button="more about us"
       />
-      <Cta3 />
+
       <ImageRight
         img={LandscapingImg2}
         alt="best landscaper in calgary, AB"
@@ -60,6 +61,7 @@ From creative softscapes to the most lucrative hardscapes, through an integrated
         to="/contact"
         button="let's get in touch"
       />
+      <Cta3 />
       <MainTrends />
       <Why />
       <Ebook title="download our landscaping ebook" href="" />

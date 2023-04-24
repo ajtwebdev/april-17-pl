@@ -30,7 +30,8 @@ export default function GoogleBadge() {
       <Flex>
         <StaticImage
           src="../images/google-badge.svg"
-          alt="calgary landscaping reviews"
+          alt="reviews for top rated calgary landscaping company"
+          className="stretch"
         />
         <div className="spacing">
           <p>Google Rating</p>
