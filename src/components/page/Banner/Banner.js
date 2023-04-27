@@ -72,7 +72,7 @@ export default function Banner({ title, subheader, description, image }) {
                 <h1 className="title">{title}</h1>
                 <p className="subheader">{subheader}</p>
               </div>
-              <ButtonPrimary to="/contact">get free estimate</ButtonPrimary>
+              <ButtonPrimary to="/contact">get started</ButtonPrimary>
             </Text>
           </Container>
         </Wrapper>

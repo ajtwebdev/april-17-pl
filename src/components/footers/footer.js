@@ -97,7 +97,7 @@ const Socials = styled.div`
 const Divider = styled.div`
   width: 1px;
   height: 100px;
-  background-color: var(--txt-light);
+  background-color: var(--clr-accent);
 
   @media screen and (max-width: ${device.md}) {
     display: none;
@@ -257,7 +257,7 @@ export default function Footer() {
                         <div>
                           <MdLocationOn style={IconStyle} />
                         </div>
-                        3511 64 Ave Calgary
+                        3511 64 Ave Calgary, AB
                       </ContactLink>
                     </li>
                     <li>
@@ -281,7 +281,7 @@ export default function Footer() {
                         <div>
                           <MdLocationOn style={IconStyle} />
                         </div>
-                        3511 64 Ave Calgary
+                        533 58 AVE SE, Calgary, AB
                       </ContactLink>
                     </li>
                     <li>
@@ -308,7 +308,10 @@ export default function Footer() {
                     </a>
                   </div>
                   <div>
-                    <a target="_blank" href="c">
+                    <a
+                      target="_blank"
+                      href="https://www.instagram.com/project__landscape/?hl=en"
+                    >
                       <img
                         src={Instagram}
                         alt="calgary landscaping company instagram"

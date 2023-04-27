@@ -12,7 +12,15 @@ const Text = styled.div`
 const Article = styled.article`
   div {
     padding: 2em;
-    background: var(--clr-tan);
+    background: var(--clr-accent);
+  }
+
+  h3 {
+    color: var(--txt-light);
+  }
+
+  .bold {
+    color: var(--clr-tan);
   }
 `
 

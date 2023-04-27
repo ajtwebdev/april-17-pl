@@ -26,7 +26,7 @@ export default function ShowroomSection(props) {
           <FlexMobileOpp>
             <StaticImage
               style={ImgStyles}
-              src="../../images/calgary-landscape-showroom.jpg"
+              src="../../images/calgary-landscaping-showroom.png"
               alt="calgary landscaping showroom"
             />
             <Text className="spacing">
@@ -37,9 +37,17 @@ export default function ShowroomSection(props) {
                 </h2>
               </div>
               <p>
-                Your home is your pride and joy, and we are the professionals
-                who can help you maintain its outdoor beauty. Increasing your
-                property's value and making your yard the envy of the block.
+                We understand the importance of seeing our work firsthand and
+                that's why we have multiple showroom locations conveniently
+                located throughout Calgary. Our Calgary landscaping showrooms
+                provide an opportunity for customers to view our high-quality
+                landscaping products, materials, and designs, as well as to get
+                a sense of the exceptional level of craftsmanship that our team
+                brings to every project. Our friendly and knowledgeable staff is
+                always available to answer any questions and help guide you
+                through the selection process. Come visit one of our showrooms
+                today and see for yourself why we're the go-to choice for
+                landscaping services in Calgary.
               </p>
               <Flex>
                 <div>

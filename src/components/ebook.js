@@ -14,6 +14,11 @@ const Img = styled.div`
   grid-row: 1 / span 2;
   grid-column: 2 / span 1;
   z-index: 2;
+
+  .img {
+    height: 450px;
+    width: 100%;
+  }
 `
 
 const Bg = styled.div`
@@ -41,6 +46,7 @@ export default function Ebook(props) {
             <StaticImage
               src="../images/calgary-landscaping-ebook.png"
               alt="calgary landscaping ebook"
+              className="img"
             />
           </Img>
           <Bg />

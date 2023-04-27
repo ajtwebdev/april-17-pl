@@ -9,9 +9,10 @@ const Feed = styled.div`
   }
 
   hr {
-    background-color: var(--clr-light);
+    background-color: var(--clr-accent);
     height: 1px;
     border: none;
+    z-index: 1000;
   }
 `
 
@@ -27,8 +28,8 @@ export default function InstagramFeed() {
           marginHeight={0}
           marginWidth={0}
         />
+        <hr />
       </Feed>
-      <hr />
     </div>
   )
 }

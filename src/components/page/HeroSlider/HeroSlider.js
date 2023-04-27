@@ -98,7 +98,9 @@ export default function HeroSlider({ title }) {
               <Carousel.Caption style={captionStyle} className="spacing">
                 <div className="spacing">
                   <h2 className="title">style from the ground up</h2>
-                  <p className="">Calgary's premier deck builder</p>
+                  <p className="subheader tan">
+                    Calgary's premier deck builder
+                  </p>
                   <ButtonPrimary to="/contact">
                     what's your project?
                   </ButtonPrimary>
@@ -112,7 +114,7 @@ export default function HeroSlider({ title }) {
               <Carousel.Caption style={captionStyle} className="spacing">
                 <div className="spacing">
                   <h2 className="title">expand your outdoor living</h2>
-                  <p className="">Looking for inspiration?</p>
+                  <p className="subheader tan">Looking for inspiration?</p>
                   <ButtonPrimary to="/contact">
                     what's your project?
                   </ButtonPrimary>
@@ -126,7 +128,9 @@ export default function HeroSlider({ title }) {
               <Carousel.Caption style={captionStyle} className="spacing">
                 <div className="spacing">
                   <h2 className="title">take a step outdoors</h2>
-                  <p className="">Ready to plan your 2023 deck build?</p>
+                  <p className="subheader tan">
+                    Ready to plan your 2023 deck build?
+                  </p>
                   <ButtonPrimary to="/contact">call today</ButtonPrimary>
                 </div>
               </Carousel.Caption>

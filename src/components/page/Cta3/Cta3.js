@@ -24,7 +24,7 @@ export default function Cta3({ title, description }) {
           <Text className="spacing">
             <h2 className="title">your outdoor oasis is just a click away</h2>
             <ButtonSecondaryLight to="/contact">
-              what's your project?
+              get started &#8594;
             </ButtonSecondaryLight>
           </Text>
         </Container>

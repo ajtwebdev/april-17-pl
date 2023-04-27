@@ -75,13 +75,17 @@ export default function MainTrends() {
               <h2 className="title">landscaping trends in calgary</h2>
             </div>
             <p>
-              Your home is your pride and joy, and we are the professionals who
-              can help you maintain its outdoor beauty. Increasing your
-              property's value and making your yard the envy of the block,
-              Project Landscape ensures that your landscaping needs are met.
-              From irrigation seasonal clean-up, construction and more services,
-              we are the Calgary Landscaping experts you can trust for all your
-              residential landscaping needs.
+              We take pride in staying up to date with the latest trends and
+              techniques in the landscaping industry. We are passionate about
+              providing our customers with innovative and unique landscaping
+              designs that will enhance the beauty and functionality of their
+              outdoor space. Our team regularly attends industry events,
+              workshops, and training sessions to stay current with the newest
+              landscaping trends and technologies. We take this knowledge and
+              apply it to every project, ensuring that our customers receive the
+              most innovative and cutting-edge landscaping solutions available.
+              Trust us to bring your vision to life with the latest and greatest
+              Calgary, AB landscaping trends.
             </p>
           </Text>
         </Container>

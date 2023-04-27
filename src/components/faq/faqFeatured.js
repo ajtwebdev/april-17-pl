@@ -176,11 +176,11 @@ export default function FaqFeatured(props) {
               </div>
 
               <p>
-                At Project Landscape Ltd., our premier landscaping services will
-                increase the value and overall aesthetic of your home. We use
-                quality brands, and unique products to help keep your lawn
-                healthy, and your home looking incredible. This means an overall
-                better living experience for you and your family.
+                At Project Landscape Ltd., our premier Calgary landscaping
+                services will increase the value and overall aesthetic of your
+                home. We use quality brands, and unique products to help keep
+                your lawn healthy, and your home looking incredible. This means
+                an overall better living experience for you and your family.
               </p>
               <ButtonPrimary to="/contact">get started</ButtonPrimary>
             </div>

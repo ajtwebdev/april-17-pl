@@ -20,20 +20,21 @@ import LandscapingImg from "../images/banner-image-2.jpg"
 import LandscapingImg2 from "../images/banner-image-4.jpg"
 import Cta3 from "../components/cta/cta3"
 import ImageLeftDark from "../components/sections/imageLeftDark"
+import Badges from "../components/badges"
 
 export default function index() {
   return (
     <Layout>
       <SEO title="home" description="" />
       <HeroSlider />
+      <Badges />
       <MainServicesLinks />
-      <Cta3 />
       <AllServicesBanner />
       <Cta3 />
       <ProductsImg
         subheader=""
         title="get the highest quality calgary landscape materials"
-        body="Your home is your pride and joy, and we are the professionals who can help you maintain its outdoor beauty. Increasing your property's value and making your yard the envy of the block, Project Landscape ensures that your landscaping needs are met. From irrigation seasonal clean-up, construction and more services, we are the Calgary Landscaping experts you can trust for all your residential landscaping needs."
+        body="As experts in the field, we take pride in using only the highest quality landscaping materials to ensure that your property is not only visually appealing but also adds value to your home. From irrigation systems to seasonal clean-ups, construction projects, and other landscaping services, our team at Project Landscape in Calgary is dedicated to meeting your residential landscaping needs with trust and expertise."
         to="/calgary-landscaping-materials"
         button="discover products"
       />

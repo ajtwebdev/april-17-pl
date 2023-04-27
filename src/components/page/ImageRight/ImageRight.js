@@ -9,7 +9,6 @@ const Text = styled.div``
 
 const StyledImg = styled(GatsbyImage)`
   box-shadow: 20px 20px 0px 1px var(--clr-accent);
-  min-height: 300px;
 `
 
 export default function ImageRight({ subheader, title, body, image }) {

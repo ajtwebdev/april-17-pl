@@ -62,6 +62,7 @@ export default function RelatedServices({ serviceContent }) {
                   <h3 className="subheader tan">{item.title}</h3>
                   {item.link ? (
                     <p
+                      className="bold"
                       dangerouslySetInnerHTML={{
                         __html: `${item.link}`,
                       }}
