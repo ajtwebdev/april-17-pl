@@ -21,6 +21,7 @@ import LandscapingImg2 from "../images/banner-image-4.jpg"
 import Cta3 from "../components/cta/cta3"
 import ImageLeftDark from "../components/sections/imageLeftDark"
 import Badges from "../components/badges"
+import Videos from "../components/videos"
 
 export default function index() {
   return (
@@ -68,6 +69,7 @@ From creative softscapes to the most lucrative hardscapes, through an integrated
       <Ebook title="download our landscaping ebook" href="" />
       <MainTestimonials />
       <FaqFeatured />
+      <Videos />
     </Layout>
   )
 }

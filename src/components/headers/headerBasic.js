@@ -550,7 +550,7 @@ export default function HeaderBasic() {
                       </li>
                       <li>
                         <StyledLink to="/residential-services/outdoor-living/deck-railings-calgary">
-                          railings
+                          deck railings
                         </StyledLink>
                       </li>
                       <li>

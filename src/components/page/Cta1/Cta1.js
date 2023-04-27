@@ -6,6 +6,7 @@ import { Container, Flex, Section } from "../../layoutComponents"
 
 const Wrapper = styled.div`
   background: var(--clr-accent);
+  max-height: 400px;
 `
 
 const Text = styled.div`

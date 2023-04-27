@@ -346,87 +346,178 @@ export default function Footer() {
           <PageLinks>
             <Flex>
               <div>
-                <h3 className="subheader">Residential Services</h3>
                 <ul>
-                  <li>
-                    <StyledLink to="/residential-services/softscaping">
-                      Softscaping
-                    </StyledLink>
-                  </li>
-                  <li>
-                    <StyledLink to="/residential-services/hardscaping">
+                  <h3 className="subheader">
+                    <Link to="/residential-services/hardscaping">
                       hardscaping
+                    </Link>
+                  </h3>
+                  <li>
+                    <StyledLink to="/residential-services/hardscaping/pavers">
+                      pavers
                     </StyledLink>
                   </li>
                   <li>
-                    <StyledLink to="/residential-services/outdoor-living">
-                      outdoor living
+                    <StyledLink to="/residential-services/hardscaping/concrete-retaining-walls-calgary">
+                      retaining walls
                     </StyledLink>
                   </li>
-                  {/* {data.wpMenu.menuItems.nodes.map(mainItem => {
-                    return (
-                      <>
-                        {mainItem.childItems.nodes.map(childItem1 => {
-                          return (
-                            <>
-                              {childItem1.childItems.nodes.map(childItem2 => {
-                                return (
-                                  <li key={childItem2.id}>
-                                    <StyledLink to={childItem2.url}>
-                                      {childItem2.label}
-                                    </StyledLink>
-                                  </li>
-                                )
-                              })}
-                            </>
-                          )
-                        })}
-                      </>
-                    )
-                  })} */}
+                  <li>
+                    <StyledLink to="/residential-services/outdoor-living/garden-walls">
+                      garden walls
+                    </StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/residential-services/hardscaping/garden-bed-edging">
+                      garden bed edging
+                    </StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/residential-services/hardscaping/concrete-curbing-calgary">
+                      concrete curbing
+                    </StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/residential-services/hardscaping/stairs-and-stepping-stones">
+                      stairs and stepping stones
+                    </StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/residential-services/outdoor-living/seat-walls-and-pillars">
+                      seat walls and pillars
+                    </StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/residential-services/hardscaping/concrete-contractors-calgary">
+                      concrete installation
+                    </StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/residential-services/hardscaping/water-management">
+                      water management
+                    </StyledLink>
+                  </li>
                 </ul>
               </div>
               <div>
-                <h3 className="subheader">Commercial Services</h3>
-                <ul></ul>
+                <ul>
+                  <h3 className="subheader">
+                    <Link to="/residential-services/softscaping">
+                      softscaping
+                    </Link>
+                  </h3>
+                  <li>
+                    <StyledLink to="/residential-services/softscaping/artificial-turf-calgary">
+                      artificial turf
+                    </StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/residential-services/softscaping/irrigation-installation-calgary">
+                      irrigation installation
+                    </StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/residential-services/softscaping/sod">
+                      sod
+                    </StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/residential-services/softscaping/shrub-and-tree-planting-calgary">
+                      shrub and tree planting
+                    </StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/residential-services/softscaping/calgary-mulch-and-decorative-rock">
+                      mulch and decorative rock
+                    </StyledLink>
+                  </li>
+
+                  {/* {data.wpMenu.menuItems.nodes.map(mainItem => {
+                        return (
+                          <>
+                            {mainItem.childItems.nodes.map(childItem1 => {
+                              return (
+                                <>
+                                  {childItem1.childItems.nodes.map(
+                                    childItem2 => {
+                                      return (
+                                        <li key={childItem2.id}>
+                                          <StyledLink to={childItem2.url}>
+                                            {childItem2.label}
+                                          </StyledLink>
+                                        </li>
+                                      )
+                                    }
+                                  )}
+                                </>
+                              )
+                            })}
+                          </>
+                        )
+                      })} */}
+                </ul>
               </div>
               <div>
-                <h3 className="subheader">Company information</h3>
                 <ul>
+                  <h3 className="subheader">
+                    <Link to="/residential-services/outdoor-living">
+                      outdoor living
+                    </Link>
+                  </h3>
                   <li>
-                    <StyledLink to="/about">About Us</StyledLink>
-                  </li>
-                  {/* <li><StyledLink to="/">Material Selection</StyledLink></li> */}
-                  <li>
-                    <StyledLink to="/gallery">Gallery</StyledLink>
-                  </li>
-                  <li>
-                    <StyledLink to="/packages">packages</StyledLink>
-                  </li>
-                  <li>
-                    <StyledLink to="/areas-we-service">
-                      service areas
+                    <StyledLink to="/residential-services/outdoor-living/deck-builders-calgary">
+                      decks
                     </StyledLink>
                   </li>
                   <li>
-                    <StyledLink to="/free-resources">free resources</StyledLink>
-                  </li>
-                  <li>
-                    <StyledLink to="/warranty-request">
-                      warranty request
+                    <StyledLink to="/residential-services/outdoor-living/calgary-pergolas-and-patio-structures">
+                      pergolas
                     </StyledLink>
                   </li>
                   <li>
-                    <StyledLink to="/financing">financing </StyledLink>
-                  </li>
-                  <li>
-                    <StyledLink to="/strategic-partners">
-                      strategic partners
+                    <StyledLink to="/residential-services/outdoor-living/outdoor-landscape-lighting-calgary">
+                      lighting services
                     </StyledLink>
                   </li>
                   <li>
-                    <StyledLink to="/refer-a-friend-to-project-landscape-ltd">
-                      refer a friend
+                    <StyledLink to="/residential-services/outdoor-living/landscape-design-calgary">
+                      landscape design
+                    </StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/residential-services/outdoor-living/calgary-landscape-water-features">
+                      water features
+                    </StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/residential-services/outdoor-living/outdoor-fireplace-calgary-landscaper">
+                      fire pits and fire places
+                    </StyledLink>
+                  </li>
+
+                  <li>
+                    <StyledLink to="/residential-services/outdoor-living/fence-builders-calgary">
+                      fences
+                    </StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/residential-services/outdoor-living/privacy-screens-for-decks-calgary">
+                      privacy screens
+                    </StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/residential-services/outdoor-living/deck-railings-calgary">
+                      deck railings
+                    </StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/residential-services/outdoor-living/outdoor-kitchen-calgary-landscaping-services">
+                      outdoor kitchens
+                    </StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/residential-services/hardscaping/backyard-sports-court-installation">
+                      sports courts
                     </StyledLink>
                   </li>
                 </ul>
