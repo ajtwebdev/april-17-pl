@@ -36,6 +36,7 @@ export default function PortfolioBanner() {
             <StaticImage
               src="../images/calgary-landscaping-contractor.png"
               alt="calgary landscaping contractor featured portfolio"
+              className="stretch"
             />
           </Flex>
         </Container>

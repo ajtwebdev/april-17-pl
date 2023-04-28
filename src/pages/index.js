@@ -27,8 +27,8 @@ import { Section, Container, Flex } from "../components/layoutComponents"
 import styled from "styled-components"
 
 const Divider = styled.div`
-  width: 1px;
-  height: 100%;
+  width: 3px;
+  height: 400px;
   background-color: var(--clr-accent);
 
   @media screen and (max-width: 36em) {
