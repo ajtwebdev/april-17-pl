@@ -53,7 +53,8 @@ export default function FaqTab({ tabsContent }) {
   return (
     <Wrapper>
       <Section>
-        <Container>
+        <Container className="spacing">
+          <h2 className="title">{title}</h2>
           <TabWrapper>
             <Tabs>
               <TabList>
@@ -68,6 +69,7 @@ export default function FaqTab({ tabsContent }) {
                     <TabPanel>
                       <Accordion className="spacing">
                         {tab.questions.map(questionContent => {
+                          return (
                           <AccordionItem style={AccordionStyle}>
                             <h2>
                               <AccordionButton>
@@ -89,7 +91,7 @@ export default function FaqTab({ tabsContent }) {
                                 __html: `${questionContent.answer}`,
                               }}
                             />
-                          </AccordionItem>
+                          </AccordionItem>)
                         })}
                       </Accordion>
                     </TabPanel>
