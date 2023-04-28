@@ -49,7 +49,7 @@ const AccordionStyle = {
   border: "none",
 }
 
-export default function FaqTab({ tabsContent }) {
+export default function FaqTab({ tabsContent, title }) {
   return (
     <Wrapper>
       <Section>

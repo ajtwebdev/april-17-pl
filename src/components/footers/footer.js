@@ -6,6 +6,9 @@ import { Container } from "../layoutComponents"
 import Facebook from "../../images/socials/facebook.svg"
 import Instagram from "../../images/socials/instagram.svg"
 import Youtube from "../../images/socials/youtube.svg"
+import Pinterest from "../../images/socials/pinterest.svg"
+import Houzz from "../../images/socials/houzz.svg"
+import GooglePlus from "../../images/socials/google-plus.svg"
 import { FaPhone, FaRegClock } from "react-icons/fa"
 import { MdLocationOn, MdOutlineEmail } from "react-icons/md"
 import FormFooter from "../forms/formFooter"
@@ -155,7 +158,7 @@ const Copyright = styled.div`
     }
 
     li {
-      a {
+      .a {
         text-transform: capitalize;
         color: var(--txt-light);
         font-weight: var(--fw-500);
@@ -169,6 +172,14 @@ const PageLinks = styled.div`
 
   ul {
     padding-left: 0;
+  }
+`
+
+const Payments = styled.div`
+  display: flex;
+
+  & > * + * {
+    margin-left: 2px;
   }
 `
 
@@ -270,6 +281,11 @@ export default function Footer() {
                     </li>
                   </ul>
                 </div>
+                <Payments>
+                  <StaticImage src="../../images/visa.png" alt="calgary landscaping payment type" />
+                  <StaticImage src="../../images/master-card.png" alt="calgary landscaping payment type" />
+                  <StaticImage src="../../images/interac.png" alt="calgary landscaping payment type" />
+                </Payments>
                 <div className="spacing">
                   <h4 className="subheader">showroom</h4>
                   <ul>
@@ -326,6 +342,39 @@ export default function Footer() {
                       <img
                         src={Youtube}
                         alt="calgary landscaping company youtube"
+                      />
+                    </a>
+                  </div>
+                  <div>
+                    <a
+                      target="_blank"
+                      href="https://www.pinterest.ca/projectland0734/"
+                    >
+                      <img
+                        src={Pinterest}
+                        alt="calgary landscaping company pinterest"
+                      />
+                    </a>
+                  </div>
+                  <div>
+                    <a
+                      target="_blank"
+                      href="https://www.houzz.com/professionals/landscape-architects-and-landscape-designers/project-landscape-ltd-pfvwus-pf~816279347/__public"
+                    >
+                      <img
+                        src={Houzz}
+                        alt="calgary landscaping company"
+                      />
+                    </a>
+                  </div>
+                  <div>
+                    <a
+                      target="_blank"
+                      href="https://www.google.com/search?q=project%20landscape&rlz=1C1JZAP_enCA1008CA1008&oq=project+landscape&aqs=chrome..69i57j69i59j69i64j69i65j69i60l2j69i65.4202j0j9&sourceid=chrome&ie=UTF-8&tbs=lf:1,lf_ui:14&tbm=lcl&sxsrf=APwXEde42p-FOu2e0riecHHuoBMahO47kQ:1682655163573&rflfq=1&num=10&serdesk=1&rldimm=11747008283103314784&lqi=ChFwcm9qZWN0IGxhbmRzY2FwZUi-z42FnKuAgAhaGxAAEAEYABgBIhFwcm9qZWN0IGxhbmRzY2FwZXoHQ2FsZ2FyeZIBEmxhbmRzY2FwZV9kZXNpZ25lcqoBORABMh4QASIaKaI3Foxmm9yUEJWVyMjPvBmgI2VvlzimO9cyFRACIhFwcm9qZWN0IGxhbmRzY2FwZQ&ved=2ahUKEwiBlLf62sv-AhUXITQIHeg0D40QvS56BAgVEAE&sa=X&rlst=f#rlfi=hd:;si:11747008283103314784,l,ChFwcm9qZWN0IGxhbmRzY2FwZUi-z42FnKuAgAhaGxAAEAEYABgBIhFwcm9qZWN0IGxhbmRzY2FwZXoHQ2FsZ2FyeZIBEmxhbmRzY2FwZV9kZXNpZ25lcqoBORABMh4QASIaKaI3Foxmm9yUEJWVyMjPvBmgI2VvlzimO9cyFRACIhFwcm9qZWN0IGxhbmRzY2FwZQ;mv:[[51.0443109,-113.9770916],[50.992142799999996,-114.1041654]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:14"
+                    >
+                      <img
+                        src={GooglePlus}
+                        alt="calgary landscaping company"
                       />
                     </a>
                   </div>
@@ -535,14 +584,12 @@ export default function Footer() {
               <li>{Info.name}</li>
               <li>All Rights Reserved</li>
               <li>
-                <a target="blank" href="">
-                  Terms of use
-                </a>
+                <Link className="a" to="/terms-of-use">terms of use</Link>
+        
               </li>
               <li>
-                <a target="blank" href="">
-                  Privacy Policy
-                </a>
+                <Link className="a" to="/privacy-policy">Privacy Policy</Link>
+        
               </li>
             </ul>
           </Copyright>

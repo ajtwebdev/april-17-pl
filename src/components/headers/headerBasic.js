@@ -181,6 +181,34 @@ const DropdownAbout = styled.li`
     }
   }
 `
+const DropdownResources = styled.li`
+  /* hover display only on desktop */
+
+  @media screen and (min-width: ${device.md}) {
+    div {
+      display: ${({ dropdownResources }) => (dropdownResources ? "flex" : "none")};
+      position: absolute;
+      top: 155px;
+      left: 0;
+      width: 100%;
+      z-index: 1000;
+      opacity: 1;
+    }
+    ul {
+      width: 100%;
+      margin: 0;
+      padding: 2em 2em 2em 4em;
+      list-style-type: none;
+      background: var(--clr-light);
+
+      li {
+        a {
+          color: var(--txt-dark);
+        }
+      }
+    }
+  }
+`
 const DropdownServices = styled.li`
   /* hover display only on desktop */
 
@@ -271,6 +299,7 @@ export default function HeaderBasic() {
 
   const [nav, navOpen] = useState(false)
   const [dropdownAbout, dropdownOpenAbout] = useState(false)
+  const [dropdownResources, dropdownOpenResources] = useState(false)
   const [dropdownServices, dropdownOpenServices] = useState(false)
   const [scrolled, setScrolled] = useState(true)
 
@@ -280,6 +309,9 @@ export default function HeaderBasic() {
 
   function toggleDropdownAbout() {
     dropdownOpenAbout(!dropdownAbout)
+  }
+  function toggleDropdownResources() {
+    dropdownOpenResources(!dropdownResources)
   }
   function toggleDropdownServices() {
     dropdownOpenServices(!dropdownServices)
@@ -335,75 +367,7 @@ export default function HeaderBasic() {
                 <div />
               </Burger>
               <NavList nav={nav}>
-                <DropdownAbout
-                  dropdownAbout={dropdownAbout}
-                  onClick={toggleDropdownAbout}
-                >
-                  <StyledLink>
-                    about
-                    <IoMdArrowDropdown size={20} />
-                  </StyledLink>
-                  <div>
-                    <ul>
-                      <h3 className="subheader">
-                        <Link to="/about">About Project Landscape</Link>
-                      </h3>
-                      <li>
-                        <StyledLink to="/about">our process</StyledLink>
-                      </li>
-                      <li>
-                        <StyledLink to="/about">meet the team</StyledLink>
-                      </li>
-                      <li>
-                        <StyledLink to="/about">our story</StyledLink>
-                      </li>
-                      <li>
-                        <StyledLink to="/about">careers</StyledLink>
-                      </li>
-                      <li>
-                        <StyledLink to="/about">
-                          awards and certifications
-                        </StyledLink>
-                      </li>
-                      <li>
-                        <StyledLink to="/about">
-                          the project landscape difference
-                        </StyledLink>
-                      </li>
-                      <li>
-                        <StyledLink to="/packages">packages</StyledLink>
-                      </li>
-                      <li>
-                        <StyledLink to="/areas-we-service">
-                          service areas
-                        </StyledLink>
-                      </li>
-                      <li>
-                        <StyledLink to="/free-resources">
-                          free resources
-                        </StyledLink>
-                      </li>
-                      <li>
-                        <StyledLink to="/warranty-request">
-                          warranty request
-                        </StyledLink>
-                      </li>
-                      <li>
-                        <StyledLink to="/financing">financing </StyledLink>
-                      </li>
-                      <li>
-                        <StyledLink to="/strategic-partners">
-                          strategic partners
-                        </StyledLink>
-                      </li>
-                      <li>
-                        <StyledLink to="/refer-a-friend-to-project-landscape-ltd">
-                          refer a friend
-                        </StyledLink>
-                      </li>
-                    </ul>
-                  </div>
-                </DropdownAbout>
+                
                 <DropdownServices
                   dropdownServices={dropdownServices}
                   onClick={toggleDropdownServices}
@@ -495,6 +459,16 @@ export default function HeaderBasic() {
                       <li>
                         <StyledLink to="/residential-services/softscaping/calgary-mulch-and-decorative-rock">
                           mulch and decorative rock
+                        </StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/residential-services/softscaping/calgary-sod-delivery">
+                          sod delivery
+                        </StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/residential-services/softscaping/calgary-lawn-care-health">
+                          lawn care (HIDDEN)
                         </StyledLink>
                       </li>
 
@@ -593,6 +567,165 @@ export default function HeaderBasic() {
                     </ul>
                   </div>
                 </DropdownServices>
+                <DropdownAbout
+                  dropdownAbout={dropdownAbout}
+                  onClick={toggleDropdownAbout}
+                >
+                  <StyledLink>
+                    about
+                    <IoMdArrowDropdown size={20} />
+                  </StyledLink>
+                  <div>
+                    <ul>
+                      <h3 className="subheader">
+                        <Link to="/about">About</Link>
+                      </h3>
+                      <li>
+                        <StyledLink to="/about">our process</StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/about">meet the team</StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/about">our story</StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/about">careers</StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/about">
+                          awards and certifications
+                        </StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/about">
+                          the project landscape difference
+                        </StyledLink>
+                      </li>
+                      
+                    </ul>
+                    <ul>
+                      <h3 className="subheader">
+                        customer center
+                      </h3>
+                      <li>
+                        <StyledLink to="/faq">
+                          FAQ
+                        </StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/refer-a-friend-to-project-landscape-ltd">
+                          refer a friend
+                        </StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/strategic-partners">
+                          strategic partners
+                        </StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/areas-we-service">
+                          service areas
+                        </StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/financing">financing </StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/warranty-request">
+                          warranty request
+                        </StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/blog">
+                          blogs
+                        </StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/testimonials">
+                          testimonials
+                        </StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/packages">packages</StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/free-resources">
+                          free resources
+                        </StyledLink>
+                      </li>
+                    </ul>
+                  </div>
+                </DropdownAbout>
+                <DropdownResources
+                  dropdownResources={dropdownResources}
+                  onClick={toggleDropdownResources}
+                >
+                  <StyledLink>
+                    Resources
+                    <IoMdArrowDropdown size={20} />
+                  </StyledLink>
+                  <div>
+                    <ul>
+                      <h3 className="subheader">
+                        Get Inspired
+                      </h3>
+                      <li>
+                        <StyledLink to="/gallery">gallery</StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/video-gallery">video gallery</StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/">case studies</StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/">product catalogs</StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/">
+                          indoor idea center
+                        </StyledLink>
+                      </li>
+                      
+                    </ul>
+                    <ul>
+                      <h3 className="subheader">
+                        designscape style
+                      </h3>
+                      <li>
+                        <StyledLink to="/">
+                          landscaping style
+                        </StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/">
+                          landscaping ideas by space
+                        </StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/">
+                          landscape trends
+                        </StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/">
+                          landscape style quiz
+                        </StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/">
+                          landscape packages
+                        </StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/">
+                          finishing touches
+                        </StyledLink>
+                      </li>
+                    </ul>
+                  </div>
+                </DropdownResources>
                 <li>
                   <StyledLink to="/gallery">gallery</StyledLink>
                 </li>
