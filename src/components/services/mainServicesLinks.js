@@ -88,7 +88,7 @@ export default function MainServicesLinks() {
         </Container>
         <Grid>
           <List>
-            <ItemLink to="/residential-services-hardscaping">
+            <ItemLink to="/residential-services/hardscaping">
               <StaticImage
                 src="../../images/hardscaping-calgary.jpg"
                 alt="calgary hardscaping services"

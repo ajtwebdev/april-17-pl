@@ -18,10 +18,23 @@ import ImageLeft from "../components/sections/imageLeft"
 import ImageRight from "../components/sections/imageRight"
 import LandscapingImg from "../images/banner-image-2.jpg"
 import LandscapingImg2 from "../images/banner-image-4.jpg"
+import OasisImg from "../images/calgary-landscaping-oasis.png"
 import Cta3 from "../components/cta/cta3"
 import ImageLeftDark from "../components/sections/imageLeftDark"
 import Badges from "../components/badges"
 import Videos from "../components/videos"
+import { Flex } from "../components/layoutComponents"
+import styled from "styled-components"
+
+const Divider = styled.div`
+  width: 1px;
+  height: 100%;
+  background-color: var(--clr-accent);
+
+  @media screen and (max-width: 36em) {
+    display: none;
+  
+`
 
 export default function index() {
   return (
@@ -31,6 +44,24 @@ export default function index() {
       <Badges />
       <MainServicesLinks />
       <AllServicesBanner />
+      <Section>
+        <Container>
+          <Flex>
+            <div>
+              <h2 className="subheader tan">Discover why Project Landscape is Calgary's largest residential landscape company</h2>
+            </div>
+            <Divider />
+            <div>
+              <p>Project Landscape has established itself as Calgary's largest residential landscape company due to its commitment to taking landscape design and installations to the next level in outdoor living. Several factors contribute to their success and industry dominance.
+Firstly, Project Landscape excels in landscape design. They have a team of highly skilled and creative designers who understand the unique needs and preferences of Calgary homeowners. Their designs blend aesthetics with functionality, ensuring that every outdoor space is transformed into a stunning and practical oasis.
+
+Secondly, the company is known for its exceptional installation services. Project Landscape has a dedicated team of experienced professionals who execute the designs with precision and attention to detail. From hardscaping to softscaping, irrigation systems to outdoor lighting, they handle every aspect of the installation process.
+
+Additionally, Project Landscape stands out for its commitment to customer satisfaction. They prioritize open communication, actively involving clients in the design and installation phases. The company's dedication to meeting deadlines, providing transparent pricing, and delivering high-quality workmanship has earned them a stellar reputation among homeowners in Calgary.</p>
+            </div>
+          </Flex>
+        </Container>
+      </Section>
       <Cta3 />
       <ProductsImg
         subheader=""
@@ -55,7 +86,7 @@ If you're going to invest your time and money into hiring a landscape company fo
       />
 
       <ImageRight
-        img={LandscapingImg2}
+        img={OasisImg}
         alt="best landscaper in calgary, AB"
         title="Bring your outdoor oasis to life"
         body="Imagine stepping out into a perfect backyard oasis. A perfect place for relaxing, entertaining and everything in between. Get the ease of a single landscape provider, who understands and can help with all your outdoor needs. Use a proven Calgary landscape company that has mastered how to bring your outdoor dreams to life.

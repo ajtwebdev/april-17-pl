@@ -560,7 +560,7 @@ export default function HeaderBasic() {
                         </StyledLink>
                       </li>
                       <li>
-                        <StyledLink to="/residential-services/hardscaping/outdoor-furniture">
+                        <StyledLink to="/residential-services/outdoor-living/outdoor-furniture">
                           outdoor furniture
                         </StyledLink>
                       </li>
@@ -726,12 +726,6 @@ export default function HeaderBasic() {
                     </ul>
                   </div>
                 </DropdownResources>
-                <li>
-                  <StyledLink to="/gallery">gallery</StyledLink>
-                </li>
-                <li>
-                  <StyledLink to="/blog">blog</StyledLink>
-                </li>
 
                 <li>
                   <StyledLink to="/contact">contact</StyledLink>

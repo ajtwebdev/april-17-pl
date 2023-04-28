@@ -44,7 +44,7 @@ export default function Ebook(props) {
         <Grid>
           <Img>
             <StaticImage
-              src="../images/calgary-landscaping-ebook.png"
+              src="../images/calgary-landscaping-contractor-ebook.png"
               alt="calgary landscaping ebook"
               className="img"
             />

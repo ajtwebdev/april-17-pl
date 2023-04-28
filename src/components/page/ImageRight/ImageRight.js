@@ -29,7 +29,7 @@ export default function ImageRight({ subheader, title, body, image }) {
               ></div>
             ) : null}
 
-            <ButtonPrimary to="/contact">talk to us today</ButtonPrimary>
+            <ButtonPrimary to="/contact">get started</ButtonPrimary>
           </Text>
           <StyledImg
             image={image.localFile.childImageSharp.gatsbyImageData}

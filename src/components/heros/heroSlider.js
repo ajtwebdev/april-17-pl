@@ -103,7 +103,7 @@ export default function HeroSlider(props) {
                 <div className="spacing">
                   <h2 className="title">outdoor living done right</h2>
                   <p className="subheader tan">Where outdoor living happens</p>
-                  <ButtonPrimary to="/contact">
+                  <ButtonPrimary to="/residential-services/outdoor-living">
                     get started &#8594;
                   </ButtonPrimary>
                 </div>
@@ -120,7 +120,7 @@ export default function HeroSlider(props) {
                     Create a Stunning Outdoor Oasis with Our Hardscaping
                     Services
                   </p>
-                  <ButtonPrimary to="/contact">
+                  <ButtonPrimary to="/residential-services/hardscaping">
                     get started &#8594;
                   </ButtonPrimary>
                 </div>
@@ -134,7 +134,7 @@ export default function HeroSlider(props) {
                 <div className="spacing">
                   <h2 className="title">softscaping services</h2>
                   <p className="subheader tan">Bring your backyard to life</p>
-                  <ButtonPrimary to="/contact">
+                  <ButtonPrimary to="/residential-services/softscaping">
                     get started &#8594;
                   </ButtonPrimary>
                 </div>

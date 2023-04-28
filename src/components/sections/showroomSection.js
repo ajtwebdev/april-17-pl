@@ -26,7 +26,7 @@ export default function ShowroomSection(props) {
           <FlexMobileOpp>
             <StaticImage
               style={ImgStyles}
-              src="../../images/calgary-landscaping-showroom.png"
+              src="../../images/calgary-landscaping-showroom-banner.png"
               alt="calgary landscaping showroom"
             />
             <Text className="spacing">
@@ -51,12 +51,10 @@ export default function ShowroomSection(props) {
               </p>
               <Flex>
                 <div>
-                  <p className="bold upper">533 58 Ave SE, Calgary, AB</p>
-                  <p>Calgary, AB</p>
-                </div>
-                <div>
-                  <p className="bold upper">showroom hours</p>
-                  <p>By Appointment</p>
+                  <p className="bold upper">Backyard Canada - 711 48 Ave SE Unit 1</p>
+                  <p className="bold upper">Patio Store - 533 58 Ave SE</p>
+                  <p className="bold upper">World Of Spas - 6201 Centre S
+</p>
                 </div>
               </Flex>
               <ButtonPrimary to="/showroom">explore showroom</ButtonPrimary>

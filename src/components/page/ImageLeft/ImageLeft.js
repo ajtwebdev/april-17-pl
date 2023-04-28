@@ -31,7 +31,7 @@ export default function ImageLeft({ subheader, title, body, image }) {
                 __html: `${body}`,
               }}
             ></div>
-            <ButtonPrimary to="/contact">contact us</ButtonPrimary>
+            <ButtonPrimary to="/contact">get started</ButtonPrimary>
           </Text>
         </FlexMobileOpp>
       </Container>

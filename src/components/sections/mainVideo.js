@@ -93,7 +93,7 @@ export default function MainVideo() {
             <Bg />
             <Video>
               <StaticImage
-                src="../../images/experience.jpg"
+                src="../../images/calgary-landscaping-experience.png"
                 alt="best landscaping company in calgary, AB"
               />
             </Video>

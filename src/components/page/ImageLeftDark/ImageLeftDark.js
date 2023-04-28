@@ -42,7 +42,7 @@ export default function ImageLeftDark({ subheader, title, body, image }) {
                 }}
               ></p>
               <ButtonSecondaryLight to="/contact">
-                talk to us today
+                get started
               </ButtonSecondaryLight>
             </Text>
           </FlexMobileOpp>

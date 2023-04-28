@@ -570,8 +570,42 @@ export default function Footer() {
                     </StyledLink>
                   </li>
                   <li>
-                    <StyledLink to="/residential-services/hardscaping/outdoor-furniture">
+                    <StyledLink to="/residential-services/outdoor-living/outdoor-furniture">
                       outdoor furniture
+                    </StyledLink>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <ul>
+                  <h3 className="subheader">
+                    <Link to="/about">
+                     company information
+                    </Link>
+                  </h3>
+                  <li>
+                    <StyledLink to="/about">
+                      about us
+                    </StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/faq">
+                      FAQ
+                    </StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/service-areas">
+                      service areas
+                    </StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/blogs">
+                      blogs
+                    </StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/financing">
+                      financing
                     </StyledLink>
                   </li>
                 </ul>
