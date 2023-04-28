@@ -229,6 +229,20 @@
       }
      
  
+      fragment Page_FaqTab on WpPage_Pagecomponents_PageComponents_FaqTab {
+        
+  title
+    tabsContent {
+        tabLabel
+        questions {
+            question
+            answer
+        }
+    }
+    
+      }
+     
+ 
       fragment Page_HeroSlider on WpPage_Pagecomponents_PageComponents_HeroSlider {
         
     title
