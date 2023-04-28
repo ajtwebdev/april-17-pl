@@ -520,6 +520,11 @@ export default function Footer() {
                       sports courts
                     </StyledLink>
                   </li>
+                  <li>
+                    <StyledLink to="/residential-services/hardscaping/outdoor-furniture">
+                      outdoor furniture
+                    </StyledLink>
+                  </li>
                 </ul>
               </div>
             </Flex>

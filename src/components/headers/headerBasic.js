@@ -228,7 +228,7 @@ const StyledLink = styled(props => <Link {...props} />)`
   :hover,
   :focus {
     opacity: 0.7;
-    color: var(--clr-accent);
+    color: var(--clr-tan);
   }
 
   @media screen and (max-width: ${device.md}) {
@@ -345,8 +345,30 @@ export default function HeaderBasic() {
                   </StyledLink>
                   <div>
                     <ul>
+                      <h3 className="subheader">
+                        <Link to="/about">About Project Landscape</Link>
+                      </h3>
                       <li>
-                        <StyledLink to="/about">about us</StyledLink>
+                        <StyledLink to="/about">our process</StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/about">meet the team</StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/about">our story</StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/about">careers</StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/about">
+                          awards and certifications
+                        </StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/about">
+                          the project landscape difference
+                        </StyledLink>
                       </li>
                       <li>
                         <StyledLink to="/packages">packages</StyledLink>
@@ -561,6 +583,11 @@ export default function HeaderBasic() {
                       <li>
                         <StyledLink to="/residential-services/hardscaping/backyard-sports-court-installation">
                           sports courts
+                        </StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/residential-services/hardscaping/outdoor-furniture">
+                          outdoor furniture
                         </StyledLink>
                       </li>
                     </ul>
