@@ -22,7 +22,7 @@ const PageTemplate = pageProps => {
   return (
     <>
       <Layout>
-        <SEO title="page title" description="description" />
+        
         {components.map((component, index) => {
           // ### COMPONENT RENDERING ### DO NOT MODIFY OR MOVE THIS COMMENT ###
           return <div>Error: The component {component.name} was not found</div>
