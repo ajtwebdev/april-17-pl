@@ -604,6 +604,11 @@ export default function Footer() {
                     </StyledLink>
                   </li>
                   <li>
+                    <StyledLink to="/residential-services">
+                      residential services
+                    </StyledLink>
+                  </li>
+                  <li>
                     <StyledLink to="/faq">
                       FAQ
                     </StyledLink>
