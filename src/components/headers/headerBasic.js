@@ -462,11 +462,6 @@ export default function HeaderBasic() {
                         </StyledLink>
                       </li>
                       <li>
-                        <StyledLink to="/residential-services/softscaping/calgary-sod-delivery">
-                          sod delivery
-                        </StyledLink>
-                      </li>
-                      <li>
                         <StyledLink to="/residential-services/softscaping/calgary-lawn-care-health">
                           lawn care (HIDDEN)
                         </StyledLink>
@@ -673,15 +668,15 @@ export default function HeaderBasic() {
                       <li>
                         <StyledLink to="/gallery">gallery</StyledLink>
                       </li>
-                      <li>
+                      {/* <li>
                         <StyledLink to="/video-gallery">video gallery</StyledLink>
-                      </li>
-                      <li>
+                      </li> */}
+                      {/* <li>
                         <StyledLink to="/">case studies</StyledLink>
-                      </li>
-                      <li>
+                      </li> */}
+                      {/* <li>
                         <StyledLink to="/">product catalogs</StyledLink>
-                      </li>
+                      </li> */}
                       <li>
                         <StyledLink to="/">
                           indoor idea center
@@ -693,7 +688,7 @@ export default function HeaderBasic() {
                       <h3 className="subheader">
                         designscape style
                       </h3>
-                      <li>
+                      {/* <li>
                         <StyledLink to="/">
                           landscaping style
                         </StyledLink>
@@ -702,8 +697,8 @@ export default function HeaderBasic() {
                         <StyledLink to="/">
                           landscaping ideas by space
                         </StyledLink>
-                      </li>
-                      <li>
+                      </li> */}
+                      {/* <li>
                         <StyledLink to="/">
                           landscape trends
                         </StyledLink>
@@ -712,17 +707,17 @@ export default function HeaderBasic() {
                         <StyledLink to="/">
                           landscape style quiz
                         </StyledLink>
-                      </li>
+                      </li> */}
                       <li>
                         <StyledLink to="/">
                           landscape packages
                         </StyledLink>
                       </li>
-                      <li>
+                      {/* <li>
                         <StyledLink to="/">
                           finishing touches
                         </StyledLink>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                 </DropdownResources>

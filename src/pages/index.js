@@ -48,7 +48,7 @@ export default function index() {
         <Container>
           <Flex>
             <div>
-              <h2 className="subheader tan">Discover why Project Landscape is Calgary's largest residential landscape company</h2>
+              <h2 className="title tan">Discover why Project Landscape is Calgary's largest residential landscape company</h2>
             </div>
             <Divider />
             <div>

@@ -44,7 +44,6 @@ const TabWrapper = styled.div`
 `
 
 const AccordionStyle = {
-  background: "var(--clr-accent)",
   borderRadius: "var(--br)",
   border: "none",
 }

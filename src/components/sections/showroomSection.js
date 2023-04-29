@@ -33,7 +33,7 @@ export default function ShowroomSection(props) {
               <div>
                 <p className="subheader"></p>
                 <h2 className="title">
-                  explore our <span className="tan">showroom</span>
+                  explore our <span className="tan">indoor idea</span>{" "}center
                 </h2>
               </div>
               <p>
