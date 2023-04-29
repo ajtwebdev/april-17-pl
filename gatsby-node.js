@@ -9,7 +9,7 @@ setOptions({
   graphQLFieldName: "pageComponents",
 })
 
-module.exports.createPages = async ({gatsbyUtilities, graphql, actions}) => {
+module.exports.createPages = async gatsbyUtilities => {
   await createPages(gatsbyUtilities)
   await createPosts(gatsbyUtilities)
 
