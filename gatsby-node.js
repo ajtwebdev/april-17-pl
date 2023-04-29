@@ -9,9 +9,16 @@ setOptions({
   graphQLFieldName: "pageComponents",
 })
 
-module.exports.createPages = async gatsbyUtilities => {
+module.exports.createPages = async ({gatsbyUtilities, graphql, actions}) => {
   await createPages(gatsbyUtilities)
   await createPosts(gatsbyUtilities)
+
+  // const { createRedirect } = actions
+
+  // createRedirect({
+  //   fromPath: `/blog/recipes/mouthwatering-lasagna`,
+  //   toPath: `/recipes/mouthwatering-lasagna`,
+  // })
 
   // Query our posts from the GraphQL server
   const posts = await getPosts(gatsbyUtilities)

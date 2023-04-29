@@ -16,7 +16,6 @@ const Wrapper = styled.div`
 export default function Layout({ children }) {
   return (
     <Wrapper>
-      <SEO />
       <HeaderBasic />
       <main>{children}</main>
       <RecentPosts />
