@@ -9,16 +9,16 @@ setOptions({
   graphQLFieldName: "pageComponents",
 })
 
-module.exports.createPages = async ({gatsbyUtilities, actions}) => {
+module.exports.createPages = async gatsbyUtilities => {
   await createPages(gatsbyUtilities)
   await createPosts(gatsbyUtilities)
 
-  const { createRedirect } = actions
+  // const { createRedirect } = actions
 
-  createRedirect({
-    fromPath: `/residential-services/landscape-construction`,
-    toPath: `/residential-services/hardscaping`,
-  })
+  // createRedirect({
+  //   fromPath: `/residential-services/landscape-construction`,
+  //   toPath: `/residential-services/hardscaping`,
+  // })
 
   // Query our posts from the GraphQL server
   const posts = await getPosts(gatsbyUtilities)
