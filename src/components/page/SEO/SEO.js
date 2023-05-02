@@ -9,7 +9,7 @@ import React from 'react'
 export default function SEO({title, description}) {
   return (
     <Helmet>
-        <title>{title}</title>
+        <title>page title</title>
     </Helmet>
   )
 }
