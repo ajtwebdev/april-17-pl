@@ -26,6 +26,16 @@ import Videos from "../components/videos"
 import { Section, Container, Flex } from "../components/layoutComponents"
 import styled from "styled-components"
 
+const Wrapper = styled.div`
+background: url("../../images/calgary-landscaping-faq-banner.jpg"),
+rgba(0, 0, 0, 0.8);
+background-blend-mode: overlay;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+color: var(--txt-light);
+`
+
 const Divider = styled.div`
   width: 3px;
   height: 400px;
@@ -44,6 +54,7 @@ export default function index() {
       <Badges />
       <MainServicesLinks />
       <AllServicesBanner />
+      <Wrapper>
       <Section>
         <Container>
           <Flex>
@@ -62,6 +73,7 @@ Additionally, Project Landscape stands out for its commitment to customer satisf
           </Flex>
         </Container>
       </Section>
+      </Wrapper>
       <Cta3 />
       <ProductsImg
         subheader=""

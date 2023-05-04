@@ -192,7 +192,7 @@ const StyledLink = styled(props => <Link {...props} />)`
   &:focus {
     cursor: pointer;
     opacity: 0.7;
-    color: var(--clr-accent);
+    color: var(--clr-tan);
   }
 `
 

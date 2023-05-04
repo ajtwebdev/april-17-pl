@@ -12,6 +12,10 @@ const Wrapper = styled.div`
   p {
     margin-bottom: 0;
   }
+
+  .carousel-indicators {
+    margin-bottom: 4rem;
+  }
 `
 
 const HeroGrid = styled.div`
@@ -23,9 +27,7 @@ const HeroWrapper = styled.div`
   grid-row: 1 / -1;
   grid-column: 1 / -1;
   z-index: 1;
-  .carousel-indicators {
-    margin-bottom: 4rem;
-  }
+  
 `
 
 const HeroBottomText = styled.div`

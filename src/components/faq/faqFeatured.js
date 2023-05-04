@@ -168,6 +168,59 @@ export default function FaqFeatured(props) {
                   snow and ice management.
                 </AccordionPanel>
               </AccordionItem>
+              <AccordionItem style={AccordionStyle}>
+                <h2>
+                  <AccordionButton>
+                    <Box
+                      className="subheader"
+                      as="span"
+                      flex="1"
+                      textAlign="left"
+                    >
+                      How much does landscaping typically cost?
+                    </Box>
+                    <AccordionIcon />
+                  </AccordionButton>
+                </h2>
+                <AccordionPanel pb={4}>
+                The cost of landscaping can vary widely depending on factors such as the size of the area, the complexity of the design, the types of materials used, and the region's labor costs. Small residential projects, such as adding plants or a small patio, can start from a few hundred dollars, while larger-scale projects involving extensive design work, hardscaping, and planting can range from several thousand to tens of thousands of dollars or more.
+                </AccordionPanel>
+              </AccordionItem>
+              <AccordionItem style={AccordionStyle}>
+                <h2>
+                  <AccordionButton>
+                    <Box
+                      className="subheader"
+                      as="span"
+                      flex="1"
+                      textAlign="left"
+                    >
+                      Will my Project require a permit / who obtains the permit?
+                    </Box>
+                    <AccordionIcon />
+                  </AccordionButton>
+                </h2>
+                <AccordionPanel pb={4}>
+                As licensed landscape contractors, Project Landscape is happy to help obtain needed permits as part of a project management package.                </AccordionPanel>
+              </AccordionItem>
+              <AccordionItem style={AccordionStyle}>
+                <h2>
+                  <AccordionButton>
+                    <Box
+                      className="subheader"
+                      as="span"
+                      flex="1"
+                      textAlign="left"
+                    >
+                      Do you have any certifications or affiliations with professional organizations?
+                    </Box>
+                    <AccordionIcon />
+                  </AccordionButton>
+                </h2>
+                <AccordionPanel pb={4}>
+                Project Landscape is Calgary's premier outdoor living company, specializing in retaining walls and paving stone installations. As certified experts in ICPI, Techo-Pro, and Belgard, we guarantee high-quality craftsmanship and compliance with industry standards. Trust us to transform your outdoor space into a stunning and functional oasis.
+                </AccordionPanel>
+              </AccordionItem>
             </Accordion>
             <div className="spacing">
               <div>
