@@ -153,6 +153,32 @@ const GetQuote = styled(props => <Link {...props} />)`
   }
 `
 
+const Dropdown = styled.li`
+  /* hover display only on desktop */
+  @media screen and (min-width: ${device.md}) {
+    ul {
+      width: 100%;
+      margin: 0;
+      padding: 2em 2em 2em 4em;
+      list-style-type: none;
+      background: var(--clr-light);
+
+      li {
+        a {
+          color: var(--txt-dark);
+        }
+      }
+    }
+
+    &:hover {
+      ul {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+`
+
 const DropdownAbout = styled.li`
   /* hover display only on desktop */
 
@@ -367,11 +393,11 @@ export default function HeaderBasic() {
                 <div />
               </Burger>
               <NavList nav={nav}>
-                
-                <DropdownServices
+                {/* <DropdownServices
                   dropdownServices={dropdownServices}
                   onClick={toggleDropdownServices}
-                >
+                > */}
+                <Dropdown>
                   <StyledLink>
                     residential services
                     <IoMdArrowDropdown size={20} />
@@ -556,7 +582,8 @@ export default function HeaderBasic() {
                       </li>
                     </ul>
                   </div>
-                </DropdownServices>
+                  </Dropdown>
+                {/* </DropdownServices> */}
                 <DropdownAbout
                   dropdownAbout={dropdownAbout}
                   onClick={toggleDropdownAbout}

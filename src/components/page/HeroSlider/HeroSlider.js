@@ -144,11 +144,7 @@ export default function HeroSlider({ title }) {
         <HeroBottomText>
           <Container>
             <p>
-              At Project Landscape Ltd., our premier deck builders Calgary
-              landscaping services will increase the value and overall aesthetic
-              of your home. We use quality brands, and unique products to help
-              keep your lawn healthy, and your home looking incredible. This
-              means an overall better living experience for you and your family.
+            If you're in search of a Calgary deck builder near you, look no further than Project Landscape. We offer a wide range of colors, styles and maintenance free options to enhance the aesthetic appeal of your deck.  Let Project Landscape help you build the outdoor living space of your dreams
             </p>
           </Container>
         </HeroBottomText>

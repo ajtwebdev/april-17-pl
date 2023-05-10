@@ -168,11 +168,7 @@ const BlogIndex = ({
           <BannerBottomText>
             <Container>
               <p>
-                At Project Landscape Ltd., our premier landscaping services will
-                increase the value and overall aesthetic of your home. We use
-                quality brands, and unique products to help keep your lawn
-                healthy, and your home looking incredible. This means an overall
-                better living experience for you and your family.
+              Looking to elevate your landscape project? Get inspired with our extensive collection of articles! Whether you're envisioning a stunning deck or a charming paving stone patio, we've got you covered. Explore our tips and creative ideas to transform your outdoor space into a breathtaking oasis. From design concepts to material recommendations, our articles provide the guidance you need to take your landscape project to the next level. Let your imagination run wild and create a captivating outdoor haven!
               </p>
             </Container>
           </BannerBottomText>
