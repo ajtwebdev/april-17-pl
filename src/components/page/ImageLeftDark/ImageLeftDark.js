@@ -19,7 +19,7 @@ const StyledImg = styled(GatsbyImage)`
   box-shadow: -20px 20px 0px 1px var(--clr-tan);
 `
 
-export default function ImageLeftDark({ subheader, title, body, image }) {
+export default function ImageLeftDark({ subheader, title, body, image, button, link }) {
   return (
     <Wrapper>
       <Section>
@@ -41,9 +41,7 @@ export default function ImageLeftDark({ subheader, title, body, image }) {
                   __html: `${body}`,
                 }}
               ></p>
-              <ButtonSecondaryLight to="/contact">
-                get started
-              </ButtonSecondaryLight>
+              {button && link ? (<ButtonSecondaryLight to={link}>{button}</ButtonSecondaryLight>) : <ButtonSecondaryLight to="/contact">get started</ButtonSecondaryLight>}
             </Text>
           </FlexMobileOpp>
         </Container>

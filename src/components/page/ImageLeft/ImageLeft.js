@@ -10,7 +10,7 @@ const StyledImg = styled(GatsbyImage)`
   box-shadow: -20px 20px 0px 1px var(--clr-accent);
 `
 
-export default function ImageLeft({ subheader, title, body, image }) {
+export default function ImageLeft({ subheader, title, body, image, button, link }) {
   return (
     <Section>
       <Container>
@@ -31,7 +31,7 @@ export default function ImageLeft({ subheader, title, body, image }) {
                 __html: `${body}`,
               }}
             ></div>
-            <ButtonPrimary to="/contact">get started</ButtonPrimary>
+            {button && link ? (<ButtonPrimary to={link}>{button}</ButtonPrimary>) : <ButtonPrimary to="/contact">get started</ButtonPrimary>}
           </Text>
         </FlexMobileOpp>
       </Container>

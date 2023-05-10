@@ -11,7 +11,7 @@ const StyledImg = styled(GatsbyImage)`
   box-shadow: 20px 20px 0px 1px var(--clr-accent);
 `
 
-export default function ImageRight({ subheader, title, body, image }) {
+export default function ImageRight({ subheader, title, body, image, button, link }) {
   return (
     <Section>
       <Container>
@@ -29,7 +29,7 @@ export default function ImageRight({ subheader, title, body, image }) {
               ></div>
             ) : null}
 
-            <ButtonPrimary to="/contact">get started</ButtonPrimary>
+{button && link ? (<ButtonPrimary to={link}>{button}</ButtonPrimary>) : <ButtonPrimary to="/contact">get started</ButtonPrimary>}
           </Text>
           <StyledImg
             image={image.localFile.childImageSharp.gatsbyImageData}
