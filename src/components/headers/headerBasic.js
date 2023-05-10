@@ -157,9 +157,12 @@ const Dropdown = styled.li`
   /* hover display only on desktop */
   @media screen and (min-width: ${device.md}) {
     ul {
-      width: 100%;
+      position: absolute;
+      z-index: 1000;
+      display: none;
+      opacity: 1;
       margin: 0;
-      padding: 2em 2em 2em 4em;
+      padding: 2em 2em 2em 1em;
       list-style-type: none;
       background: var(--clr-light);
 
@@ -393,11 +396,10 @@ export default function HeaderBasic() {
                 <div />
               </Burger>
               <NavList nav={nav}>
-                {/* <DropdownServices
+                <DropdownServices
                   dropdownServices={dropdownServices}
                   onClick={toggleDropdownServices}
-                > */}
-                <Dropdown>
+                >
                   <StyledLink>
                     residential services
                     <IoMdArrowDropdown size={20} />
@@ -582,8 +584,7 @@ export default function HeaderBasic() {
                       </li>
                     </ul>
                   </div>
-                  </Dropdown>
-                {/* </DropdownServices> */}
+                </DropdownServices>
                 <DropdownAbout
                   dropdownAbout={dropdownAbout}
                   onClick={toggleDropdownAbout}
