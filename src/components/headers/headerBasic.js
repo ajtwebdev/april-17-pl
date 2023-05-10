@@ -588,7 +588,7 @@ export default function HeaderBasic() {
                         </StyledLink>
                       </li>
                       <li>
-                        <StyledLink to="/about">
+                        <StyledLink to="/project-landscape-difference">
                           the project landscape difference
                         </StyledLink>
                       </li>
