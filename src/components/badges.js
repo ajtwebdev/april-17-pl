@@ -28,7 +28,7 @@ export default function Badges() {
   return (
     <Section>
       <div className="spacing">
-        {/* <h2 className="title center">top rated landscaping company calgary!</h2> */}
+        <h2 className="title center">calgary landscaping awards</h2>
         <Slider {...settings}>
           <StaticImage
             src="../images/badges/best-landscaping-companies-in-calgary-1.svg"

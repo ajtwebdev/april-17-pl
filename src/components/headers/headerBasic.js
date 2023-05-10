@@ -385,7 +385,7 @@ export default function HeaderBasic() {
                       </h3>
                       <li>
                         <StyledLink to="/residential-services/hardscaping/pavers">
-                          pavers
+                          paving stones
                         </StyledLink>
                       </li>
                       <li>
@@ -459,11 +459,6 @@ export default function HeaderBasic() {
                       <li>
                         <StyledLink to="/residential-services/softscaping/calgary-mulch-and-decorative-rock">
                           mulch and decorative rock
-                        </StyledLink>
-                      </li>
-                      <li>
-                        <StyledLink to="/residential-services/softscaping/calgary-lawn-care-health">
-                          lawn care (HIDDEN)
                         </StyledLink>
                       </li>
 
@@ -576,7 +571,7 @@ export default function HeaderBasic() {
                         <Link to="/about">About</Link>
                       </h3>
                       <li>
-                        <StyledLink to="/about">our process</StyledLink>
+                        <StyledLink to="/our-process">our process</StyledLink>
                       </li>
                       <li>
                         <StyledLink to="/about">meet the team</StyledLink>
@@ -585,7 +580,7 @@ export default function HeaderBasic() {
                         <StyledLink to="/about">our story</StyledLink>
                       </li>
                       <li>
-                        <StyledLink to="/about">careers</StyledLink>
+                        <StyledLink to="/careers">careers</StyledLink>
                       </li>
                       <li>
                         <StyledLink to="/about">
@@ -722,6 +717,9 @@ export default function HeaderBasic() {
                   </div>
                 </DropdownResources>
 
+                <li>
+                  <StyledLink to="/commercial-services">commercial services</StyledLink>
+                </li>
                 <li>
                   <StyledLink to="/contact">contact</StyledLink>
                 </li>

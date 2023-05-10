@@ -9,7 +9,7 @@ export default function Why() {
       <Container className="spacing">
         <div>
           <p className="subheader accent">why choose project landscape</p>
-          <h2 className="title">the best of calgary’s landscaping companies</h2>
+          <h2 className="title">the best of Calgary landscaping companies</h2>
         </div>
         <GridThree>
           <div className="spacing">

@@ -60,7 +60,7 @@ export default function MainVideo() {
               </div>
               <div>
                 <h3 className="subheader">
-                  giving you a personal calgary landscape paradaise
+                  giving you a personal calgary landscaping paradise
                 </h3>
                 <p>
                   Our professional experience and knowledge helps us tackle any
@@ -72,7 +72,7 @@ export default function MainVideo() {
               </div>
               <div>
                 <h3 className="subheader">
-                  increasing the beauty of your property
+                  increasing the beauty of your Calgary landscape
                 </h3>
                 <p>
                   Project Landscape has all of the expertise, the highest

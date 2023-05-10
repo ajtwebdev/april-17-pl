@@ -71,9 +71,9 @@ export default function MainServicesLinks() {
           <Text className="spacing">
             <div>
               {/* <p className="subheader accent">find the services you need</p> */}
-              <h2 className="title">
-                bring your landscaping calgary project to life
-              </h2>
+              <h1 className="title">
+                calgary landscaping services
+              </h1>
             </div>
             <p>
               Your home is your pride and joy, and we are the professionals who

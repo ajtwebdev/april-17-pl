@@ -49,7 +49,7 @@ const Divider = styled.div`
 export default function index() {
   return (
     <Layout>
-      <SEO title="home" description="" />
+      <SEO title="Landscaping Calgary | Top Rated | Project Landscape Ltd." description="Calgary Landscaping Construction. Our trusted and top-rated Calgary landscapers can help with your residential and commercial landscaping needs. Call Us ☎️" />
       <HeroSlider />
       <Badges />
       <MainServicesLinks />
@@ -59,7 +59,7 @@ export default function index() {
         <Container>
           <Flex>
             <div>
-              <h2 className="title tan">Discover why Project Landscape is Calgary's largest residential landscape company</h2>
+              <h2 className="title tan">Discover why Project Landscape is the largest residential landscaping company in Calgary</h2>
             </div>
             <Divider />
             <div>
@@ -77,7 +77,7 @@ Additionally, Project Landscape stands out for its commitment to customer satisf
       <Cta3 />
       <ProductsImg
         subheader=""
-        title="get the highest quality calgary landscape materials"
+        title="get the highest quality calgary landscaping materials"
         body="As experts in the field, we take pride in using only the highest quality landscaping materials to ensure that your property is not only visually appealing but also adds value to your home. From irrigation systems to seasonal clean-ups, construction projects, and other landscaping services, our team at Project Landscape in Calgary is dedicated to meeting your residential landscaping needs with trust and expertise."
         to="/calgary-landscaping-materials"
         button="discover products"

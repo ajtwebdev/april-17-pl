@@ -283,8 +283,6 @@ export default function Footer() {
                 </div>
                 <Payments>
                   <StaticImage src="../../images/visa.png" alt="calgary landscaping payment type" />
-                  <StaticImage src="../../images/master-card.png" alt="calgary landscaping payment type" />
-                  <StaticImage src="../../images/interac.png" alt="calgary landscaping payment type" />
                 </Payments>
                 <div className="spacing">
                   <h4 className="subheader">showroom</h4>
