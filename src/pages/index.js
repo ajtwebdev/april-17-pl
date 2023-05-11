@@ -68,7 +68,7 @@ Firstly, Project Landscape excels in landscape design. They have a team of highl
 
 Secondly, the company is known for its exceptional installation services. Project Landscape has a dedicated team of experienced professionals who execute the designs with precision and attention to detail. From hardscaping to softscaping, irrigation systems to outdoor lighting, they handle every aspect of the installation process.
 
-Additionally, Project Landscape stands out for its commitment to customer satisfaction. They prioritize open communication, actively involving clients in the design and installation phases. The company's dedication to meeting deadlines, providing transparent pricing, and delivering high-quality workmanship has earned them a stellar reputation among homeowners in Calgary.</p>
+Additionally, Project Landscape stands out for its commitment to customer satisfaction. They prioritize open communication while actively involving clients in the design and installation phases. The company's dedication to meeting deadlines, providing transparent pricing, and delivering high-quality workmanship has earned them a stellar reputation among homeowners in Calgary.</p>
             </div>
           </Flex>
         </Container>
