@@ -98,7 +98,7 @@ export default function MainTrends() {
                 alt="calgary hardscaping services"
               />
               <div>
-                <h3 className="subheader">design with color</h3>
+                <h3 className="subheader">Design & landscape styles </h3>
                 <ButtonUnderline className="service-button" to="/blog">
                   learn more &#8594;
                 </ButtonUnderline>
@@ -110,7 +110,7 @@ export default function MainTrends() {
                 alt="calgary softscaping services"
               />
               <div>
-                <h3 className="subheader">design with texture</h3>
+                <h3 className="subheader">Outdoor living inspiration</h3>
                 <ButtonUnderline className="service-button" to="/blog">
                   learn more &#8594;
                 </ButtonUnderline>
@@ -122,7 +122,7 @@ export default function MainTrends() {
                 alt="outdoor landscaping services calgary"
               />
               <div>
-                <h3 className="subheader">design with size</h3>
+                <h3 className="subheader">Landscape trends</h3>
                 <ButtonUnderline className="service-button" to="/blog">
                   learn more &#8594;
                 </ButtonUnderline>
