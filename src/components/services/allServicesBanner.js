@@ -245,7 +245,7 @@ export default function AllServicesBanner() {
           <ItemLink to="/residential-services/outdoor-living/calgary-pergolas-and-patio-structures">
             <StaticImage
               className="service-img"
-              src="../../images/calgary-pergola-landscaper.jpg"
+              src="../../images/pergola-2.jpg"
               alt="calgary landscaping services"
             />
             <h3 className="upper">pergolas</h3>
@@ -272,7 +272,7 @@ export default function AllServicesBanner() {
           <ItemLink to="/residential-services/outdoor-living/calgary-landscape-water-features">
             <StaticImage
               className="service-img"
-              src="../../images/water-feature-landscaper.png"
+              src="../../images/water-features-2.png"
               alt="calgary landscaping services"
             />
             <h3 className="upper">water features</h3>
@@ -281,7 +281,7 @@ export default function AllServicesBanner() {
           <ItemLink to="/residential-services/outdoor-living/outdoor-fireplace-calgary-landscaper">
             <StaticImage
               className="service-img"
-              src="../../images/fire-pits-calgary-landscaper.png"
+              src="../../images/fire-pits-2.png"
               alt="calgary landscaping services"
             />
             <h3 className="upper">fire pits</h3>

@@ -15,12 +15,18 @@ export default function Videos() {
             <iframe
               width={420}
               height={345}
-              src="https://www.youtube.com/embed/msrESLwoj8Y&ab_channel=ProjectLandscapeLtd."
+              src="https://www.youtube.com/embed/efRlX9MxKoU?rel=0"
+              frameBorder={0}
+              allowFullScreen
+              title="Calgary Landscaping Video"
             />
             <iframe
               width={420}
               height={345}
-              src="https://www.youtube.com/embed/efRlX9MxKoU&t=3s&ab_channel=ProjectLandscapeLtd."
+              src="https://www.youtube.com/embed/msrESLwoj8Y?rel=0"
+              frameBorder={0}
+              allowFullScreen
+              title="Calgary Landscaping Video"
             />
           </Flex>
         </Container>
