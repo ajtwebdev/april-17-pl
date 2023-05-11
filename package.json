@@ -23,6 +23,7 @@
     "gatsby-plugin-sharp": "^5.9.0",
     "gatsby-plugin-sitemap": "^6.9.0",
     "gatsby-plugin-styled-components": "^6.9.0",
+    "gatsby-plugin-wpgraphql-seo": "^1.4.2",
     "gatsby-source-filesystem": "^5.9.0",
     "gatsby-source-wordpress": "^7.9.0",
     "gatsby-transformer-sharp": "^5.9.0",
