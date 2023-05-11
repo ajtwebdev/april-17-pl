@@ -33,7 +33,7 @@ export default function ImageLeftDark({ subheader, title, body, image, button, l
             {/* <StaticImage src="../../../images/ph.jpg" className="stretch" /> */}
             <Text className="spacing">
               <div>
-                <p className="subheader accent">{subheader}</p>
+                <p className="subheader accent">{subheader} </p>
                 <h2 className="title">{title}</h2>
               </div>
               <p
