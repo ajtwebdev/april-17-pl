@@ -37,41 +37,41 @@ export default PageTemplate
 
 // ### PAGE QUERY ### DO NOT MODIFY OR MOVE THIS COMMENT ###
 
-export const pageQuery = graphql`
-    query GET_PAGE($id: String!) {
-        wpPage(id: { eq: $id }) {
-            nodeType
-            title
-            uri
-            seo {
-                title
-                metaDesc
-                focuskw
-                metaKeywords
-                metaRobotsNoindex
-                metaRobotsNofollow
-                opengraphTitle
-                opengraphDescription
-                opengraphImage {
-                    altText
-                    sourceUrl
-                    srcSet
-                }
-                twitterTitle
-                twitterDescription
-                twitterImage {
-                    altText
-                    sourceUrl
-                    srcSet
-                }
-                canonical
-                cornerstone
-                schema {
-                    articleType
-                    pageType
-                    raw
-                }
-            }
-        }
-    }
-`;
+// export const pageQuery = graphql`
+//     query GET_PAGE($id: String!) {
+//         wpPage(id: { eq: $id }) {
+//             nodeType
+//             title
+//             uri
+//             seo {
+//                 title
+//                 metaDesc
+//                 focuskw
+//                 metaKeywords
+//                 metaRobotsNoindex
+//                 metaRobotsNofollow
+//                 opengraphTitle
+//                 opengraphDescription
+//                 opengraphImage {
+//                     altText
+//                     sourceUrl
+//                     srcSet
+//                 }
+//                 twitterTitle
+//                 twitterDescription
+//                 twitterImage {
+//                     altText
+//                     sourceUrl
+//                     srcSet
+//                 }
+//                 canonical
+//                 cornerstone
+//                 schema {
+//                     articleType
+//                     pageType
+//                     raw
+//                 }
+//             }
+//         }
+//     }
+// `;
