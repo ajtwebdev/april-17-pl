@@ -121,7 +121,7 @@ export default function AllServicesBanner() {
         <ItemLink to="/residential-services/hardscaping/garden-bed-edging">
             <StaticImage
               className="service-img"
-              src="../../images/edging-calgary-landscaper.png"
+              src="../../images/edging-landscaper-calgary.jpg"
               alt="calgary landscaping services"
             />
             <h3 className="upper">edging</h3>
@@ -148,7 +148,7 @@ export default function AllServicesBanner() {
           <ItemLink to="/residential-services/hardscaping/seat-walls-and-pillars">
             <StaticImage
               className="service-img"
-              src="../../images/seat-walls-landscaper.png"
+              src="../../images/seat-walls-landscaper-calgary.png"
               alt="calgary landscaping services"
             />
             <h3 className="upper">seat walls</h3>
@@ -169,7 +169,7 @@ export default function AllServicesBanner() {
               src="../../images/calgary-concrete.jpg"
               alt="calgary landscaping services"
             />
-            <h3 className="upper">water management</h3>
+            <h3 className="upper">water mgmt</h3>
             <div className="overlay"></div>
           </ItemLink> 
         </GridAuto>
@@ -210,7 +210,7 @@ export default function AllServicesBanner() {
             <ItemLink to="/residential-services/softscaping/shrub-and-tree-planting-calgary">
               <StaticImage
                 className="service-img"
-                src="../../images/planting-calgary-landscaper.png"
+                src="../../images/tree-landscaping-calgary.jpg"
                 alt="calgary landscaping services"
               />
               <h3 className="upper">shrubs & trees</h3>
@@ -222,7 +222,7 @@ export default function AllServicesBanner() {
                 src="../../images/mulch-landscaper-calgary.jpg"
                 alt="calgary landscaping services"
               />
-              <h3 className="upper">mulch & decorative rock</h3>
+              <h3 className="upper">mulch & rock</h3>
               <div className="overlay"></div>
             </ItemLink>
           </GridAuto>
@@ -290,7 +290,7 @@ export default function AllServicesBanner() {
           <ItemLink to="/residential-services/outdoor-living/fence-builders-calgary">
             <StaticImage
               className="service-img"
-              src="../../images/calgary-pergolas.png"
+              src="../../images/fence-landscaping-calgary.jpg"
               alt="calgary landscaping services"
             />
             <h3 className="upper">fences</h3>
@@ -308,7 +308,7 @@ export default function AllServicesBanner() {
           <ItemLink to="/residential-services/outdoor-living/deck-railings-calgary">
             <StaticImage
               className="service-img"
-              src="../../images/calgary-stairs.png"
+              src="../../images/calgary-landscaping-railings.jpg"
               alt="calgary landscaping services"
             />
             <h3 className="upper">deck railings</h3>
@@ -326,7 +326,7 @@ export default function AllServicesBanner() {
           <ItemLink to="/residential-services/outdoor-living/outdoor-furniture">
             <StaticImage
               className="service-img"
-              src="../../images/calgary-water-features.jpg"
+              src="../../images/outdoor-furniture-landscaping-calgary.jpg"
               alt="calgary landscaping services"
             />
             <h3 className="upper">outdoor furniture</h3>

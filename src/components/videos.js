@@ -15,12 +15,12 @@ export default function Videos() {
             <iframe
               width={420}
               height={345}
-              src="https://www.youtube.com/watch?v=msrESLwoj8Y&ab_channel=ProjectLandscapeLtd."
+              src="https://www.youtube.com/embed/msrESLwoj8Y&ab_channel=ProjectLandscapeLtd."
             />
             <iframe
               width={420}
               height={345}
-              src="https://www.youtube.com/watch?v=msrESLwoj8Y&ab_channel=ProjectLandscapeLtd."
+              src="https://www.youtube.com/embed/efRlX9MxKoU&t=3s&ab_channel=ProjectLandscapeLtd."
             />
           </Flex>
         </Container>

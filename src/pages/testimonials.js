@@ -1,10 +1,12 @@
 import React from "react"
 import styled from "styled-components"
 import Layout from "../components/layout"
-import { Container, GridAuto, Section } from "../components/layoutComponents"
+import { Container, GridThree, Section } from "../components/layoutComponents"
 import SEO from "../components/seo"
 import { FaStar, FaGoogle } from "react-icons/fa"
 import { FcGoogle } from "react-icons/fc"
+import BannerImg from "../images/banner-image-1.png"
+import Banner from "../components/banners/banner"
 
 const Text = styled.div`
   max-width: 70ch;
@@ -81,6 +83,12 @@ export default function Reviews() {
         title="Testimonials | Project Landscape"
         description=""
       />
+      <Banner
+        img={BannerImg}
+        title="customer testimonials"
+        subheader="proven success"
+        description="At Project Landscape Ltd., our premier outdoor landscaping services will increase the value and overall aesthetic of your home. We use quality brands, and unique products to help keep your lawn healthy, and your home looking incredible. This means an overall better living experience for you and your family."
+      />
       <Section>
         <Container>
           <Text className="spacing">
@@ -88,7 +96,7 @@ export default function Reviews() {
             <p className="center">
             </p>
           </Text>
-          <GridAuto className="spacing-md">
+          <GridThree className="spacing-md">
             <Review
             title="fence & gate"
               name="Shawn"
@@ -138,7 +146,7 @@ export default function Reviews() {
 
               "
             />
-          </GridAuto>
+          </GridThree>
         </Container>
       </Section>
     </Layout>

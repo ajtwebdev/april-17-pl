@@ -25,8 +25,8 @@ export default function ProductsImg(props) {
             <ButtonPrimary to={props.to}>{props.button}</ButtonPrimary>
           </Text>
           <StaticImage
-            src="../../images/calgary-landscaping-materials.jpg"
-            alt="calgary landscaping materials"
+            src="../../images/calgary-landscaping-selection-guide.jpg"
+            alt="calgary landscaping selection guide"
           />
         </Flex>
       </Container>
