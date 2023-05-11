@@ -63,7 +63,7 @@ const ItemLink = styled(props => <Link {...props} />)`
   }
 `
 
-export default function MainServicesLinks() {
+export default function MainServicesLinks(props) {
   return (
     <Section>
       <div className="spacing">
@@ -72,17 +72,13 @@ export default function MainServicesLinks() {
             <div>
               {/* <p className="subheader accent">find the services you need</p> */}
               <h1 className="title">
-                calgary landscaping services
+                {props.title}
+                
               </h1>
             </div>
             <p>
-              Your home is your pride and joy, and we are the professionals who
-              can help you maintain its outdoor beauty. Increasing your
-              property's value and making your yard the envy of the block,
-              Project Landscape ensures that your landscaping needs are met.
-              From irrigation seasonal clean-up, construction and more services,
-              we are the Calgary Landscaping experts you can trust for all your
-              residential landscaping needs.
+              {props.description}
+              
             </p>
           </Text>
         </Container>

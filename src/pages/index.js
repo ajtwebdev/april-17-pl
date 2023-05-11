@@ -52,7 +52,13 @@ export default function index() {
       <SEO title="Landscaping Calgary | Top Rated | Project Landscape Ltd." description="Calgary Landscaping Construction. Our trusted and top-rated Calgary landscapers can help with your residential and commercial landscaping needs. Call Us ☎️" />
       <HeroSlider />
       <Badges />
-      <MainServicesLinks />
+      <MainServicesLinks title="calgary landscaping services" description="Your home is your pride and joy, and we are the professionals who
+              can help you maintain its outdoor beauty. Increasing your
+              property's value and making your yard the envy of the block,
+              Project Landscape ensures that your landscaping needs are met.
+              From irrigation seasonal clean-up, construction and more services,
+              we are the Calgary Landscaping experts you can trust for all your
+              residential landscaping needs." />
       <AllServicesBanner />
       <Wrapper>
       <Section>
