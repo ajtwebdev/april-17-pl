@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 
 import { Section, Container, Flex } from "../layoutComponents"
-import { Label, Input, TextArea, Submit } from "./formItems"
+import { Label, Input, TextArea, Submit, Select } from "./formItems"
 import Map from "../map"
 import { AnchorInline } from "../buttons"
 
