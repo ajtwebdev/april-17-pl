@@ -47,7 +47,7 @@ export default function ReferFriend() {
   return (
     <Layout>
       <SEO
-        title="Warranty Request"
+        title="Refer a Friend | Project Landscape Ltd."
         description="Refer a friend to project landscape and get $100 off!"
       />
       <Banner

@@ -4,6 +4,7 @@ export const Label = styled.label`
   display: block;
   font-family: var(--ff);
   font-size: var(--fs-sm);
+  text-transform: capitalize;
 `
 
 export const Input = styled.input`

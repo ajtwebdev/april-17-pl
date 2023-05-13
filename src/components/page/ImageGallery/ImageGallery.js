@@ -29,6 +29,14 @@ const Grid = styled.div`
   @media screen and (max-width: 37.5em) {
     grid-template-columns: 1fr;
   }
+
+  .img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 10000px;
+    border: 2px solid var(--clr-accent);
+  }
 `
 
 export default function ImageGallery({ subheader, title, body, imageGallery }) {
@@ -41,16 +49,18 @@ export default function ImageGallery({ subheader, title, body, imageGallery }) {
               <p className="subheader accent">{subheader}</p>
               <h2 className="title">{title}</h2>
             </div>
-            <p
+            {body ? (<p
               dangerouslySetInnerHTML={{
                 __html: `${body}`,
               }}
-            />
+            />) : null}
+            
           </Text>
           <Grid>
             {imageGallery.map(image => {
               return (
                 <StyledImg
+                className="img"
                   image={image.localFile.childImageSharp.gatsbyImageData}
                   alt={image.altText}
                 />

@@ -10,6 +10,9 @@ const FormWrapper = styled.div`
   // background: var(--clr-dark);
   // color: var(--txt-light);
   // padding: 2em;
+  label {
+    text-transform: capitalize;
+  }
 `
 
 export default function FormContact(props) {
@@ -152,7 +155,7 @@ export default function FormContact(props) {
               <hr />
               <div className="spacing">
                 <h3 className="subheader">softscaping needs:</h3>
-                <div className="spacing-sm">
+                
                   <input
                       type="radio"
                       name="softscaping"
@@ -160,8 +163,8 @@ export default function FormContact(props) {
                       value="artificial turf"
                     />
                     <label for="artificial-turf">artificial turf</label>
-                  </div>
-                <div className="spacing-sm">
+                  
+                
                   <input
                       type="radio"
                       name="softscaping"
@@ -169,8 +172,8 @@ export default function FormContact(props) {
                       value="irrigation"
                     />
                     <label for="irrigation">irrigation</label>
-                  </div>
-                <div className="spacing-sm">
+                  
+                
                   <input
                       type="radio"
                       name="softscaping"
@@ -178,8 +181,8 @@ export default function FormContact(props) {
                       value="sod"
                     />
                     <label for="sod">sod</label>
-                  </div>
-                <div className="spacing-sm">
+                  
+                
                   <input
                       type="radio"
                       name="softscaping"
@@ -187,8 +190,8 @@ export default function FormContact(props) {
                       value="tree planting"
                     />
                     <label for="tree-planting">tree & shrub planting</label>
-                  </div>
-                <div className="spacing-sm">
+                  
+                
                   <input
                       type="radio"
                       name="softscaping"
@@ -196,7 +199,7 @@ export default function FormContact(props) {
                       value="mulch"
                     />
                     <label for="mulch">mulch & decorative rock</label>
-                  </div>
+                  
               </div>
               <hr />
               <div className="spacing">

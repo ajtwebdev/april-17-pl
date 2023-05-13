@@ -538,7 +538,7 @@ export default function Footer() {
                   </li>
                   <li>
                     <StyledLink to="/residential-services/outdoor-living/outdoor-landscape-lighting-calgary">
-                      lighting services
+                     landscape lighting
                     </StyledLink>
                   </li>
                   <li>

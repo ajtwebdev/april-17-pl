@@ -40,7 +40,7 @@ export default function WarrantyRequest() {
   return (
     <Layout>
       <SEO
-        title="Warranty Request"
+        title="Warranty Request for Landscaping | Project Landscape Ltd."
         description="Here you can request your warranty."
       />
       <Banner

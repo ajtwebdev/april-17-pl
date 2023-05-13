@@ -72,7 +72,7 @@ export default function MainTrends() {
           <Text className="spacing ">
             <div>
               {/* <p className="subheader accent">title for trends</p> */}
-              <h2 className="title">landscaping trends in calgary</h2>
+              <h2 className="title">calgary landscaping trends</h2>
             </div>
             <p>
               We take pride in staying up to date with the latest trends and
@@ -99,7 +99,7 @@ export default function MainTrends() {
               />
               <div>
                 <h3 className="subheader">Design & landscape styles </h3>
-                <ButtonUnderline className="service-button" to="/blog">
+                <ButtonUnderline className="service-button" to="/landscape-styles">
                   learn more &#8594;
                 </ButtonUnderline>
               </div>
@@ -111,7 +111,7 @@ export default function MainTrends() {
               />
               <div>
                 <h3 className="subheader">Outdoor living inspiration</h3>
-                <ButtonUnderline className="service-button" to="/blog">
+                <ButtonUnderline className="service-button" to="/outdoor-living-inspiration">
                   learn more &#8594;
                 </ButtonUnderline>
               </div>
@@ -123,7 +123,7 @@ export default function MainTrends() {
               />
               <div>
                 <h3 className="subheader">Landscape trends</h3>
-                <ButtonUnderline className="service-button" to="/blog">
+                <ButtonUnderline className="service-button" to="/landscaping-trends">
                   learn more &#8594;
                 </ButtonUnderline>
               </div>

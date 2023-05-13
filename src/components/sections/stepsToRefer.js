@@ -12,6 +12,12 @@ const Text = styled.div`
   margin-left: auto;
 `
 
+const Item = styled.div`
+  h3 {
+    font-size: 42px;
+  }
+`
+
 export default function StepsToRefer(props) {
   return (
     <Section>
@@ -20,18 +26,18 @@ export default function StepsToRefer(props) {
           <h2 className="title">three easy steps</h2>
         </Text>
         <GridAuto>
-          <div>
+          <Item>
             <h3 className="subheader accent">1</h3>
             <p>Spread the word to your friends or family.</p>
-          </div>
-          <div>
+          </Item>
+          <Item>
             <h3 className="subheader accent">2</h3>
             <p>Fill out the contact info below.</p>
-          </div>
-          <div>
+          </Item>
+          <Item>
             <h3 className="subheader accent">3</h3>
             <p>You both receive $100!</p>
-          </div>
+          </Item>
         </GridAuto>
         <center>
           <ButtonPrimary to="/contact">talk to us today</ButtonPrimary>

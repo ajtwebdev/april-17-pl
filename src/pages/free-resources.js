@@ -20,7 +20,7 @@ export default function FreeResources() {
   return (
     <Layout>
       <SEO
-        title="Free Resources"
+        title="Free Landscaping Resources | Project Landscape Ltd."
         description="Project Landscape provides free downloadable resources for customers who want to improve their outdoor living space!"
       />
       <Banner

@@ -80,7 +80,7 @@ export default function Reviews() {
   return (
     <Layout>
       <SEO
-        title="Testimonials | Project Landscape"
+        title="Landscape Testimonials | Project Landscape"
         description=""
       />
       <Banner

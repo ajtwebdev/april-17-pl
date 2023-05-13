@@ -18,8 +18,6 @@ const Text = styled.div`
     max-width: 90ch;
     ul {
       padding: 2em;
-      border: 1px solid var(--clr-tan);
-      border-radius: var(--br);
       width: 75%;
       li {
         margin-left: auto;
