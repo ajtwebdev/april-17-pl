@@ -22,7 +22,7 @@ const Wrapper = styled.div`
   display: grid;
   place-items: center;
 
-  min-height: 120vh;
+  min-height: 100vh;
   height: 100%;
 `
 

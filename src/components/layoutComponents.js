@@ -150,6 +150,6 @@ export const HeroBannerPadding = styled.div`
   }
 
   @media screen and (max-width: 22em) {
-    padding: 3em 0 4em 0;
+    padding: 1.5em 0 4em 0;
   }
 `

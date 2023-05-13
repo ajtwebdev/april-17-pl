@@ -284,7 +284,7 @@ const StyledLink = styled(props => <Link {...props} />)`
   text-transform: uppercase;
   font-size: var(--fs-sm);
   font-weight: var(--fw-700);
-  color: var(--txt-light);
+  color: var(--txt-dark);
   letter-spacing: 0.1em;
   transition: all 0.25s linear;
 
