@@ -41,7 +41,7 @@ const Divider = styled.div`
   height: 400px;
   background-color: var(--clr-accent);
 
-  @media screen and (max-width: 36em) {
+  @media screen and (max-width: 48em) {
     display: none;
   
 `

@@ -122,15 +122,14 @@ const NavList = styled.ul`
     border-radius: var(--br);
     border-top: 1px solid var(--txt-dark-secondary);
     padding: 1em 2em 1em 2em;
-    z-index: 1000000;
 
-    max-height: 100vh;
-        overflow: auto;
+    height: 100vh;
+    overflow: auto;
 
-    & > * + * {
-      margin-left: 0;
-      margin-top: 15px;
-    }
+    // & > * + * {
+    //   margin-left: 0;
+    //   margin-top: 15px;
+    // }
   }
 `
 
@@ -171,10 +170,9 @@ const Dropdown = styled.li`
       padding-top: 20px;
     }
     ul {
-      
       width: 100%;
       margin: 0;
-      padding: 2em 2em 2em 1em;
+      padding: 2em 2em 1em 1em;
       list-style-type: none;
       background: var(--clr-light);
 
@@ -284,7 +282,7 @@ const StyledLink = styled(props => <Link {...props} />)`
   text-transform: uppercase;
   font-size: var(--fs-sm);
   font-weight: var(--fw-700);
-  color: var(--txt-dark);
+  color: var(--txt-light);
   letter-spacing: 0.1em;
   transition: all 0.25s linear;
 
@@ -301,6 +299,7 @@ const StyledLink = styled(props => <Link {...props} />)`
 
   @media screen and (max-width: ${device.md}) {
     font-size: var(--fs-b);
+    color: var(--txt-dark);
   }
 `
 
