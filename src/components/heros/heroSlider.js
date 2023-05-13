@@ -39,6 +39,10 @@ const HeroBottomText = styled.div`
   color: var(--txt-light);
   padding: 2em;
   width: 80%;
+
+  @media screen and (max-width: 50em) {
+    display: none;
+  }
 `
 
 const Content = styled.div`

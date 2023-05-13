@@ -22,13 +22,8 @@ const Wrapper = styled.div`
   display: grid;
   place-items: center;
 
-  min-height: 80vh;
+  min-height: 120vh;
   height: 100%;
-
-  @media screen and (max-width: 26em) {
-    min-height: 100vh;
-    height: 100%;
-  }
 `
 
 const Text = styled.div`

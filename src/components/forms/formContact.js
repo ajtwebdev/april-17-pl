@@ -12,6 +12,7 @@ const FormWrapper = styled.div`
   // padding: 2em;
   label {
     text-transform: capitalize;
+    margin-left: 2px;
   }
 `
 
@@ -81,8 +82,8 @@ export default function FormContact(props) {
                 <h3 className="subheader">harscaping needs:</h3>
                 <div className="spacing-sm">
                   <input
-                      type="radio"
-                      name="hardscaping"
+                      type="checkbox"
+                      name="paving-stones"
                       id="paving-stones"
                       value="paving stones"
                     />
@@ -90,8 +91,8 @@ export default function FormContact(props) {
                   </div>
                 <div className="spacing-sm">
                   <input
-                      type="radio"
-                      name="hardscaping"
+                      type="checkbox"
+                      name="retaining-walls"
                       id="retaining-walls"
                       value="retaining walls"
                     />
@@ -99,8 +100,8 @@ export default function FormContact(props) {
                   </div>
                 <div className="spacing-sm">
                   <input
-                      type="radio"
-                      name="hardscaping"
+                      type="checkbox"
+                      name="garden-walls"
                       id="garden-walls"
                       value="garden walls"
                     />
@@ -108,8 +109,8 @@ export default function FormContact(props) {
                   </div>
                 <div className="spacing-sm">
                   <input
-                      type="radio"
-                      name="hardscaping"
+                      type="checkbox"
+                      name="garden-edging"
                       id="garden-edging"
                       value="garden edging"
                     />
@@ -117,8 +118,8 @@ export default function FormContact(props) {
                   </div>
                 <div className="spacing-sm">
                   <input
-                      type="radio"
-                      name="hardscaping"
+                      type="checkbox"
+                      name="concrete-curbing"
                       id="concrete-curbing"
                       value="concrete curbing"
                     />
@@ -126,8 +127,8 @@ export default function FormContact(props) {
                   </div>
                 <div className="spacing-sm">
                   <input
-                      type="radio"
-                      name="hardscaping"
+                      type="checkbox"
+                      name="stairs"
                       id="stairs"
                       value="stairs"
                     />
@@ -135,8 +136,8 @@ export default function FormContact(props) {
                   </div>
                 <div className="spacing-sm">
                   <input
-                      type="radio"
-                      name="hardscaping"
+                      type="checkbox"
+                      name="seat-walls"
                       id="seat-walls"
                       value="seat walls"
                     />
@@ -144,8 +145,8 @@ export default function FormContact(props) {
                   </div>
                 <div className="spacing-sm">
                   <input
-                      type="radio"
-                      name="hardscaping"
+                      type="checkbox"
+                      name="concrete-installation"
                       id="concrete-installation"
                       value="concrete installation"
                     />
@@ -155,59 +156,59 @@ export default function FormContact(props) {
               <hr />
               <div className="spacing">
                 <h3 className="subheader">softscaping needs:</h3>
-                
+                <div className="spacing-sm">
                   <input
-                      type="radio"
-                      name="softscaping"
+                      type="checkbox"
+                      name="artificial-turf"
                       id="artificial-turf"
                       value="artificial turf"
                     />
                     <label for="artificial-turf">artificial turf</label>
-                  
-                
+                    </div>
+                    <div className="spacing-sm">
                   <input
-                      type="radio"
-                      name="softscaping"
+                      type="checkbox"
+                      name="irrigation"
                       id="irrigation"
                       value="irrigation"
                     />
                     <label for="irrigation">irrigation</label>
-                  
-                
+                    </div>
+                    <div className="spacing-sm">
                   <input
-                      type="radio"
-                      name="softscaping"
+                      type="checkbox"
+                      name="sod"
                       id="sod"
                       value="sod"
                     />
                     <label for="sod">sod</label>
-                  
-                
+                    </div>
+                    <div className="spacing-sm">
                   <input
-                      type="radio"
-                      name="softscaping"
+                      type="checkbox"
+                      name="tree-planting"
                       id="tree-planting"
                       value="tree planting"
                     />
                     <label for="tree-planting">tree & shrub planting</label>
-                  
-                
+                    </div>
+                    <div className="spacing-sm">
                   <input
-                      type="radio"
-                      name="softscaping"
+                      type="checkbox"
+                      name="mulch"
                       id="mulch"
                       value="mulch"
                     />
                     <label for="mulch">mulch & decorative rock</label>
-                  
+                    </div>
               </div>
               <hr />
               <div className="spacing">
                 <h3 className="subheader">outdoor living needs:</h3>
                 <div className="spacing-sm">
                   <input
-                      type="radio"
-                      name="outdoor"
+                      type="checkbox"
+                      name="decks"
                       id="decks"
                       value="decks"
                     />
@@ -215,8 +216,8 @@ export default function FormContact(props) {
                 </div>
                 <div className="spacing-sm">
                   <input
-                      type="radio"
-                      name="outdoor"
+                      type="checkbox"
+                      name="pergolas"
                       id="pergolas"
                       value="pergolas"
                     />
@@ -224,26 +225,26 @@ export default function FormContact(props) {
                 </div>
                 <div className="spacing-sm">
                   <input
-                      type="radio"
-                      name="outdoor"
+                      type="checkbox"
+                      name="lighting"
                       id="lighting"
                       value="lighting"
                     />
-                    <label for="lighting">lighting</label>
+                    <label for="lighting">landscape lighting</label>
                 </div>
                 <div className="spacing-sm">
                   <input
-                      type="radio"
-                      name="outdoor"
+                      type="checkbox"
+                      name="design"
                       id="design"
                       value="design"
                     />
-                    <label for="design">design</label>
+                    <label for="design">landscape design</label>
                 </div>
                 <div className="spacing-sm">
                   <input
-                      type="radio"
-                      name="outdoor"
+                      type="checkbox"
+                      name="water-features"
                       id="water-features"
                       value="water features"
                     />
@@ -251,8 +252,8 @@ export default function FormContact(props) {
                 </div>
                 <div className="spacing-sm">
                   <input
-                      type="radio"
-                      name="outdoor"
+                      type="checkbox"
+                      name="fire-pits"
                       id="fire-pits"
                       value="fire pits"
                     />
@@ -260,8 +261,8 @@ export default function FormContact(props) {
                 </div>
                 <div className="spacing-sm">
                   <input
-                      type="radio"
-                      name="outdoor"
+                      type="checkbox"
+                      name="fences"
                       id="fences"
                       value="fences"
                     />
@@ -269,8 +270,8 @@ export default function FormContact(props) {
                 </div>
                 <div className="spacing-sm">
                   <input
-                      type="radio"
-                      name="outdoor"
+                      type="checkbox"
+                      name="privacy-screens"
                       id="privacy-screens"
                       value="privacy screens"
                     />
@@ -278,8 +279,8 @@ export default function FormContact(props) {
                 </div>
                 <div className="spacing-sm">
                   <input
-                      type="radio"
-                      name="outdoor"
+                      type="checkbox"
+                      name="deck-railings"
                       id="deck-railings"
                       value="deck railings"
                     />
@@ -287,8 +288,8 @@ export default function FormContact(props) {
                 </div>
                 <div className="spacing-sm">
                   <input
-                      type="radio"
-                      name="outdoor"
+                      type="checkbox"
+                      name="outdoor-kitchens"
                       id="outdoor-kitchens"
                       value="outdoor kitchens"
                     />
@@ -296,8 +297,8 @@ export default function FormContact(props) {
                 </div>
                 <div className="spacing-sm">
                   <input
-                      type="radio"
-                      name="outdoor"
+                      type="checkbox"
+                      name="outdoor-furniture"
                       id="outdoor-furniture"
                       value="outdoor furniture"
                     />
@@ -309,8 +310,8 @@ export default function FormContact(props) {
                 <h3 className="subheader">location:</h3>
                 <div className="spacing-sm">
                   <input
-                      type="radio"
-                      name="location"
+                      type="checkbox"
+                      name="front"
                       id="front"
                       value="front yard"
                     />
@@ -318,8 +319,8 @@ export default function FormContact(props) {
                   </div>
                 <div className="spacing-sm">
                   <input
-                      type="radio"
-                      name="location"
+                      type="checkbox"
+                      name="backyard"
                       id="backyard"
                       value="backyard"
                     />

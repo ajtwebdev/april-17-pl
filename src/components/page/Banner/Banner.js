@@ -30,13 +30,8 @@ const Wrapper = styled.div`
   display: grid;
   place-items: center;
 
-  min-height: 90vh;
+  min-height: 120vh;
   height: 100%;
-
-  @media screen and (max-width: 26em) {
-    min-height: 100vh;
-    height: 100%;
-  }
 `
 
 const Text = styled.div`
@@ -56,7 +51,7 @@ const BannerBottomText = styled.div`
   grid-column: 1 / -1;
   z-index: 2;
   background: var(--clr-dark);
-  color: var(--clr-tan);
+  color: var(--txt-light);
   padding: 2em;
   width: 80%;
 `

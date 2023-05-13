@@ -112,16 +112,20 @@ const NavList = styled.ul`
     align-items: center;
     position: absolute;
     top: 150px;
-
     left: 0;
     right: 0;
     flex-direction: column;
+    align-items: start;
     width: 100%;
-    background: var(--clr-dark);
+    background: var(--clr-light);
     box-shadow: var(--shadow-bottom);
     border-radius: var(--br);
     border-top: 1px solid var(--txt-dark-secondary);
-    padding: 1em 2em 2em;
+    padding: 1em 2em 1em 2em;
+    z-index: 1000000;
+
+    max-height: 100vh;
+        overflow: auto;
 
     & > * + * {
       margin-left: 0;
@@ -156,11 +160,19 @@ const GetQuote = styled(props => <Link {...props} />)`
 const Dropdown = styled.li`
   /* hover display only on desktop */
   @media screen and (min-width: ${device.md}) {
-    ul {
+    div {
       position: absolute;
+      left: 0;
+      right: 0;
       z-index: 1000;
-      display: none;
+      display: flex;
       opacity: 1;
+      display: none;
+      padding-top: 20px;
+    }
+    ul {
+      
+      width: 100%;
       margin: 0;
       padding: 2em 2em 2em 1em;
       list-style-type: none;
@@ -174,9 +186,8 @@ const Dropdown = styled.li`
     }
 
     &:hover {
-      ul {
+      div {
         display: flex;
-        flex-direction: column;
       }
     }
   }
@@ -396,9 +407,7 @@ export default function HeaderBasic() {
                 <div />
               </Burger>
               <NavList nav={nav}>
-                <DropdownServices
-                  dropdownServices={dropdownServices}
-                  onClick={toggleDropdownServices}
+                <Dropdown
                 >
                   <StyledLink>
                     residential services
@@ -584,10 +593,8 @@ export default function HeaderBasic() {
                       </li>
                     </ul>
                   </div>
-                </DropdownServices>
-                <DropdownAbout
-                  dropdownAbout={dropdownAbout}
-                  onClick={toggleDropdownAbout}
+                </Dropdown>
+                <Dropdown
                 >
                   <StyledLink>
                     about
@@ -677,10 +684,8 @@ export default function HeaderBasic() {
                       </li> */}
                     </ul>
                   </div>
-                </DropdownAbout>
-                <DropdownResources
-                  dropdownResources={dropdownResources}
-                  onClick={toggleDropdownResources}
+                </Dropdown>
+                <Dropdown
                 >
                   <StyledLink>
                     Resources
@@ -704,7 +709,7 @@ export default function HeaderBasic() {
                         <StyledLink to="/">product catalogs</StyledLink>
                       </li> */}
                       <li>
-                        <StyledLink to="/landscaping-idea-center">
+                        <StyledLink to="/landscape-idea-center">
                           indoor idea center
                         </StyledLink>
                       </li>
@@ -744,11 +749,6 @@ export default function HeaderBasic() {
                           landscape style quiz
                         </StyledLink>
                       </li> */}
-                      <li>
-                        <StyledLink to="/">
-                          landscape packages
-                        </StyledLink>
-                      </li>
                       {/* <li>
                         <StyledLink to="/">
                           finishing touches
@@ -756,7 +756,7 @@ export default function HeaderBasic() {
                       </li> */}
                     </ul>
                   </div>
-                </DropdownResources>
+                </Dropdown>
 
                 <li>
                   <StyledLink to="/commercial-services">commercial services</StyledLink>

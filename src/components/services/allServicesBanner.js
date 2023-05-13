@@ -272,7 +272,7 @@ export default function AllServicesBanner() {
           <ItemLink to="/residential-services/outdoor-living/calgary-landscape-water-features">
             <StaticImage
               className="service-img"
-              src="../../images/water-features-2.png"
+              src="../../images/water-features-2.jpg"
               alt="calgary landscaping services"
             />
             <h3 className="upper">water features</h3>
@@ -281,7 +281,7 @@ export default function AllServicesBanner() {
           <ItemLink to="/residential-services/outdoor-living/outdoor-fireplace-calgary-landscaper">
             <StaticImage
               className="service-img"
-              src="../../images/fire-pits-2.png"
+              src="../../images/fire-pits-2.jpg"
               alt="calgary landscaping services"
             />
             <h3 className="upper">fire pits</h3>

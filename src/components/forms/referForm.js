@@ -97,7 +97,7 @@ export default function ReferForm(props) {
 
               <div>
                 <input
-                  type="radio"
+                  type="checkbox"
                   id="PatioWalkways"
                   name="service1"
                   value="PatioWalkways"
@@ -108,7 +108,7 @@ export default function ReferForm(props) {
 
               <div>
                 <input
-                  type="radio"
+                  type="checkbox"
                   id="concrete"
                   name="service2"
                   value="concrete"
@@ -118,7 +118,7 @@ export default function ReferForm(props) {
 
               <div>
                 <input
-                  type="radio"
+                  type="checkbox"
                   id="RetainingWall"
                   name="service3"
                   value="RetainingWall"
@@ -127,7 +127,7 @@ export default function ReferForm(props) {
               </div>
               <div>
                 <input
-                  type="radio"
+                  type="checkbox"
                   id="SeatWalls"
                   name="service4"
                   value="SeatWalls"
