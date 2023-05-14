@@ -581,11 +581,6 @@ export default function HeaderBasic() {
                         </StyledLink>
                       </li>
                       <li>
-                        <StyledLink to="/residential-services/hardscaping/backyard-sports-court-installation">
-                          sports courts (hidden)
-                        </StyledLink>
-                      </li>
-                      <li>
                         <StyledLink to="/residential-services/outdoor-living/outdoor-furniture">
                           outdoor furniture
                         </StyledLink>
