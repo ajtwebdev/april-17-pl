@@ -38,7 +38,7 @@ export default PageTemplate
 
 // ### PAGE QUERY ### DO NOT MODIFY OR MOVE THIS COMMENT ###
 
-export const pageQuery = graphql`
+export const query = graphql`
     query GET_PAGE($id: String!) {
         wpPage(id: { eq: $id }) {
             nodeType
