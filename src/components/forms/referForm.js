@@ -8,6 +8,10 @@ const FormWrapper = styled.div`
   // background: var(--clr-dark);
   // color: var(--txt-light);
   // padding: 2em;
+  label {
+    text-transform: capitalize;
+    margin-left: 2px;
+  }
 `
 
 export default function ReferForm(props) {
