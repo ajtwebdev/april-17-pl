@@ -57,7 +57,7 @@ export default function ShowroomSection(props) {
 </p>
                 </div>
               </Flex>
-              <ButtonPrimary to="/showroom">explore showroom</ButtonPrimary>
+              <ButtonPrimary to="/landscape-idea-center">explore showroom</ButtonPrimary>
             </Text>
           </FlexMobileOpp>
         </Container>

@@ -93,7 +93,7 @@ export default function MainServicesLinks(props) {
                 <h3 className="subheader">hardscaping</h3>
                 <ButtonUnderline
                   className="service-button"
-                  to="/residential-services-hardscaping"
+                  to="/residential-services/hardscaping"
                 >
                   learn more &#8594;
                 </ButtonUnderline>

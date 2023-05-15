@@ -109,7 +109,7 @@ export default function AllServicesBanner() {
             <h3 className="upper">retaining walls</h3>
             <div className="overlay"></div>
           </ItemLink>
-        <ItemLink to="/residential-services/hardscaping/garden-walls">
+        <ItemLink to="/residential-services/outdoor-living/garden-walls">
             <StaticImage
               className="service-img"
               src="../../images/calgary-pavers.jpg"
@@ -145,7 +145,7 @@ export default function AllServicesBanner() {
             <h3 className="upper">stairs & stepping stones</h3>
             <div className="overlay"></div>
           </ItemLink>
-          <ItemLink to="/residential-services/hardscaping/seat-walls-and-pillars">
+          <ItemLink to="/residential-services/outdoor-living/seat-walls-and-pillars">
             <StaticImage
               className="service-img"
               src="../../images/seat-walls-landscaper-calgary.png"
@@ -180,7 +180,7 @@ export default function AllServicesBanner() {
             popular softscaping services
           </h3>
           <GridAuto>
-            <ItemLink to="/residential-services/softscaping/artificial-turf">
+            <ItemLink to="/residential-services/softscaping/artificial-turf-calgary">
               <StaticImage
                 className="service-img"
                 src="../../images/calgary-decks.jpg"
@@ -189,7 +189,7 @@ export default function AllServicesBanner() {
               <h3 className="upper">artificial turf</h3>
               <div className="overlay"></div>
             </ItemLink>
-            <ItemLink to="/residential-services/hardscaping/irrigation-installation-calgary">
+            <ItemLink to="/residential-services/softscaping/irrigation-installation-calgary">
               <StaticImage
                 className="service-img"
                 src="../../images/calgary-fences.jpg"

@@ -289,7 +289,7 @@ export default function Footer() {
                   <ul>
                   <li>
                       <ContactLink
-                        href=""
+                        href="https://www.google.com/maps?q=backyard+canada&rlz=1C1JZAP_enCA1008CA1008&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDE5NzVqMGo5qAIAsAIA&um=1&ie=UTF-8&sa=X&ved=2ahUKEwi097Gbmfb-AhUCADQIHYjWB-kQ_AUoAnoECAEQBA"
                         target="_blank"
                       >
                         <div>
@@ -300,7 +300,7 @@ export default function Footer() {
                     </li>
                     <li>
                       <ContactLink
-                        href="https://www.google.com/search?q=project%20landscape&oq=project+landscape&aqs=chrome..69i57j69i64j69i60l3.2120j0j7&sourceid=chrome&ie=UTF-8&tbs=lf:1,lf_ui:14&tbm=lcl&sxsrf=AJOqlzVRUU_ZaNptPsOjzHtILa57paj9uQ:1676341266052&rflfq=1&num=10&rldimm=11747008283103314784&lqi=ChFwcm9qZWN0IGxhbmRzY2FwZUi-z42FnKuAgAhaGxAAEAEYABgBIhFwcm9qZWN0IGxhbmRzY2FwZXoHQ2FsZ2FyeZIBEmxhbmRzY2FwZV9kZXNpZ25lcg&ved=2ahUKEwjnu73t-ZP9AhVKGzQIHdw6BLIQvS56BAgWEAE&sa=X&rlst=f#rlfi=hd:;si:11747008283103314784,l,ChFwcm9qZWN0IGxhbmRzY2FwZUi-z42FnKuAgAhaGxAAEAEYABgBIhFwcm9qZWN0IGxhbmRzY2FwZXoHQ2FsZ2FyeZIBEmxhbmRzY2FwZV9kZXNpZ25lcg;mv:[[50.997355899999995,-113.98204679999999],[50.9522124,-114.01662379999999]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:14"
+                        href="https://www.google.com/maps/place/THE+PATIO+STORE/@51.010056,-114.0577993,15z/data=!4m10!1m2!2m1!1spatio+store!3m6!1s0x537170fe60213311:0x6b77a73a5221e247!8m2!3d51.0008443!4d-114.0513727!15sCgtwYXRpbyBzdG9yZVoNIgtwYXRpbyBzdG9yZZIBF291dGRvb3JfZnVybml0dXJlX3N0b3JlmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5GYmtwNVJrdFJFQUXgAQA!16s%2Fg%2F11d_74qn23"
                         target="_blank"
                       >
                         <div>
@@ -311,7 +311,7 @@ export default function Footer() {
                     </li>
                     <li>
                       <ContactLink
-                        href=""
+                        href="https://www.google.com/maps/place/World+of+Spas+%7C+Calgary+Hot+Tub+and+Swim+Spa+Dealer/@50.9962677,-114.0670975,17z/data=!3m1!4b1!4m6!3m5!1s0x537170f8345d142b:0x8259ac784ba88f8b!8m2!3d50.9962677!4d-114.0645172!16s%2Fg%2F1td424wj"
                         target="_blank"
                       >
                         <div>
@@ -602,8 +602,23 @@ export default function Footer() {
                     </StyledLink>
                   </li>
                   <li>
+                    <StyledLink to="/our-process">
+                      our process
+                    </StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/careers">
+                      careers
+                    </StyledLink>
+                  </li>
+                  <li>
                     <StyledLink to="/residential-services">
                       residential services
+                    </StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/commercial-services">
+                      commercial services
                     </StyledLink>
                   </li>
                   <li>
@@ -617,13 +632,38 @@ export default function Footer() {
                     </StyledLink>
                   </li>
                   <li>
-                    <StyledLink to="/blogs">
+                    <StyledLink to="/blog">
                       blogs
+                    </StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/testimonials">
+                      testimonials
+                    </StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/packages">
+                      packages
+                    </StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/strategic-partners">
+                    strategic partners
+                    </StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/gallery">
+                   gallery
                     </StyledLink>
                   </li>
                   <li>
                     <StyledLink to="/financing">
                       financing
+                    </StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/contact">
+                      get a quote
                     </StyledLink>
                   </li>
                 </ul>
