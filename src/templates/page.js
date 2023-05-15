@@ -12,7 +12,7 @@ import SEO from "../components/seo"
 
 const PageTemplate = pageProps => {
   // const seoData = useSeoQuery()
-  const seodata = combineFields(pageProps.data.page, "seo")
+  // const seodata = combineFields(pageProps.data.page, "seo")
   let components
   // ### COMPONENTS VARIABLE ### DO NOT MODIFY OR MOVE THIS COMMENT ###
   components = components.map(component => {
@@ -24,7 +24,7 @@ const PageTemplate = pageProps => {
   return (
     <>
       <Layout>
-        <SEO title={seodata.title} />
+        {/* <SEO title={seodata.title} /> */}
         {components.map((component, index) => {
           // ### COMPONENT RENDERING ### DO NOT MODIFY OR MOVE THIS COMMENT ###
           return <div>Error: The component {component.name} was not found</div>
@@ -38,17 +38,17 @@ export default PageTemplate
 
 // ### PAGE QUERY ### DO NOT MODIFY OR MOVE THIS COMMENT ###
 
-export const query = graphql`
-    query GET_PAGE {
-      page(id: "5379", idType: DATABASE_ID) {
-            nodeType
-            title
-            uri
-            seo {
-                title
-                metaDesc
-                focuskw
-            }
-        }
-    }
-`;
+// export const query = graphql`
+//     query GET_PAGE {
+//       page(id: "5379", idType: DATABASE_ID) {
+//             nodeType
+//             title
+//             uri
+//             seo {
+//                 title
+//                 metaDesc
+//                 focuskw
+//             }
+//         }
+//     }
+// `;
