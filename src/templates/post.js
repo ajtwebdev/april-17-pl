@@ -152,7 +152,7 @@ color: var(--clr-accent);
 
 `
 
-const NewsTemplate = data => {
+const NewsTemplate = ({data}) => {
   
   // const data = combineFields(pageProps.data.wpPost, "post")
   return (
