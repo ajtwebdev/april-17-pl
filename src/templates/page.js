@@ -5,7 +5,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../../src/components/layout"
 import { combineFields } from "../utils/combine-fields"
-import SEO from "../components/seo"
+// import SEO from "../components/seo"
 // import { useSeoQuery } from "../hooks/useSeoQuery"
 
 // ### COMPONENT IMPORTS ### DO NOT MODIFY OR MOVE THIS COMMENT ###
