@@ -1,7 +1,7 @@
 import { StaticImage } from "gatsby-plugin-image"
 import React from "react"
 import styled from "styled-components"
-import { ButtonUnderline } from "../buttons"
+import { ButtonInline, ButtonUnderline } from "../buttons"
 import { Container, Section } from "../layoutComponents"
 import { Link } from "gatsby"
 
@@ -77,15 +77,15 @@ export default function MainTrends() {
             <p>
               We take pride in staying up to date with the latest trends and
               techniques in the landscaping industry. We are passionate about
-              providing our customers with innovative and unique landscaping
-              designs that will enhance the beauty and functionality of their
-              outdoor space. Our team regularly attends industry events,
+              providing our customers with innovative and unique <ButtonInline to="/landscape-design">Calgary landscaping
+              designs</ButtonInline> that will enhance the beauty and functionality of their
+              <ButtonInline to="/outdoor-living">outdoor space</ButtonInline>. Our team regularly attends industry events,
               workshops, and training sessions to stay current with the newest
               landscaping trends and technologies. We take this knowledge and
               apply it to every project, ensuring that our customers receive the
               most innovative and cutting-edge landscaping solutions available.
               Trust us to bring your vision to life with the latest and greatest
-              Calgary, AB landscaping trends.
+              Calgary landscaping trends.
             </p>
           </Text>
         </Container>

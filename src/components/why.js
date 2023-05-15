@@ -22,7 +22,7 @@ export default function Why() {
               We Bring Your ideas to life
             </h3>
             <p>
-              Hiring a professional landscape designer means that you’ll have a
+              Hiring a professional Calgary landscape designer means that you’ll have a
               partner who is committed to bringing your landscaping dreams to
               life. Whether you have a vague idea of what you want or a specific
               vision in mind, a professional designer can help you clarify your
@@ -41,7 +41,7 @@ export default function Why() {
               we save you money and time
             </h3>
             <p>
-              When you work with a professional landscape designer, you’re not
+              When you work with a professional landscaping Calgary designer, you’re not
               just investing in the beauty of your home’s exterior, but you’re
               also saving yourself time and money in the long run. A designer
               has the experience, skills, and tools to get the job done
@@ -60,7 +60,7 @@ export default function Why() {
               we can enhance your property value
             </h3>
             <p>
-              Professional landscaping not only enhances the aesthetics of your
+              Professional landscaping in Calgary not only enhances the aesthetics of your
               home, but it can also increase its value. A well-designed
               landscape is a selling point that can make your home stand out
               from the competition. Working with a professional landscape
@@ -78,7 +78,7 @@ export default function Why() {
               we provide Environmental Sustainability
             </h3>
             <p>
-              A professional landscape designer understands the importance of
+              A professional landscaper in Calgary understands the importance of
               environmental sustainability in landscaping. They can recommend
               the right plants and trees that are native to your area, conserve
               water, and reduce the use of fertilizers and pesticides. With

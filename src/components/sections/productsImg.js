@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import { ButtonPrimary } from "../buttons"
+import { ButtonInline, ButtonPrimary } from "../buttons"
 import { Container, Flex, Section } from "../layoutComponents"
 import { StaticImage } from "gatsby-plugin-image"
 
@@ -21,7 +21,7 @@ export default function ProductsImg(props) {
               <p className="subheader">{props.subheader}</p>
               <h2 className="title">{props.title}</h2>
             </div>
-            <p>{props.body}</p>
+            <p>As experts in the field, we take pride in using only the highest quality landscaping materials to ensure that your property is not only visually appealing but also adds value to your home. From <ButtonInline to="/residential-services/irrigation-landscape-lighting">irrigation systems</ButtonInline> to seasonal clean-ups, construction projects, and other landscaping services, our team at Project Landscape in Calgary is dedicated to meeting your <ButtonInline to="/residential-services">residential landscaping</ButtonInline> needs with trust and expertise.</p>
             <ButtonPrimary to={props.to}>{props.button}</ButtonPrimary>
           </Text>
           <StaticImage

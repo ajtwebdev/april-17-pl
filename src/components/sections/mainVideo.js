@@ -1,7 +1,7 @@
 import { StaticImage } from "gatsby-plugin-image"
 import React from "react"
 import styled from "styled-components"
-import { ButtonPrimary, ButtonPrimaryDark } from "../buttons"
+import { ButtonInline, ButtonPrimary, ButtonPrimaryDark } from "../buttons"
 import { Actions, Container, FlexMobileOpp, Section } from "../layoutComponents"
 
 const TextTop = styled.div`
@@ -53,8 +53,8 @@ export default function MainVideo() {
                 <p>
                   Project Landscape redefines the fundamentals of landscape
                   installation, landscape maintenance and service throughout
-                  Calgary and surrounding areas. We design, build and maintain
-                  landscapes for both Residential and the business community.
+                  Calgary and <ButtonInline to="/areas-we-service">surrounding areas</ButtonInline>. We design, build and maintain
+                  landscapes for both <ButtonInline to="/residential-services">Residential</ButtonInline> and the business community.
                   Hire our landscaping Calgary team today.
                 </p>
               </div>
@@ -75,11 +75,10 @@ export default function MainVideo() {
                   increasing the beauty of your Calgary landscape
                 </h3>
                 <p>
-                  Project Landscape has all of the expertise, the highest
+                  <ButtonInline to="/about">Project Landscape</ButtonInline> has all of the expertise, the highest
                   insurance that the industry has to offer, we are in good
                   standing with the workers compensation board and have the
-                  staff to increase the beauty of your property through deck
-                  design patios, landscaping and more.
+                  staff to increase the beauty of your property through <ButtonInline to="/decks-calgary">deck building</ButtonInline>, <ButtonInline to="/residential-services/landscape-construction/patio-surfaces">deck installs</ButtonInline>, <ButtonInline to="/residential-services/landscape-construction/patio-surfaces">deck patios</ButtonInline>, landscaping and more.
                 </p>
               </div>
 

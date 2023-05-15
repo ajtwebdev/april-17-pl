@@ -85,7 +85,6 @@ Additionally, Project Landscape stands out for its commitment to customer satisf
       <ProductsImg
         subheader=""
         title="get the highest quality calgary landscaping materials"
-        body="As experts in the field, we take pride in using only the highest quality landscaping materials to ensure that your property is not only visually appealing but also adds value to your home. From irrigation systems to seasonal clean-ups, construction projects, and other landscaping services, our team at Project Landscape in Calgary is dedicated to meeting your residential landscaping needs with trust and expertise."
         to="/calgary-landscaping-materials"
         button="discover products"
       />

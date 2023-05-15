@@ -1,7 +1,7 @@
 import { StaticImage } from "gatsby-plugin-image"
 import React from "react"
 import styled from "styled-components"
-import { ButtonPrimary } from "../buttons"
+import { ButtonInline, ButtonPrimary } from "../buttons"
 import { Container, Flex, FlexMobileOpp, Section } from "../layoutComponents"
 
 const Wrapper = styled.div`
@@ -37,7 +37,7 @@ export default function ShowroomSection(props) {
                 </h2>
               </div>
               <p>
-                We understand the importance of seeing our work firsthand and
+                We understand the importance of <ButtonInline to="/portfolio">seeing our work</ButtonInline> firsthand and
                 that's why we have multiple showroom locations conveniently
                 located throughout Calgary. Our Calgary landscaping showrooms
                 provide an opportunity for customers to view our high-quality
