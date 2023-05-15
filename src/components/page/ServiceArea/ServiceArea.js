@@ -4,6 +4,7 @@ import { AnchorInline, ButtonInline } from "../../buttons"
 import ServiceForm from "../../forms/serviceForm"
 import { Container, Section } from "../../layoutComponents"
 import { useMenuQuery } from "../../../hooks/useMenuQuery"
+import { Link } from "gatsby"
 
 const Wrapper = styled.div`
   display: grid;
@@ -64,6 +65,32 @@ const ServiceAreas = styled.div`
 
   a {
     color: var(--clr-accent);
+  }
+`
+
+const StyledLink = styled(props => <Link {...props} />)`
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-700);
+  color: var(--txt-light);
+  letter-spacing: 0.1em;
+  transition: all 0.25s linear;
+
+  // aligning text with icon
+  display: flex;
+  align-items: center;
+  gap: 2px;
+
+  :hover,
+  :focus {
+    opacity: 0.7;
+    color: var(--clr-tan);
+  }
+
+  @media screen and (max-width: ${device.md}) {
+    font-size: var(--fs-b);
+    color: var(--txt-dark);
   }
 `
 
