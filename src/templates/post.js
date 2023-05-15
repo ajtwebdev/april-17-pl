@@ -18,6 +18,7 @@ import {
 } from "../components/buttons"
 import ServiceForm from "../components/forms/serviceForm"
 import { Link } from "gatsby"
+import parse from "html-react-parser"
 
 const BlogArticle = styled.article`
   h1,
@@ -152,7 +153,7 @@ color: var(--clr-accent);
 
 `
 
-const NewsTemplate = ({data}) => {
+const NewsTemplate = ({data: { previous, next, post }}) => {
   
   // const data = combineFields(pageProps.data.wpPost, "post")
   return (
@@ -186,7 +187,7 @@ const NewsTemplate = ({data}) => {
           </BannerGrid>
         </div>
       ) : null} */}
-
+<SEO title={post.title} />
       <Section>
         <Container className="spacing">
           <Wrapper>
@@ -378,18 +379,15 @@ const NewsTemplate = ({data}) => {
             <Content className="spacing">
               <div>
                 <p className="caps bold">from the landscaping experts</p>
-                <h1 className="title accent bold italics">{data.wpPost.title}</h1>
+                <h1 className="title accent bold italics">{parse(post.title)}</h1>
               </div>
-              <div>
-                <BlogArticle
-                  className="blog-post"
-                  itemScope
-                  itemType="http://schema.org/Article"
-                  dangerouslySetInnerHTML={{
-                    __html: `${data.wpPost.content}`,
-                  }}
-                />
-              </div>
+              <BlogArticle className="blog-post">
+              {!!post.content && (
+                    <section itemProp="articleBody">
+                      {parse(post.content)}
+                    </section>
+                  )}
+                  </BlogArticle>
             </Content>
           </Wrapper>
         </Container>
@@ -401,25 +399,60 @@ const NewsTemplate = ({data}) => {
 export default NewsTemplate
 
 export const query = graphql`
-  query PostQuery($id: String!) {
-    wpPost(id: { eq: $id }) {
-      content
-      title
-      date
-      post {
-        bannerImage {
-          localFile {
-            childImageSharp {
-              fluid {
-                src
-              }
-            }
+query BlogPostById(
+  $id: String!
+  $previousPostId: String
+  $nextPostId: String
+) {
+  post: wpPost(id: { eq: $id }) {
+    id
+    excerpt
+    content
+    title
+    date(formatString: "MMMM DD, YYYY")
+    featuredImage {
+      node {
+        altText
+        localFile {
+          childImageSharp {
+            gatsbyImageData(
+              quality: 100
+              placeholder: TRACED_SVG
+              layout: FULL_WIDTH
+            )
           }
         }
-        title
-        excerpt
-        content
       }
     }
   }
+  previous: wpPost(id: { eq: $previousPostId }) {
+    uri
+    title
+  }
+  next: wpPost(id: { eq: $nextPostId }) {
+    uri
+    title
+  }
+}
+  // query PostQuery($id: String!) {
+  //   wpPost(id: { eq: $id }) {
+  //     content
+  //     title
+  //     date
+  //     post {
+  //       bannerImage {
+  //         localFile {
+  //           childImageSharp {
+  //             fluid {
+  //               src
+  //             }
+  //           }
+  //         }
+  //       }
+  //       title
+  //       excerpt
+  //       content
+  //     }
+  //   }
+  // }
 `

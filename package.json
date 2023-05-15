@@ -29,7 +29,7 @@
     "gatsby-source-wordpress": "^7.9.0",
     "gatsby-transformer-sharp": "^5.9.0",
     "glob": "^10.2.1",
-    "html-react-parser": "^3.0.15",
+    "html-react-parser": "^3.0.16",
     "lodash.clonedeep": "^4.5.0",
     "lodash.uniq": "^4.5.0",
     "process-top": "^1.2.0",
