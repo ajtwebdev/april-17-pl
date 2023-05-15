@@ -14,12 +14,12 @@ module.exports.createPages = async gatsbyUtilities => {
   // await createPosts(gatsbyUtilities)
 
   // Query our posts from the GraphQL server
-  // const posts = await getPosts(gatsbyUtilities)
+  const posts = await getPosts(gatsbyUtilities)
 
   // If there are no posts in WordPress, don't do anything
-  // if (!posts.length) {
-  //   return
-  // }
+  if (!posts.length) {
+    return
+  }
 
   // If there are posts, create pages for them
   // await createIndividualBlogPostPages({ posts, gatsbyUtilities })
