@@ -70,28 +70,7 @@ const ServiceAreas = styled.div`
 
 const StyledLink = styled(props => <Link {...props} />)`
   text-decoration: none;
-  text-transform: uppercase;
-  font-size: var(--fs-sm);
-  font-weight: var(--fw-700);
-  color: var(--txt-light);
-  letter-spacing: 0.1em;
-  transition: all 0.25s linear;
-
-  // aligning text with icon
-  display: flex;
-  align-items: center;
-  gap: 2px;
-
-  :hover,
-  :focus {
-    opacity: 0.7;
-    color: var(--clr-tan);
-  }
-
-  @media screen and (max-width: ${device.md}) {
-    font-size: var(--fs-b);
-    color: var(--txt-dark);
-  }
+  color: var(--clr-accent);
 `
 
 export default function ServiceArea({ title, content1, content2 }) {
