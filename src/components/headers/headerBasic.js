@@ -420,12 +420,12 @@ export default function HeaderBasic() {
                         </Link>
                       </h3>
                       <li>
-                        <StyledLink to="/residential-services/hardscaping/pavers">
+                        <StyledLink to="/residential-services/landscape-construction/patio-surfaces">
                           paving stones
                         </StyledLink>
                       </li>
                       <li>
-                        <StyledLink to="/residential-services/hardscaping/concrete-retaining-walls-calgary">
+                        <StyledLink to="/residential-services/landscape-construction/retaining-walls">
                           retaining walls
                         </StyledLink>
                       </li>
@@ -440,22 +440,22 @@ export default function HeaderBasic() {
                         </StyledLink>
                       </li>
                       <li>
-                        <StyledLink to="/residential-services/hardscaping/concrete-curbing-calgary">
+                        <StyledLink to="/concrete-curbing">
                           concrete curbing
                         </StyledLink>
                       </li>
                       <li>
-                        <StyledLink to="/residential-services/hardscaping/stairs-and-stepping-stones">
+                        <StyledLink to="/staircases-stepping-stones">
                           stairs and stepping stones
                         </StyledLink>
                       </li>
                       <li>
-                        <StyledLink to="/residential-services/outdoor-living/seat-walls-and-pillars">
+                        <StyledLink to="/residential-services/landscape-construction/seating">
                           seat walls and pillars
                         </StyledLink>
                       </li>
                       <li>
-                        <StyledLink to="/residential-services/hardscaping/concrete-contractors-calgary">
+                        <StyledLink to="/residential-services/concrete-installations">
                           concrete installation
                         </StyledLink>
                       </li>
@@ -473,27 +473,27 @@ export default function HeaderBasic() {
                         </Link>
                       </h3>
                       <li>
-                        <StyledLink to="/residential-services/softscaping/artificial-turf-calgary">
+                        <StyledLink to="/residential-services/landscape-construction/artificial-turf">
                           artificial turf
                         </StyledLink>
                       </li>
                       <li>
-                        <StyledLink to="/residential-services/softscaping/irrigation-installation-calgary">
+                        <StyledLink to="/residential-services/irrigation-landscape-lighting">
                           irrigation installation
                         </StyledLink>
                       </li>
                       <li>
-                        <StyledLink to="/residential-services/softscaping/sod">
+                        <StyledLink to="/residential-services/landscape-construction/sod-installation">
                           sod
                         </StyledLink>
                       </li>
                       <li>
-                        <StyledLink to="/residential-services/softscaping/shrub-and-tree-planting-calgary">
+                        <StyledLink to="/residential-services/landscape-construction/tree-shrub-planting">
                           shrub and tree planting
                         </StyledLink>
                       </li>
                       <li>
-                        <StyledLink to="/residential-services/softscaping/calgary-mulch-and-decorative-rock">
+                        <StyledLink to="/residential-services/landscape-construction/mulches-decorative-rock">
                           mulch and decorative rock
                         </StyledLink>
                       </li>
@@ -530,53 +530,53 @@ export default function HeaderBasic() {
                         </Link>
                       </h3>
                       <li>
-                        <StyledLink to="/residential-services/outdoor-living/deck-builders-calgary">
+                        <StyledLink to="/decks-calgary">
                           decks
                         </StyledLink>
                       </li>
                       <li>
-                        <StyledLink to="/residential-services/outdoor-living/calgary-pergolas-and-patio-structures">
+                        <StyledLink to="/gazebos-pergolas">
                           pergolas
                         </StyledLink>
                       </li>
                       <li>
-                        <StyledLink to="/residential-services/outdoor-living/outdoor-landscape-lighting-calgary">
+                        <StyledLink to="/landscape-lighting-services-calgary">
                           landscape lighting
                         </StyledLink>
                       </li>
                       <li>
-                        <StyledLink to="/residential-services/outdoor-living/landscape-design-calgary">
+                        <StyledLink to="/landscape-design">
                           landscape design
                         </StyledLink>
                       </li>
                       <li>
-                        <StyledLink to="/residential-services/outdoor-living/calgary-landscape-water-features">
+                        <StyledLink to="/residential-services/water-features">
                           water features
                         </StyledLink>
                       </li>
                       <li>
-                        <StyledLink to="/residential-services/outdoor-living/outdoor-fireplace-calgary-landscaper">
+                        <StyledLink to="/residential-services/landscape-construction/fire-pits-fire-places">
                           fire pits and fire places
                         </StyledLink>
                       </li>
 
                       <li>
-                        <StyledLink to="/residential-services/outdoor-living/fence-builders-calgary">
+                        <StyledLink to="/fence-contractor-in-calgary">
                           fences
                         </StyledLink>
                       </li>
                       <li>
-                        <StyledLink to="/residential-services/outdoor-living/privacy-screens-for-decks-calgary">
+                        <StyledLink to="/privacy-screens">
                           privacy screens
                         </StyledLink>
                       </li>
                       <li>
-                        <StyledLink to="/residential-services/outdoor-living/deck-railings-calgary">
+                        <StyledLink to="/railings">
                           deck railings
                         </StyledLink>
                       </li>
                       <li>
-                        <StyledLink to="/residential-services/outdoor-living/outdoor-kitchen-calgary-landscaping-services">
+                        <StyledLink to="/residential-services/landscape-construction/outdoor-kitchens">
                           outdoor kitchens
                         </StyledLink>
                       </li>
