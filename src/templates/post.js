@@ -18,6 +18,7 @@ import {
 } from "../components/buttons"
 import ServiceForm from "../components/forms/serviceForm"
 import { useMenuQuery } from "../hooks/useMenuQuery"
+import { Link } from "gatsby"
 
 const BlogArticle = styled.article`
   h1,
@@ -146,6 +147,12 @@ const ServiceAreas = styled.div`
   border-radius: var(--br);
 `
 
+const StyledLink = styled(props => <Link {...props} />)`
+  text-decoration: none;
+color: var(--clr-accent);
+
+`
+
 const NewsTemplate = pageProps => {
   const menuData = useMenuQuery()
   const data = combineFields(pageProps.data.wpPost, "post")
@@ -156,7 +163,7 @@ const NewsTemplate = pageProps => {
         <SEO title={data.title} description={data.excerpt} />
       ) : null}
 
-      {data.title ? (
+      {/* {data.title ? (
         <div>
           <HeroBannerPadding />
           <BannerGrid>
@@ -179,7 +186,7 @@ const NewsTemplate = pageProps => {
             </BannerBottomText>
           </BannerGrid>
         </div>
-      ) : null}
+      ) : null} */}
 
       <Section>
         <Container className="spacing">
@@ -190,30 +197,179 @@ const NewsTemplate = pageProps => {
                   Landscaping <br /> Services
                 </h3>
                 <div>
-                  <ul>
-                    {menuData.wpMenu.menuItems.nodes.map(mainItem => {
-                      return (
-                        <>
-                          {mainItem.childItems.nodes.map(childItem1 => {
-                            return (
-                              <>
-                                {childItem1.childItems.nodes.map(childItem2 => {
-                                  return (
-                                    <li key={childItem2.id}>
-                                      <ButtonInline to={childItem2.url}>
-                                        {childItem2.label}
-                                      </ButtonInline>
-                                      <hr />
-                                    </li>
-                                  )
-                                })}
-                              </>
-                            )
-                          })}
-                        </>
-                      )
-                    })}
-                  </ul>
+                <ul>
+                      <h3 className="subheader">
+                        <Link to="/residential-services/hardscaping">
+                          hardscaping
+                        </Link>
+                      </h3>
+                      <li>
+                        <StyledLink to="/residential-services/landscape-construction/patio-surfaces">
+                          paving stones
+                        </StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/residential-services/landscape-construction/retaining-walls">
+                          retaining walls
+                        </StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/residential-services/outdoor-living/garden-walls">
+                          garden walls
+                        </StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/residential-services/hardscaping/garden-bed-edging">
+                          garden bed edging
+                        </StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/concrete-curbing">
+                          concrete curbing
+                        </StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/staircases-stepping-stones">
+                          stairs and stepping stones
+                        </StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/residential-services/landscape-construction/seating">
+                          seat walls and pillars
+                        </StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/residential-services/concrete-installations">
+                          concrete installation
+                        </StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/residential-services/hardscaping/water-management">
+                          water management
+                        </StyledLink>
+                      </li>
+                    </ul>
+
+                    <ul>
+                      <h3 className="subheader">
+                        <Link to="/residential-services/softscaping">
+                          softscaping
+                        </Link>
+                      </h3>
+                      <li>
+                        <StyledLink to="/residential-services/landscape-construction/artificial-turf">
+                          artificial turf
+                        </StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/residential-services/irrigation-landscape-lighting">
+                          irrigation installation
+                        </StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/residential-services/landscape-construction/sod-installation">
+                          sod installation
+                        </StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/residential-services/landscape-construction/tree-shrub-planting">
+                          shrub and tree planting
+                        </StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/residential-services/landscape-construction/mulches-decorative-rock">
+                          mulch and decorative rock
+                        </StyledLink>
+                      </li>
+
+                      {/* {data.wpMenu.menuItems.nodes.map(mainItem => {
+                        return (
+                          <>
+                            {mainItem.childItems.nodes.map(childItem1 => {
+                              return (
+                                <>
+                                  {childItem1.childItems.nodes.map(
+                                    childItem2 => {
+                                      return (
+                                        <li key={childItem2.id}>
+                                          <StyledLink to={childItem2.url}>
+                                            {childItem2.label}
+                                          </StyledLink>
+                                        </li>
+                                      )
+                                    }
+                                  )}
+                                </>
+                              )
+                            })}
+                          </>
+                        )
+                      })} */}
+                    </ul>
+
+                    <ul>
+                      <h3 className="subheader">
+                        <Link to="/residential-services/outdoor-living">
+                          outdoor living
+                        </Link>
+                      </h3>
+                      <li>
+                        <StyledLink to="/decks-calgary">
+                          decks
+                        </StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/gazebos-pergolas">
+                          pergolas
+                        </StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/landscape-lighting-services-calgary">
+                          landscape lighting
+                        </StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/landscape-design">
+                          landscape design
+                        </StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/residential-services/water-features">
+                          water features
+                        </StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/residential-services/landscape-construction/fire-pits-fire-places">
+                          fire pits and fire places
+                        </StyledLink>
+                      </li>
+
+                      <li>
+                        <StyledLink to="/fence-contractor-in-calgary">
+                          fences
+                        </StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/privacy-screens">
+                          privacy screens
+                        </StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/railings">
+                          deck railings
+                        </StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/residential-services/landscape-construction/outdoor-kitchens">
+                          outdoor kitchens
+                        </StyledLink>
+                      </li>
+                      <li>
+                        <StyledLink to="/residential-services/outdoor-living/outdoor-furniture">
+                          outdoor furniture
+                        </StyledLink>
+                      </li>
+                    </ul>
                 </div>
               </Navigation>
               <div className="service-form">
@@ -223,7 +379,7 @@ const NewsTemplate = pageProps => {
             <Content className="spacing">
               <div>
                 <p className="caps bold">from the landscaping experts</p>
-                <h1 className="title accent bold italics">{data.title}</h1>
+                <h1 className="title accent bold italics">{pageProps.data.wpPost.title}</h1>
               </div>
               <div>
                 <BlogArticle
@@ -231,37 +387,10 @@ const NewsTemplate = pageProps => {
                   itemScope
                   itemType="http://schema.org/Article"
                   dangerouslySetInnerHTML={{
-                    __html: `${data.content}`,
+                    __html: `${pageProps.data.wpPost.content}`,
                   }}
                 />
               </div>
-              {/* <ServiceAreas>
-                <p className="center bold">
-                  <ButtonInline to=""></ButtonInline>
-                  We provide
-                  <ButtonInline to="/services/home-window-repair-calgary">
-                    residential glass installation & repair
-                  </ButtonInline>
-                  ,
-                  <ButtonInline to="/services/commercial-window-repair-calgary">
-                    commercial window repair
-                  </ButtonInline>
-                  ,
-                  <ButtonInline to="/services/storm-doors-calgary">
-                    new storm door installations
-                  </ButtonInline>
-                  , and more to Calgary, Airdrie, Okotoks, Cochrane,
-                  Chestermere, Foothills, Strathmore, and more surrounding areas
-                  and throughout Alberta! Call
-                  <AnchorInline href="tel: 403-272-8932">
-                    403-272-8932
-                  </AnchorInline>
-                  to book a service, or use our
-                  <ButtonInline to="/contact">
-                    online contact form.
-                  </ButtonInline>
-                </p>
-              </ServiceAreas> */}
             </Content>
           </Wrapper>
         </Container>
@@ -275,6 +404,7 @@ export default NewsTemplate
 export const query = graphql`
   query PostQuery($id: String!) {
     wpPost(id: { eq: $id }) {
+      content
       title
       date
       post {

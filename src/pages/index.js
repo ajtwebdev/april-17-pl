@@ -49,7 +49,7 @@ const Divider = styled.div`
 export default function index() {
   return (
     <Layout>
-      <SEO title="Landscaping Calgary | Top Rated | Project Landscape Ltd." description="Calgary Landscaping Construction. Our trusted and top-rated Calgary landscapers can help with your residential and commercial landscaping needs. Call Us ☎️" />
+      <SEO title="Landscaping Calgary | Top Rated | Project Landscape Ltd." description="Our trusted and top-rated Calgary landscapers can help with your residential and commercial landscaping needs. Call Us ☎️" />
       <HeroSlider />
       <Badges />
       <MainServicesLinks title="calgary landscaping services" description="Your home is your pride and joy, and we are the professionals who

@@ -81,7 +81,7 @@ export default function Reviews() {
     <Layout>
       <SEO
         title="Landscape Testimonials | Project Landscape"
-        description=""
+        description="Project Landscape was a wonderful choice of our landscaping project. It’s a new build and we love the result of from nothing to a beautiful front and back yard."
       />
       <Banner
         img={BannerImg}

@@ -23,12 +23,8 @@ const Container = styled.div`
 
 const Grid = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 1em;
-
-  @media screen and (max-width: 37.5em) {
-    grid-template-columns: 1fr;
-  }
+  grid-template-columns: repeat(auto-fit, minmax(16em, 1fr));
+  grid-gap: 2em;
 
   .img {
     height: 250px;

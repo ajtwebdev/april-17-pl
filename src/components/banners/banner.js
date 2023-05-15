@@ -44,7 +44,20 @@ const BannerBottomText = styled.div`
   color: var(--txt-light);
   padding: 2em;
   width: 80%;
+  @media screen and (max-width: 1000px) {
+    display: none;
+  }
 `
+
+
+
+const TextMobile = styled.div`
+display: none;
+@media screen and (max-width: 1000px) {
+  display: flex;
+}
+`
+
 export default function Banner(props) {
   return (
     <div>
@@ -67,6 +80,11 @@ export default function Banner(props) {
           </Container>
         </BannerBottomText>
       </BannerGrid>
+      <TextMobile>
+      <Container>
+            <p>{props.description}</p>
+          </Container>
+      </TextMobile>
     </div>
   )
 }
