@@ -23,7 +23,7 @@ const PageTemplate = pageProps => {
   return (
     <>
       <Layout>
-      <Seo post={pageProps.wpPage} />
+      <Seo post={pageProps.page} />
         {components.map((component, index) => {
           // ### COMPONENT RENDERING ### DO NOT MODIFY OR MOVE THIS COMMENT ###
           return <div>Error: The component {component.name} was not found</div>
@@ -38,8 +38,8 @@ export default PageTemplate
 // ### PAGE QUERY ### DO NOT MODIFY OR MOVE THIS COMMENT ###
 
 export const query = graphql`
-    query GET_PAGE($id: String!) {
-        wpPage(id: { eq: $id }, idType: DATABASE_ID) {
+    query GET_PAGE {
+      page(id: "5379", idType: DATABASE_ID) {
             nodeType
             title
             uri
