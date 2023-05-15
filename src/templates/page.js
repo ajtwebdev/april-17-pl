@@ -4,7 +4,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../../src/components/layout"
-import SEO from "../../src/components/seo"
+import { combineFields } from "../utils/combine-fields"
 import Seo from 'gatsby-plugin-wpgraphql-seo';
 // import { useSeoQuery } from "../hooks/useSeoQuery"
 
@@ -23,8 +23,7 @@ const PageTemplate = pageProps => {
   return (
     <>
       <Layout>
-      <Seo post={pageProps.data.wpPage} />
-        {/* <Seo post={pageProps.wpPage} /> */}
+      <Seo post={pageProps.wpPage} />
         {components.map((component, index) => {
           // ### COMPONENT RENDERING ### DO NOT MODIFY OR MOVE THIS COMMENT ###
           return <div>Error: The component {component.name} was not found</div>
@@ -40,7 +39,7 @@ export default PageTemplate
 
 export const query = graphql`
     query GET_PAGE($id: String!) {
-        wpPage(id: { eq: $id }) {
+        wpPage(id: { eq: $id }, idType: DATABASE_ID) {
             nodeType
             title
             uri
@@ -48,30 +47,6 @@ export const query = graphql`
                 title
                 metaDesc
                 focuskw
-                metaKeywords
-                metaRobotsNoindex
-                metaRobotsNofollow
-                opengraphTitle
-                opengraphDescription
-                opengraphImage {
-                    altText
-                    sourceUrl
-                    srcSet
-                }
-                twitterTitle
-                twitterDescription
-                twitterImage {
-                    altText
-                    sourceUrl
-                    srcSet
-                }
-                canonical
-                cornerstone
-                schema {
-                    articleType
-                    pageType
-                    raw
-                }
             }
         }
     }
