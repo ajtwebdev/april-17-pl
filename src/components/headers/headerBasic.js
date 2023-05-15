@@ -484,7 +484,7 @@ export default function HeaderBasic() {
                       </li>
                       <li>
                         <StyledLink to="/residential-services/landscape-construction/sod-installation">
-                          sod
+                          sod installation
                         </StyledLink>
                       </li>
                       <li>

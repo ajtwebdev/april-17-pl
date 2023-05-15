@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import { ButtonPrimary } from "../buttons"
+import { ButtonInline, ButtonPrimary } from "../buttons"
 import { Container, HeroBannerPadding } from "../layoutComponents"
 import "bootstrap/dist/css/bootstrap.min.css"
 import { Carousel } from "react-bootstrap"
@@ -151,8 +151,8 @@ export default function HeroSlider(props) {
         <HeroBottomText>
           <Container>
             <p>
-              Transform your outdoor space into a serene haven with our unique
-              landscaping services. From custom design to expert installation,
+              Transform your outdoor space into a serene haven with our unique Calgary
+              landscaping services. From custom <ButtonInline to="/landscape-design">design</ButtonInline> to expert installation,
               our team of experts will help you create a personalized and
               functional living space that showcases your personality and style.
               Get started with your transformation today!

@@ -17,7 +17,6 @@ import {
   ButtonInline,
 } from "../components/buttons"
 import ServiceForm from "../components/forms/serviceForm"
-import { useMenuQuery } from "../hooks/useMenuQuery"
 import { Link } from "gatsby"
 
 const BlogArticle = styled.article`
@@ -153,15 +152,15 @@ color: var(--clr-accent);
 
 `
 
-const NewsTemplate = pageProps => {
-  const menuData = useMenuQuery()
-  const data = combineFields(pageProps.data.wpPost, "post")
+const NewsTemplate = data => {
+  
+  // const data = combineFields(pageProps.data.wpPost, "post")
   return (
     <Layout>
       {/* <Banner {...data} /> */}
-      {data.title && data.excerpt ? (
+      {/* {data.title && data.excerpt ? (
         <SEO title={data.title} description={data.excerpt} />
-      ) : null}
+      ) : null} */}
 
       {/* {data.title ? (
         <div>
@@ -379,7 +378,7 @@ const NewsTemplate = pageProps => {
             <Content className="spacing">
               <div>
                 <p className="caps bold">from the landscaping experts</p>
-                <h1 className="title accent bold italics">{pageProps.data.wpPost.title}</h1>
+                <h1 className="title accent bold italics">{data.wpPost.title}</h1>
               </div>
               <div>
                 <BlogArticle
@@ -387,7 +386,7 @@ const NewsTemplate = pageProps => {
                   itemScope
                   itemType="http://schema.org/Article"
                   dangerouslySetInnerHTML={{
-                    __html: `${pageProps.data.wpPost.content}`,
+                    __html: `${data.wpPost.content}`,
                   }}
                 />
               </div>

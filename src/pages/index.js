@@ -25,6 +25,7 @@ import Badges from "../components/badges"
 import Videos from "../components/videos"
 import { Section, Container, Flex } from "../components/layoutComponents"
 import styled from "styled-components"
+import { ButtonInline } from "../components/buttons"
 
 const Wrapper = styled.div`
 background: url("../../images/calgary-landscaping-faq-banner.jpg"),
@@ -52,7 +53,7 @@ export default function index() {
       <SEO title="Landscaping Calgary | Top Rated | Project Landscape Ltd." description="Our trusted and top-rated Calgary landscapers can help with your residential and commercial landscaping needs. Call Us ☎️" />
       <HeroSlider />
       <Badges />
-      <MainServicesLinks title="calgary landscaping services" description="Your home is your pride and joy, and we are the professionals who
+      <MainServicesLinks title="calgary landscaping services" description="Your home is your pride and joy, and we are the landscape professionals who
               can help you maintain its outdoor beauty. Increasing your
               property's value and making your yard the envy of the block,
               Project Landscape ensures that your landscaping needs are met.
@@ -69,10 +70,10 @@ export default function index() {
             </div>
             <Divider />
             <div>
-              <p>Project Landscape has established itself as Calgary's largest residential landscape company due to its commitment to taking landscape design and installations to the next level in outdoor living. Several factors contribute to their success and industry dominance.
+              <p>Project Landscape has established itself as Calgary's largest residential landscape company due to its commitment to taking landscape <ButtonInline to="/landscape-design">design and installations</ButtonInline> to the next level in <ButtonInline to="/residential-services/outdoor-living">outdoor living</ButtonInline>. Several factors contribute to their success and industry dominance.
 Firstly, Project Landscape excels in landscape design. They have a team of highly skilled and creative designers who understand the unique needs and preferences of Calgary homeowners. Their designs blend aesthetics with functionality, ensuring that every outdoor space is transformed into a stunning and practical oasis.
 
-Secondly, the company is known for its exceptional installation services. Project Landscape has a dedicated team of experienced professionals who execute the designs with precision and attention to detail. From hardscaping to softscaping, irrigation systems to outdoor lighting, they handle every aspect of the installation process.
+Secondly, the company is known for its exceptional Calgary landscaping installation services. Project Landscape has a dedicated <ButtonInline to="/about">team of experienced professionals</ButtonInline> who execute the designs with precision and attention to detail. From <ButtonInline to="/residential-services/hardscaping">hardscaping</ButtonInline> to <ButtonInline to="/residential-services/softscaping">softscaping</ButtonInline>, <ButtonInline to="/residential-services/irrigation-landscape-lighting">irrigation systems</ButtonInline> to <ButtonInline to="/landscape-lighting-services-calgary">outdoor lighting</ButtonInline>, they handle every aspect of the installation process.
 
 Additionally, Project Landscape stands out for its commitment to customer satisfaction. They prioritize open communication while actively involving clients in the design and installation phases. The company's dedication to meeting deadlines, providing transparent pricing, and delivering high-quality workmanship has earned them a stellar reputation among homeowners in Calgary.</p>
             </div>
