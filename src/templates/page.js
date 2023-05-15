@@ -4,7 +4,6 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../../src/components/layout"
-import SEO from "../components/seo"
 
 // ### COMPONENT IMPORTS ### DO NOT MODIFY OR MOVE THIS COMMENT ###
 
@@ -32,18 +31,3 @@ const PageTemplate = pageProps => {
 export default PageTemplate
 
 // ### PAGE QUERY ### DO NOT MODIFY OR MOVE THIS COMMENT ###
-
-// export const query = graphql`
-//     query GET_PAGE {
-//       page(id: "5379", idType: DATABASE_ID) {
-//             nodeType
-//             title
-//             uri
-//             seo {
-//                 title
-//                 metaDesc
-//                 focuskw
-//             }
-//         }
-//     }
-// `;
