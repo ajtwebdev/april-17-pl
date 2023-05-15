@@ -1,4 +1,4 @@
-const createPosts = require("./create/createPosts")
+// const createPosts = require("./create/createPosts")
 const { setOptions, createPages } = require("./create/createPages")
 const path = require(`path`)
 const chunk = require(`lodash/chunk`)

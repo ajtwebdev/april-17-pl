@@ -153,7 +153,7 @@ color: var(--clr-accent);
 
 `
 
-const NewsTemplate = ({data: { previous, next, post }}) => {
+const NewsTemplate = ({data}) => {
   
   // const data = combineFields(pageProps.data.wpPost, "post")
   return (
@@ -187,7 +187,7 @@ const NewsTemplate = ({data: { previous, next, post }}) => {
           </BannerGrid>
         </div>
       ) : null} */}
-<SEO title={post.title} />
+<SEO title={data.wpPost.title} description={data.wpPost.excerpt} />
       <Section>
         <Container className="spacing">
           <Wrapper>
@@ -379,12 +379,12 @@ const NewsTemplate = ({data: { previous, next, post }}) => {
             <Content className="spacing">
               <div>
                 <p className="caps bold">from the landscaping experts</p>
-                <h1 className="title accent bold italics">{parse(post.title)}</h1>
+                <h1 className="title accent bold italics">{parse(data.wpPost.title)}</h1>
               </div>
               <BlogArticle className="blog-post">
               {!!post.content && (
                     <section itemProp="articleBody">
-                      {parse(post.content)}
+                      {parse(data.wpPost.content)}
                     </section>
                   )}
                   </BlogArticle>
@@ -399,60 +399,13 @@ const NewsTemplate = ({data: { previous, next, post }}) => {
 export default NewsTemplate
 
 export const query = graphql`
-query BlogPostById(
-  $id: String!
-  $previousPostId: String
-  $nextPostId: String
-) {
-  post: wpPost(id: { eq: $id }) {
+query postBy($id: String!) {
+  wpPost(id: { eq: $id })  {
     id
     excerpt
     content
     title
     date(formatString: "MMMM DD, YYYY")
-    featuredImage {
-      node {
-        altText
-        localFile {
-          childImageSharp {
-            gatsbyImageData(
-              quality: 100
-              placeholder: TRACED_SVG
-              layout: FULL_WIDTH
-            )
-          }
-        }
-      }
-    }
-  }
-  previous: wpPost(id: { eq: $previousPostId }) {
-    uri
-    title
-  }
-  next: wpPost(id: { eq: $nextPostId }) {
-    uri
-    title
   }
 }
-  // query PostQuery($id: String!) {
-  //   wpPost(id: { eq: $id }) {
-  //     content
-  //     title
-  //     date
-  //     post {
-  //       bannerImage {
-  //         localFile {
-  //           childImageSharp {
-  //             fluid {
-  //               src
-  //             }
-  //           }
-  //         }
-  //       }
-  //       title
-  //       excerpt
-  //       content
-  //     }
-  //   }
-  // }
 `
