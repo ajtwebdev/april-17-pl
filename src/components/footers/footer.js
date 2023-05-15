@@ -652,8 +652,8 @@ export default function Footer() {
                     </StyledLink>
                   </li>
                   <li>
-                    <StyledLink to="/gallery">
-                   gallery
+                    <StyledLink to="/portfolio">
+                   portfolio
                     </StyledLink>
                   </li>
                   <li>

@@ -29,7 +29,7 @@ export default function PortfolioBanner() {
                 </p>
                 <p className="title">your personal paradise starts here</p>
               </div>
-              <ButtonPrimaryDark to="/gallery">
+              <ButtonPrimaryDark to="/portfolio">
                 view our portfolio
               </ButtonPrimaryDark>
             </Text>

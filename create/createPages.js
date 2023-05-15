@@ -87,7 +87,13 @@ const getPages = async ({ graphql }) => {
   return pages
 }
 
-const createPages = async (pages, gatsbyUtilities) => {
+const createPages = async (pages, gatsbyUtilities, graphql, actions) => {
+  const { createRedirect } = actions;
+		
+	createRedirect({
+    fromPath: `/test-301`,
+    toPath: `/`,
+  });
   return Promise.all(
     pages.map(page => {
       // If page has no components yet, initialise as empty array rather than null

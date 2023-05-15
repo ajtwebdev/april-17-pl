@@ -691,7 +691,7 @@ export default function HeaderBasic() {
                         Get Inspired
                       </h3>
                       <li>
-                        <StyledLink to="/gallery">gallery</StyledLink>
+                        <StyledLink to="/portfolio">portfolio</StyledLink>
                       </li>
                       {/* <li>
                         <StyledLink to="/video-gallery">video gallery</StyledLink>
