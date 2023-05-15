@@ -278,14 +278,14 @@ export default function ServiceArea({ title, content1, content2 }) {
                 }}
               />
             </div>
-            <ServiceAreas>
+            {/* <ServiceAreas>
               <p
                 className="center bold"
                 dangerouslySetInnerHTML={{
                   __html: `${content2}`,
                 }}
               />
-            </ServiceAreas>
+            </ServiceAreas> */}
           </Content>
         </Wrapper>
       </Container>

@@ -377,6 +377,14 @@
       }
      
  
+      fragment Page_Seo on WpPage_Pagecomponents_PageComponents_Seo {
+        
+      title
+      description
+      
+      }
+     
+ 
       fragment Page_ServiceArea on WpPage_Pagecomponents_PageComponents_ServiceArea {
         
     title

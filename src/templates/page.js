@@ -4,15 +4,11 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../../src/components/layout"
-// import { combineFields } from "../utils/combine-fields"
-// import SEO from "../components/seo"
-// import { useSeoQuery } from "../hooks/useSeoQuery"
+import SEO from "../components/seo"
 
 // ### COMPONENT IMPORTS ### DO NOT MODIFY OR MOVE THIS COMMENT ###
 
 const PageTemplate = pageProps => {
-  // const seoData = useSeoQuery()
-  // const seodata = combineFields(pageProps.data.page, "seo")
   let components
   // ### COMPONENTS VARIABLE ### DO NOT MODIFY OR MOVE THIS COMMENT ###
   components = components.map(component => {
@@ -24,7 +20,6 @@ const PageTemplate = pageProps => {
   return (
     <>
       <Layout>
-        {/* <SEO title={seodata.title} /> */}
         {components.map((component, index) => {
           // ### COMPONENT RENDERING ### DO NOT MODIFY OR MOVE THIS COMMENT ###
           return <div>Error: The component {component.name} was not found</div>
