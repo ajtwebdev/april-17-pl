@@ -67,6 +67,9 @@ const BannerBottomText = styled.div`
 
 const TextMobile = styled.div`
   display: none;
+  background: var(--clr-dark);
+  color: var(--txt-light);
+  padding: 2em;
   @media screen and (max-width: 1000px) {
     display: flex;
   }

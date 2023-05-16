@@ -78,8 +78,8 @@ export default function MainTrends() {
               We take pride in staying up to date with the latest trends and
               techniques in the landscaping industry. We are passionate about
               providing our customers with innovative and unique <ButtonInline to="/landscape-design">Calgary landscaping
-              designs</ButtonInline> that will enhance the beauty and functionality of their
-              <ButtonInline to="/outdoor-living">outdoor space</ButtonInline>. Our team regularly attends industry events,
+              designs</ButtonInline> that will enhance the beauty and functionality of their{" "}
+              <ButtonInline to="/residential-services/outdoor-living">outdoor space</ButtonInline>. Our team regularly attends industry events,
               workshops, and training sessions to stay current with the newest
               landscaping trends and technologies. We take this knowledge and
               apply it to every project, ensuring that our customers receive the

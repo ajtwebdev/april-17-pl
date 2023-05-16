@@ -41,6 +41,9 @@ const TabWrapper = styled.div`
   padding: 2em;
   border: 3px solid var(--clr-tan);
   border-radius: var(--br);
+  .css-13o7eu2 {
+    display: flex;
+  }
 `
 
 const AccordionStyle = {

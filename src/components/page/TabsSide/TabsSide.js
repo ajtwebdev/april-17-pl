@@ -23,6 +23,7 @@ const Wrapper = styled.div`
     border: 1px solid var(--clr-tan);
     border-radius: var(--br);
   }
+
 `
 
 const Text = styled.div`
@@ -34,9 +35,6 @@ const ListBox = styled.div``
 const TabsWrapper = styled.div`
   .css-13o7eu2 {
     display: flex;
-    @media screen and (max-width: 550px) {
-      flex-direction: row;
-    }
   }
 `
 

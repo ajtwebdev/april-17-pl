@@ -76,7 +76,7 @@ const Content2 = styled.div`
   background-repeat: no-repeat;
 `
 const Content3 = styled.div`
-  background: url("../../images/softscaping-slider.png"), rgba(0, 0, 0, 0);
+  background: url("http://21-pl.purpleparrotwebsites.com/wp-content/uploads/2023/05/softscaping-slider.png"), rgba(0, 0, 0, 0);
   background-blend-mode: overlay;
   background-position: center;
   height: 90vh;
