@@ -85,92 +85,92 @@ export default function ServiceArea({ title, content1, content2 }) {
                 Landscaping <br /> Services
               </h3>
               <div>
-              <ul>
-                      <h3 className="subheader">
-                        <Link to="/residential-services/hardscaping">
-                          hardscaping
-                        </Link>
-                      </h3>
-                      <li>
-                        <StyledLink to="/residential-services/landscape-construction/patio-surfaces">
-                          paving stones
-                        </StyledLink>
-                      </li>
-                      <li>
-                        <StyledLink to="/residential-services/landscape-construction/retaining-walls">
-                          retaining walls
-                        </StyledLink>
-                      </li>
-                      <li>
-                        <StyledLink to="/residential-services/outdoor-living/garden-walls">
-                          garden walls
-                        </StyledLink>
-                      </li>
-                      <li>
-                        <StyledLink to="/residential-services/hardscaping/garden-bed-edging">
-                          garden bed edging
-                        </StyledLink>
-                      </li>
-                      <li>
-                        <StyledLink to="/concrete-curbing">
-                          concrete curbing
-                        </StyledLink>
-                      </li>
-                      <li>
-                        <StyledLink to="/staircases-stepping-stones">
-                          stairs and stepping stones
-                        </StyledLink>
-                      </li>
-                      <li>
-                        <StyledLink to="/residential-services/landscape-construction/seating">
-                          seat walls and pillars
-                        </StyledLink>
-                      </li>
-                      <li>
-                        <StyledLink to="/residential-services/concrete-installations">
-                          concrete installation
-                        </StyledLink>
-                      </li>
-                      <li>
-                        <StyledLink to="/residential-services/hardscaping/water-management">
-                          water management
-                        </StyledLink>
-                      </li>
-                    </ul>
+                <ul>
+                  <h3 className="subheader">
+                    <Link to="/residential-services/hardscaping">
+                      hardscaping
+                    </Link>
+                  </h3>
+                  <li>
+                    <StyledLink to="/residential-services/landscape-construction/patio-surfaces">
+                      paving stones
+                    </StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/residential-services/landscape-construction/retaining-walls">
+                      retaining walls
+                    </StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/residential-services/outdoor-living/garden-walls">
+                      garden walls
+                    </StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/residential-services/hardscaping/garden-bed-edging">
+                      garden bed edging
+                    </StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/concrete-curbing">
+                      concrete curbing
+                    </StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/staircases-stepping-stones">
+                      stairs and stepping stones
+                    </StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/residential-services/landscape-construction/seating">
+                      seat walls and pillars
+                    </StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/residential-services/concrete-installations">
+                      concrete installation
+                    </StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/residential-services/hardscaping/water-management">
+                      water management
+                    </StyledLink>
+                  </li>
+                </ul>
 
-                    <ul>
-                      <h3 className="subheader">
-                        <Link to="/residential-services/softscaping">
-                          softscaping
-                        </Link>
-                      </h3>
-                      <li>
-                        <StyledLink to="/residential-services/landscape-construction/artificial-turf">
-                          artificial turf
-                        </StyledLink>
-                      </li>
-                      <li>
-                        <StyledLink to="/residential-services/irrigation-landscape-lighting">
-                          irrigation installation
-                        </StyledLink>
-                      </li>
-                      <li>
-                        <StyledLink to="/residential-services/landscape-construction/sod-installation">
-                          sod
-                        </StyledLink>
-                      </li>
-                      <li>
-                        <StyledLink to="/residential-services/landscape-construction/tree-shrub-planting">
-                          shrub and tree planting
-                        </StyledLink>
-                      </li>
-                      <li>
-                        <StyledLink to="/residential-services/landscape-construction/mulches-decorative-rock">
-                          mulch and decorative rock
-                        </StyledLink>
-                      </li>
+                <ul>
+                  <h3 className="subheader">
+                    <Link to="/residential-services/softscaping">
+                      softscaping
+                    </Link>
+                  </h3>
+                  <li>
+                    <StyledLink to="/residential-services/landscape-construction/artificial-turf">
+                      artificial turf
+                    </StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/residential-services/irrigation-landscape-lighting">
+                      irrigation installation
+                    </StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/residential-services/landscape-construction/sod-installation">
+                      sod
+                    </StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/residential-services/landscape-construction/tree-shrub-planting">
+                      shrub and tree planting
+                    </StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/residential-services/landscape-construction/mulches-decorative-rock">
+                      mulch and decorative rock
+                    </StyledLink>
+                  </li>
 
-                      {/* {data.wpMenu.menuItems.nodes.map(mainItem => {
+                  {/* {data.wpMenu.menuItems.nodes.map(mainItem => {
                         return (
                           <>
                             {mainItem.childItems.nodes.map(childItem1 => {
@@ -193,71 +193,65 @@ export default function ServiceArea({ title, content1, content2 }) {
                           </>
                         )
                       })} */}
-                    </ul>
+                </ul>
 
-                    <ul>
-                      <h3 className="subheader">
-                        <Link to="/residential-services/outdoor-living">
-                          outdoor living
-                        </Link>
-                      </h3>
-                      <li>
-                        <StyledLink to="/decks-calgary">
-                          decks
-                        </StyledLink>
-                      </li>
-                      <li>
-                        <StyledLink to="/gazebos-pergolas">
-                          pergolas
-                        </StyledLink>
-                      </li>
-                      <li>
-                        <StyledLink to="/landscape-lighting-services-calgary">
-                          landscape lighting
-                        </StyledLink>
-                      </li>
-                      <li>
-                        <StyledLink to="/landscape-design">
-                          landscape design
-                        </StyledLink>
-                      </li>
-                      <li>
-                        <StyledLink to="/residential-services/water-features">
-                          water features
-                        </StyledLink>
-                      </li>
-                      <li>
-                        <StyledLink to="/residential-services/landscape-construction/fire-pits-fire-places">
-                          fire pits and fire places
-                        </StyledLink>
-                      </li>
+                <ul>
+                  <h3 className="subheader">
+                    <Link to="/residential-services/outdoor-living">
+                      outdoor living
+                    </Link>
+                  </h3>
+                  <li>
+                    <StyledLink to="/decks-calgary">decks</StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/gazebos-pergolas">pergolas</StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/landscape-lighting-services-calgary">
+                      landscape lighting
+                    </StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/landscape-design">
+                      landscape design
+                    </StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/residential-services/water-features">
+                      water features
+                    </StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/residential-services/landscape-construction/fire-pits-fire-places">
+                      fire pits and fire places
+                    </StyledLink>
+                  </li>
 
-                      <li>
-                        <StyledLink to="/fence-contractor-in-calgary">
-                          fences
-                        </StyledLink>
-                      </li>
-                      <li>
-                        <StyledLink to="/privacy-screens">
-                          privacy screens
-                        </StyledLink>
-                      </li>
-                      <li>
-                        <StyledLink to="/railings">
-                          deck railings
-                        </StyledLink>
-                      </li>
-                      <li>
-                        <StyledLink to="/residential-services/landscape-construction/outdoor-kitchens">
-                          outdoor kitchens
-                        </StyledLink>
-                      </li>
-                      <li>
-                        <StyledLink to="/residential-services/outdoor-living/outdoor-furniture">
-                          outdoor furniture
-                        </StyledLink>
-                      </li>
-                    </ul>
+                  <li>
+                    <StyledLink to="/fence-contractor-in-calgary">
+                      fences
+                    </StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/privacy-screens">
+                      privacy screens
+                    </StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/railings">deck railings</StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/residential-services/landscape-construction/outdoor-kitchens">
+                      outdoor kitchens
+                    </StyledLink>
+                  </li>
+                  <li>
+                    <StyledLink to="/residential-services/outdoor-living/outdoor-furniture">
+                      outdoor furniture
+                    </StyledLink>
+                  </li>
+                </ul>
               </div>
             </Navigation>
             <div className="service-form">
