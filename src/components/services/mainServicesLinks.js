@@ -61,6 +61,11 @@ const ItemLink = styled(props => <Link {...props} />)`
   &:hover {
     color: var(--txt-light);
   }
+
+  .img {
+    max-height: 500px;
+    max-width: 450px;
+  }  
 `
 
 export default function MainServicesLinks(props) {
@@ -86,6 +91,7 @@ export default function MainServicesLinks(props) {
           <List>
             <ItemLink to="/residential-services/hardscaping">
               <StaticImage
+              className="img"
                 src="../../images/hardscaping-calgary.jpg"
                 alt="calgary hardscaping services"
               />
@@ -101,6 +107,7 @@ export default function MainServicesLinks(props) {
             </ItemLink>
             <ItemLink to="/residential-services/softscaping">
               <StaticImage
+              className="img"
                 src="../../images/softscaping-calgary.jpg"
                 alt="calgary softscaping services"
               />
@@ -116,6 +123,7 @@ export default function MainServicesLinks(props) {
             </ItemLink>
             <ItemLink to="/residential-services/outdoor-living">
               <StaticImage
+              className="img"
                 src="../../images/outdoor-living-calgary.jpg"
                 alt="outdoor landscaping services calgary"
               />
