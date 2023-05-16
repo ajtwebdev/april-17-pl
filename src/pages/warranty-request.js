@@ -2,10 +2,8 @@ import React from "react"
 import Banner from "../components/banners/banner"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import ImageLeft from "../components/sections/imageLeft"
 
 import BannerImg from "../images/banner-image-4.jpg"
-import ImageTop from "../images/banner-image-1.png"
 import WarrantyForm from "../components/forms/warrantForm"
 
 import {
