@@ -7,6 +7,10 @@ import { GatsbyImage } from "gatsby-plugin-image"
 const Wrapper = styled.div`
   .css-1xhq01z {
     justify-content: center;
+
+    @media screen and (max-width: 76em) {
+      display: block;
+    }
   }
 
   .css-52dxnr {

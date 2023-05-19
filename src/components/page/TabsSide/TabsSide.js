@@ -24,6 +24,15 @@ const Wrapper = styled.div`
     border-radius: var(--br);
   }
 
+  @media screen and (max-width: 36em) {
+    display: none;
+  }
+`
+
+const WrapperMobile = styled.div`
+  @media screen and (min-width: 36em) {
+    display: none;
+  }
 `
 
 const Text = styled.div`
@@ -83,59 +92,90 @@ const PanelsWrapper = styled.div`
 
 export default function TabsSide({ title, tabsContent }) {
   return (
-    <Wrapper>
-      <Section>
-        <Container>
-          <Text>
-            <h2 className="title">{title}</h2>
-          </Text>
-          <TabsWrapper>
-            <Tabs>
-              <TabListWrapper>
-                <TabList>
-                  {tabsContent.map(tab => {
-                    return <Tab>{tab.tabLabel}</Tab>
-                  })}
-                </TabList>
-              </TabListWrapper>
-              <PanelsWrapper>
-                <TabPanels>
-                  {tabsContent.map(tab => {
-                    return (
-                      <TabPanel>
-                        <Flex>
-                          <div className="spacing">
-                            <h3 className="subheader accent">{tab.tabTitle}</h3>
-                            <p
-                              dangerouslySetInnerHTML={{
-                                __html: `${tab.tabBody}`,
-                              }}
-                            />
-                            <ListBox>
-                              <div
+    <div>
+      <Wrapper>
+        <Section>
+          <Container>
+            <Text>
+              <h2 className="title">{title}</h2>
+            </Text>
+            <TabsWrapper>
+              <Tabs>
+                <TabListWrapper>
+                  <TabList>
+                    {tabsContent.map(tab => {
+                      return <Tab>{tab.tabLabel}</Tab>
+                    })}
+                  </TabList>
+                </TabListWrapper>
+                <PanelsWrapper>
+                  <TabPanels>
+                    {tabsContent.map(tab => {
+                      return (
+                        <TabPanel>
+                          <Flex>
+                            <div className="spacing">
+                              <h3 className="subheader accent">
+                                {tab.tabTitle}
+                              </h3>
+                              <p
                                 dangerouslySetInnerHTML={{
-                                  __html: `${tab.tabList}`,
+                                  __html: `${tab.tabBody}`,
                                 }}
                               />
-                            </ListBox>
-                          </div>
-                          <GatsbyImage
-                            image={
-                              tab.tabImage.localFile.childImageSharp
-                                .gatsbyImageData
-                            }
-                            alt={tab.tabImage.altText}
-                          />
-                        </Flex>
-                      </TabPanel>
-                    )
-                  })}
-                </TabPanels>
-              </PanelsWrapper>
-            </Tabs>
-          </TabsWrapper>
-        </Container>
-      </Section>
-    </Wrapper>
+                              <ListBox>
+                                <div
+                                  dangerouslySetInnerHTML={{
+                                    __html: `${tab.tabList}`,
+                                  }}
+                                />
+                              </ListBox>
+                            </div>
+                            <GatsbyImage
+                              image={
+                                tab.tabImage.localFile.childImageSharp
+                                  .gatsbyImageData
+                              }
+                              alt={tab.tabImage.altText}
+                            />
+                          </Flex>
+                        </TabPanel>
+                      )
+                    })}
+                  </TabPanels>
+                </PanelsWrapper>
+              </Tabs>
+            </TabsWrapper>
+          </Container>
+        </Section>
+      </Wrapper>
+      <WrapperMobile>
+        <Section>
+          <Container>
+            <Flex>
+              <div className="spacing">
+                <h3 className="subheader accent">{tab.tabTitle}</h3>
+                <p
+                  dangerouslySetInnerHTML={{
+                    __html: `${tab.tabBody}`,
+                  }}
+                />
+                <ListBox>
+                  <div
+                    dangerouslySetInnerHTML={{
+                      __html: `${tab.tabList}`,
+                    }}
+                  />
+                </ListBox>
+              </div>
+              <GatsbyImage
+                image={tab.tabImage.localFile.childImageSharp.gatsbyImageData}
+                alt={tab.tabImage.altText}
+              />
+            </Flex>
+          </Container>
+        </Section>
+      </WrapperMobile>
+    </div>
   )
 }

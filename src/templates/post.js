@@ -152,8 +152,8 @@ const StyledLink = styled(props => <Link {...props} />)`
   color: var(--clr-accent);
 `
 
-const NewsTemplate = ({ data }) => {
-  // const data = combineFields(pageProps.data.wpPost, "post")
+const NewsTemplate = ({ data: { previous, next, post } }) => {
+  // const data = combineFields(pageProps.post, "post")
   return (
     <Layout>
       {/* <Banner {...data} /> */}
@@ -185,7 +185,7 @@ const NewsTemplate = ({ data }) => {
           </BannerGrid>
         </div>
       ) : null} */}
-      <SEO title={data.wpPost.title} description={data.wpPost.excerpt} />
+      <SEO title={post.title} description={post.excerpt} />
       <Section>
         <Container className="spacing">
           <Wrapper>
@@ -372,13 +372,13 @@ const NewsTemplate = ({ data }) => {
               <div>
                 <p className="caps bold">from the landscaping experts</p>
                 <h1 className="title accent bold italics">
-                  {parse(data.wpPost.title)}
+                  {parse(post.title)}
                 </h1>
               </div>
               <BlogArticle className="blog-post">
                 {!!post.content && (
                   <section itemProp="articleBody">
-                    {parse(data.wpPost.content)}
+                    {parse(post.content)}
                   </section>
                 )}
               </BlogArticle>
@@ -392,14 +392,40 @@ const NewsTemplate = ({ data }) => {
 
 export default NewsTemplate
 
-// export const query = graphql`
-// query postBy($id: String!) {
-//   wpPost(id: { eq: $id })  {
-//     id
-//     excerpt
-//     content
-//     title
-//     date(formatString: "MMMM DD, YYYY")
-//   }
-// }
-// `
+export const pageQuery = graphql`
+  query BlogPostById(
+    $id: String!
+    $previousPostId: String
+    $nextPostId: String
+  ) {
+    post: wpPost(id: { eq: $id }) {
+      id
+      excerpt
+      content
+      title
+      date(formatString: "MMMM DD, YYYY")
+      featuredImage {
+        node {
+          altText
+          localFile {
+            childImageSharp {
+              gatsbyImageData(
+                quality: 100
+                placeholder: TRACED_SVG
+                layout: FULL_WIDTH
+              )
+            }
+          }
+        }
+      }
+    }
+    previous: wpPost(id: { eq: $previousPostId }) {
+      uri
+      title
+    }
+    next: wpPost(id: { eq: $nextPostId }) {
+      uri
+      title
+    }
+  }
+`

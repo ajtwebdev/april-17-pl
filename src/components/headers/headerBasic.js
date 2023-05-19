@@ -11,7 +11,7 @@ import Logo from "../../images/project-landscape-logo-light.svg"
 
 const device = {
   sm: "18em",
-  md: "56em",
+  md: "71em",
 }
 
 const Header = styled.div`
@@ -224,7 +224,8 @@ const DropdownResources = styled.li`
 
   @media screen and (min-width: ${device.md}) {
     div {
-      display: ${({ dropdownResources }) => (dropdownResources ? "flex" : "none")};
+      display: ${({ dropdownResources }) =>
+        dropdownResources ? "flex" : "none"};
       position: absolute;
       top: 155px;
       left: 0;
@@ -406,8 +407,7 @@ export default function HeaderBasic() {
                 <div />
               </Burger>
               <NavList nav={nav}>
-                <Dropdown
-                >
+                <Dropdown>
                   <StyledLink>
                     residential services
                     <IoMdArrowDropdown size={20} />
@@ -530,14 +530,10 @@ export default function HeaderBasic() {
                         </Link>
                       </h3>
                       <li>
-                        <StyledLink to="/decks-calgary">
-                          decks
-                        </StyledLink>
+                        <StyledLink to="/decks-calgary">decks</StyledLink>
                       </li>
                       <li>
-                        <StyledLink to="/gazebos-pergolas">
-                          pergolas
-                        </StyledLink>
+                        <StyledLink to="/gazebos-pergolas">pergolas</StyledLink>
                       </li>
                       <li>
                         <StyledLink to="/landscape-lighting-services-calgary">
@@ -571,9 +567,7 @@ export default function HeaderBasic() {
                         </StyledLink>
                       </li>
                       <li>
-                        <StyledLink to="/railings">
-                          deck railings
-                        </StyledLink>
+                        <StyledLink to="/railings">deck railings</StyledLink>
                       </li>
                       <li>
                         <StyledLink to="/residential-services/landscape-construction/outdoor-kitchens">
@@ -588,8 +582,7 @@ export default function HeaderBasic() {
                     </ul>
                   </div>
                 </Dropdown>
-                <Dropdown
-                >
+                <Dropdown>
                   <StyledLink>
                     about
                     <IoMdArrowDropdown size={20} />
@@ -624,16 +617,11 @@ export default function HeaderBasic() {
                           the project landscape difference
                         </StyledLink>
                       </li>
-                      
                     </ul>
                     <ul>
-                      <h3 className="subheader">
-                        customer center
-                      </h3>
+                      <h3 className="subheader">customer center</h3>
                       <li>
-                        <StyledLink to="/faq">
-                          FAQ
-                        </StyledLink>
+                        <StyledLink to="/faq">FAQ</StyledLink>
                       </li>
                       <li>
                         <StyledLink to="/refer-a-friend-to-project-landscape-ltd">
@@ -659,14 +647,10 @@ export default function HeaderBasic() {
                         </StyledLink>
                       </li>
                       <li>
-                        <StyledLink to="/blog">
-                          blogs
-                        </StyledLink>
+                        <StyledLink to="/blog">blogs</StyledLink>
                       </li>
                       <li>
-                        <StyledLink to="/testimonials">
-                          testimonials
-                        </StyledLink>
+                        <StyledLink to="/testimonials">testimonials</StyledLink>
                       </li>
                       <li>
                         <StyledLink to="/packages">packages</StyledLink>
@@ -679,17 +663,14 @@ export default function HeaderBasic() {
                     </ul>
                   </div>
                 </Dropdown>
-                <Dropdown
-                >
+                <Dropdown>
                   <StyledLink>
                     Resources
                     <IoMdArrowDropdown size={20} />
                   </StyledLink>
                   <div>
                     <ul>
-                      <h3 className="subheader">
-                        Get Inspired
-                      </h3>
+                      <h3 className="subheader">Get Inspired</h3>
                       <li>
                         <StyledLink to="/portfolio">portfolio</StyledLink>
                       </li>
@@ -707,12 +688,9 @@ export default function HeaderBasic() {
                           indoor idea center
                         </StyledLink>
                       </li>
-                      
                     </ul>
                     <ul>
-                      <h3 className="subheader">
-                        designscape style
-                      </h3>
+                      <h3 className="subheader">designscape style</h3>
                       <li>
                         <StyledLink to="/landscape-styles">
                           landscaping styles
@@ -720,12 +698,12 @@ export default function HeaderBasic() {
                       </li>
                       <li>
                         <StyledLink to="/outdoor-living-inspiration">
-                         outdoor living inspiration
+                          outdoor living inspiration
                         </StyledLink>
                       </li>
                       <li>
                         <StyledLink to="/landscaping-trends">
-                         landscaping trends
+                          landscaping trends
                         </StyledLink>
                       </li>
                       {/* <li>
@@ -753,7 +731,9 @@ export default function HeaderBasic() {
                 </Dropdown>
 
                 <li>
-                  <StyledLink to="/commercial-services">commercial services</StyledLink>
+                  <StyledLink to="/commercial-services">
+                    commercial services
+                  </StyledLink>
                 </li>
                 <li>
                   <StyledLink to="/contact">contact</StyledLink>
