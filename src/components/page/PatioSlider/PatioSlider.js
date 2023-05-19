@@ -121,7 +121,7 @@ export default function PatioSlider({ title }) {
                     Patios, Walkways, Pool Decks, Driveays
                   </h2>
                   <p className="subheader tan">A style for every home</p>
-                  <ButtonPrimary to="/contact">gett started</ButtonPrimary>
+                  <ButtonPrimary to="/contact">get started</ButtonPrimary>
                 </div>
               </Carousel.Caption>
             </Carousel.Item>
@@ -144,10 +144,13 @@ export default function PatioSlider({ title }) {
         <HeroBottomText>
           <Container>
             <p>
-              If you're in search of a Calgary patio installer, look no further
-              than Project Landscape. We offer a wide range of colors, styles
-              and maintenance free options to enhance the aesthetic appeal of
-              your outdoor living space.
+              Looking for Calgary hardscaping companies or patio builders? Look
+              no further than Project Landscape. Our team of experts is here to
+              help you create the outdoor living space of your dreams. With our
+              experience and expertise in hardscaping and patio construction, we
+              can transform your backyard into a beautiful and functional oasis.
+              Trust Project Landscape to bring your vision to life. Contact us
+              today to get started on your project.
             </p>
           </Container>
         </HeroBottomText>

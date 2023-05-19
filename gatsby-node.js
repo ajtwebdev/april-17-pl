@@ -116,7 +116,7 @@ async function createBlogPostArchive({ posts, gatsbyUtilities }) {
           // we want the first page to be "/" and any additional pages
           // to be numbered.
           // "/blog/2" for example
-          return page === 1 ? `/blog` : `/blog/page/${page}`
+          return page === 1 ? `/blog` : `/blog/${page}`
         }
 
         return null

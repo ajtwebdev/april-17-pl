@@ -78,11 +78,13 @@ export default function TabsTop({ title, tabsContent }) {
                             }}
                           />
                           <ListBox>
-                            <div
-                              dangerouslySetInnerHTML={{
-                                __html: `${tab.tabList}`,
-                              }}
-                            />
+                            {tab.tabList ? (
+                              <div
+                                dangerouslySetInnerHTML={{
+                                  __html: `${tab.tabList}`,
+                                }}
+                              />
+                            ) : null}
                           </ListBox>
                         </div>
                         <StyledImg
