@@ -156,6 +156,7 @@ const NewsTemplate = ({ data: { previous, next, post } }) => {
   // const data = combineFields(pageProps.post, "post")
   return (
     <Layout>
+      <HeroBannerPadding />
       {/* <Banner {...data} /> */}
       {/* {data.title && data.excerpt ? (
         <SEO title={data.title} description={data.excerpt} />
