@@ -22,11 +22,10 @@ module.exports.createPages = async gatsbyUtilities => {
   }
 
   // If there are posts, create pages for them
-  // await createIndividualBlogPostPages({ posts, gatsbyUtilities })
+  await createIndividualBlogPostPages({ posts, gatsbyUtilities })
 
   // And a paginated archive
   await createBlogPostArchive({ posts, gatsbyUtilities })
-
 }
 
 // for the non page components method:
@@ -58,6 +57,35 @@ module.exports.createPages = async gatsbyUtilities => {
 //       })
 //     )
 //   )
+
+const createIndividualBlogPostPages = async ({ posts, gatsbyUtilities }) =>
+  Promise.all(
+    posts.map(({ previous, post, next }) =>
+      // createPage is an action passed to createPages
+      // See https://www.gatsbyjs.com/docs/actions#createPage for more info
+      gatsbyUtilities.actions.createPage({
+        // Use the WordPress uri as the Gatsby page path
+        // This is a good idea so that internal links and menus work 👍
+        path: post.uri,
+
+        // use the blog post template as the page component
+        component: path.resolve(`./src/templates/post.js`),
+
+        // `context` is available in the template as a prop and
+        // as a variable in GraphQL.
+        context: {
+          // we need to add the post id here
+          // so our blog post template knows which blog post
+          // the current page is (when you open it in a browser)
+          id: post.id,
+
+          // We also use the next and previous id's to query them and add links!
+          previousPostId: previous ? previous.id : null,
+          nextPostId: next ? next.id : null,
+        },
+      })
+    )
+  )
 
 /**
  * This function creates all the individual blog pages in this site
