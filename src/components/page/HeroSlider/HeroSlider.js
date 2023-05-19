@@ -55,7 +55,8 @@ const Content = styled.div`
 `
 
 const Content1 = styled.div`
-  background: url("../../../images/deck-banner-2.png"), rgba(0, 0, 0, 0.4);
+  background: url("http://21-pl.purpleparrotwebsites.com/wp-content/uploads/2023/05/under-deck-lighting-calgary.png"),
+    rgba(0, 0, 0, 0.4);
   background-blend-mode: overlay;
   background-position: center;
   height: 85vh;
@@ -63,7 +64,8 @@ const Content1 = styled.div`
   background-repeat: no-repeat;
 `
 const Content2 = styled.div`
-  background: url("../../../images/deck-banner-3.jpeg"), rgba(0, 0, 0, 0.4);
+  background: url("http://21-pl.purpleparrotwebsites.com/wp-content/uploads/2023/05/deck-banner-3.webp"),
+    rgba(0, 0, 0, 0.4);
   background-blend-mode: overlay;
   background-position: center;
   height: 85vh;
@@ -71,7 +73,8 @@ const Content2 = styled.div`
   background-repeat: no-repeat;
 `
 const Content3 = styled.div`
-  background: url("../../../images/deck-banner-1.jpeg"), rgba(0, 0, 0, 0.4);
+  background: url("http://21-pl.purpleparrotwebsites.com/wp-content/uploads/2023/05/deck-banner-1.webp"),
+    rgba(0, 0, 0, 0.4);
   background-blend-mode: overlay;
   background-position: center;
   height: 85vh;

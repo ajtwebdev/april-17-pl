@@ -12,7 +12,8 @@ import styled from "styled-components"
 import { ButtonPrimary, ButtonSecondaryLight } from "../../buttons"
 
 const Wrapper = styled.div`
-  background: url("../../images/hero.jpg"), rgba(0, 0, 0, 0.8);
+  background: url("http://21-pl.purpleparrotwebsites.com/wp-content/uploads/2023/05/hero.webp"),
+    rgba(0, 0, 0, 0.8);
   background-blend-mode: overlay;
   background-position: center;
   background-size: cover;

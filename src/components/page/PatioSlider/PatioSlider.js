@@ -55,7 +55,8 @@ const Content = styled.div`
 `
 
 const Content1 = styled.div`
-  background: url("../../../images/patio-slider-1.png"), rgba(0, 0, 0, 0.4);
+  background: url("http://21-pl.purpleparrotwebsites.com/wp-content/uploads/2023/05/patio-slider-1-1.webp"),
+    rgba(0, 0, 0, 0.2);
   background-blend-mode: overlay;
   background-position: center;
   height: 85vh;
@@ -63,7 +64,8 @@ const Content1 = styled.div`
   background-repeat: no-repeat;
 `
 const Content2 = styled.div`
-  background: url("../../../images/patio-slider-2.png"), rgba(0, 0, 0, 0.4);
+  background: url("http://21-pl.purpleparrotwebsites.com/wp-content/uploads/2023/05/patio-slider-2.png"),
+    rgba(0, 0, 0, 0.2);
   background-blend-mode: overlay;
   background-position: center;
   height: 85vh;
@@ -71,7 +73,8 @@ const Content2 = styled.div`
   background-repeat: no-repeat;
 `
 const Content3 = styled.div`
-  background: url("../../../images/patio-slider-3.png"), rgba(0, 0, 0, 0.4);
+  background: url("http://21-pl.purpleparrotwebsites.com/wp-content/uploads/2023/05/patio-slider-3-_1_-2-2.webp"),
+    rgba(0, 0, 0, 0.2);
   background-blend-mode: overlay;
   background-position: center;
   height: 85vh;
@@ -104,9 +107,7 @@ export default function PatioSlider({ title }) {
                   <h1 className="title">
                     Calgary's largest residential paving stone installer{" "}
                   </h1>
-                  <p className="subheader tan">
-                    In the middle: The confidence to stand out{" "}
-                  </p>
+                  <p className="subheader tan">The confidence to stand out </p>
                   <ButtonPrimary to="/contact">get started</ButtonPrimary>
                 </div>
               </Carousel.Caption>

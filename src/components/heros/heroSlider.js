@@ -59,7 +59,8 @@ const Content = styled.div`
 `
 
 const Content1 = styled.div`
-  background: url("../../images/outdoor-living-slider.jpg"), rgba(0, 0, 0, 0);
+  background: url("http://21-pl.purpleparrotwebsites.com/wp-content/uploads/2023/05/outdoor-living-slider.webp"),
+    rgba(0, 0, 0, 0);
   background-blend-mode: overlay;
   background-position: center;
   height: 90vh;
@@ -67,7 +68,8 @@ const Content1 = styled.div`
   background-repeat: no-repeat;
 `
 const Content2 = styled.div`
-  background: url("../../images/hardscaping-slider.jpg"), rgba(0, 0, 0, 0);
+  background: url("http://21-pl.purpleparrotwebsites.com/wp-content/uploads/2023/05/hardscaping-slider.webp"),
+    rgba(0, 0, 0, 0);
   background-blend-mode: overlay;
   background-position: center;
   height: 90vh;

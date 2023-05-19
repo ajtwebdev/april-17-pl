@@ -12,7 +12,7 @@ import styled from "styled-components"
 import { ButtonPrimary } from "../buttons"
 
 const Wrapper = styled.div`
-  background: url("../../../images/calgary-landscaping-faq-banner.jpg"),
+  background: url("http://21-pl.purpleparrotwebsites.com/wp-content/uploads/2023/05/hero.webp"),
     rgba(0, 0, 0, 0.8);
   background-blend-mode: overlay;
   background-position: center;
@@ -183,7 +183,14 @@ export default function FaqFeatured(props) {
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                The cost of landscaping can vary widely depending on factors such as the size of the area, the complexity of the design, the types of materials used, and the region's labor costs. Small residential projects, such as adding plants or a small patio, can start from a few hundred dollars, while larger-scale projects involving extensive design work, hardscaping, and planting can range from several thousand to tens of thousands of dollars or more.
+                  The cost of landscaping can vary widely depending on factors
+                  such as the size of the area, the complexity of the design,
+                  the types of materials used, and the region's labor costs.
+                  Small residential projects, such as adding plants or a small
+                  patio, can start from a few hundred dollars, while
+                  larger-scale projects involving extensive design work,
+                  hardscaping, and planting can range from several thousand to
+                  tens of thousands of dollars or more.
                 </AccordionPanel>
               </AccordionItem>
               <AccordionItem style={AccordionStyle}>
@@ -201,7 +208,10 @@ export default function FaqFeatured(props) {
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                As licensed landscape contractors, Project Landscape is happy to help obtain needed permits as part of a project management package.                </AccordionPanel>
+                  As licensed landscape contractors, Project Landscape is happy
+                  to help obtain needed permits as part of a project management
+                  package.{" "}
+                </AccordionPanel>
               </AccordionItem>
               <AccordionItem style={AccordionStyle}>
                 <h2>
@@ -212,13 +222,19 @@ export default function FaqFeatured(props) {
                       flex="1"
                       textAlign="left"
                     >
-                      Do you have any certifications or affiliations with professional organizations?
+                      Do you have any certifications or affiliations with
+                      professional organizations?
                     </Box>
                     <AccordionIcon />
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                Project Landscape is Calgary's premier outdoor living company, specializing in retaining walls and paving stone installations. As certified experts in ICPI, Techo-Pro, and Belgard, we guarantee high-quality craftsmanship and compliance with industry standards. Trust us to transform your outdoor space into a stunning and functional oasis.
+                  Project Landscape is Calgary's premier outdoor living company,
+                  specializing in retaining walls and paving stone
+                  installations. As certified experts in ICPI, Techo-Pro, and
+                  Belgard, we guarantee high-quality craftsmanship and
+                  compliance with industry standards. Trust us to transform your
+                  outdoor space into a stunning and functional oasis.
                 </AccordionPanel>
               </AccordionItem>
             </Accordion>

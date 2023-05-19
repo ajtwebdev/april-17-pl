@@ -5,7 +5,8 @@ import { ButtonPrimary } from "./buttons"
 import { Container, Section } from "./layoutComponents"
 
 const Wrapper = styled.div`
-  background: url("../../images/finance-banner.jpg"), rgba(255, 255, 255, 0.7);
+  background: url("http://21-pl.purpleparrotwebsites.com/wp-content/uploads/2023/05/finance-banner.jpg"),
+    rgba(255, 255, 255, 0.7);
   background-blend-mode: overlay;
   background-position: center;
   background-size: cover;
