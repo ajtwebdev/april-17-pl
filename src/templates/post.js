@@ -157,6 +157,7 @@ const NewsTemplate = ({ data: { previous, next, post } }) => {
   return (
     <Layout>
       <HeroBannerPadding />
+      <HeroBannerPadding />
       {/* <Banner {...data} /> */}
       {/* {data.title && data.excerpt ? (
         <SEO title={data.title} description={data.excerpt} />
