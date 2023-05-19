@@ -55,7 +55,7 @@ const Content = styled.div`
 `
 
 const Content1 = styled.div`
-  background: url("../../../images/deck-banner-2.png"), rgba(0, 0, 0, 0.4);
+  background: url("../../../images/patio-slider-1.png"), rgba(0, 0, 0, 0.4);
   background-blend-mode: overlay;
   background-position: center;
   height: 85vh;
@@ -63,7 +63,7 @@ const Content1 = styled.div`
   background-repeat: no-repeat;
 `
 const Content2 = styled.div`
-  background: url("../../../images/deck-banner-3.jpeg"), rgba(0, 0, 0, 0.4);
+  background: url("../../../images/patio-slider-2.png"), rgba(0, 0, 0, 0.4);
   background-blend-mode: overlay;
   background-position: center;
   height: 85vh;
@@ -71,7 +71,7 @@ const Content2 = styled.div`
   background-repeat: no-repeat;
 `
 const Content3 = styled.div`
-  background: url("../../../images/deck-banner-1.jpeg"), rgba(0, 0, 0, 0.4);
+  background: url("../../../images/patio-slider-3.png"), rgba(0, 0, 0, 0.4);
   background-blend-mode: overlay;
   background-position: center;
   height: 85vh;
@@ -88,7 +88,7 @@ const captionStyle = {
   color: "var(--txt-light)",
 }
 
-export default function HeroSlider({ title }) {
+export default function PatioSlider({ title }) {
   return (
     <Wrapper>
       <HeroBannerPadding />
@@ -101,8 +101,12 @@ export default function HeroSlider({ title }) {
               </Content>
               <Carousel.Caption style={captionStyle} className="spacing">
                 <div className="spacing">
-                  <h1 className="title">calgary's premier deck builder</h1>
-                  <p className="subheader tan">a style from the ground up</p>
+                  <h1 className="title">
+                    Calgary's largest residential paving stone installer{" "}
+                  </h1>
+                  <p className="subheader tan">
+                    In the middle: The confidence to stand out{" "}
+                  </p>
                   <ButtonPrimary to="/contact">get started</ButtonPrimary>
                 </div>
               </Carousel.Caption>
@@ -113,9 +117,11 @@ export default function HeroSlider({ title }) {
               </Content>
               <Carousel.Caption style={captionStyle} className="spacing">
                 <div className="spacing">
-                  <h2 className="title">expand your outdoor living</h2>
-                  <p className="subheader tan">Looking for inspiration?</p>
-                  <ButtonPrimary to="/contact">get started</ButtonPrimary>
+                  <h2 className="title">
+                    Patios, Walkways, Pool Decks, Driveays
+                  </h2>
+                  <p className="subheader tan">A style for every home</p>
+                  <ButtonPrimary to="/contact">gett started</ButtonPrimary>
                 </div>
               </Carousel.Caption>
             </Carousel.Item>
@@ -127,7 +133,7 @@ export default function HeroSlider({ title }) {
                 <div className="spacing">
                   <h2 className="title">take a step outdoors</h2>
                   <p className="subheader tan">
-                    Ready to plan your 2023 deck build?
+                    Expand your outdoor living space to its full potential
                   </p>
                   <ButtonPrimary to="/contact">get started</ButtonPrimary>
                 </div>
@@ -138,11 +144,10 @@ export default function HeroSlider({ title }) {
         <HeroBottomText>
           <Container>
             <p>
-              If you're in search of a Calgary deck builder near you, look no
-              further than Project Landscape. We offer a wide range of colors,
-              styles and maintenance free options to enhance the aesthetic
-              appeal of your deck. Let Project Landscape help you build the
-              outdoor living space of your dreams!
+              If you're in search of a Calgary patio installer, look no further
+              than Project Landscape. We offer a wide range of colors, styles
+              and maintenance free options to enhance the aesthetic appeal of
+              your outdoor living space.
             </p>
           </Container>
         </HeroBottomText>

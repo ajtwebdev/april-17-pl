@@ -89,38 +89,12 @@ export default function WarrantyForm(props) {
                 />
               </div>
               <div className="spacing-sm">
-                <Label htmlFor="community">* Community:</Label>
+                <Label htmlFor="invoice">* Invoice #:</Label>
                 <Input
                   type="text"
-                  name="community"
-                  id="community"
-                  placeholder="What community do you live in?"
-                  required
-                />
-              </div>
-            </Flex>
-            <Flex>
-              <div className="spacing-sm">
-                <Label htmlFor="installDate">
-                  * Date landscape was installed:
-                </Label>
-                <Input
-                  type="date"
-                  name="installDate"
-                  id="installDate"
-                  placeholder="Enter the installation date"
-                  required
-                />
-              </div>
-              <div className="spacing-sm">
-                <Label htmlFor="completetionDate">
-                  * Date project was completed:
-                </Label>
-                <Input
-                  type="date"
-                  name="completetionDate"
-                  id="completetionDate"
-                  placeholder="Enter the completion date"
+                  name="invoice"
+                  id="invoice"
+                  placeholder="Please provide your invoice #"
                   required
                 />
               </div>
