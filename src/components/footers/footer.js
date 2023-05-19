@@ -231,6 +231,7 @@ export default function Footer() {
               <div className="spacing">
                 <StaticImage
                   width={200}
+                  height={70}
                   src="../../images/project-landscape-logo-light.svg"
                   alt="project landscape logo - calgary landscape company"
                 />
@@ -282,12 +283,15 @@ export default function Footer() {
                   </ul>
                 </div>
                 <Payments>
-                  <StaticImage src="../../images/visa.png" alt="calgary landscaping payment type" />
+                  <StaticImage
+                    src="../../images/visa.png"
+                    alt="calgary landscaping payment type"
+                  />
                 </Payments>
                 <div className="spacing">
                   <h4 className="subheader">showroom</h4>
                   <ul>
-                  <li>
+                    <li>
                       <ContactLink
                         href="https://www.google.com/maps?q=backyard+canada&rlz=1C1JZAP_enCA1008CA1008&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDE5NzVqMGo5qAIAsAIA&um=1&ie=UTF-8&sa=X&ved=2ahUKEwi097Gbmfb-AhUCADQIHYjWB-kQ_AUoAnoECAEQBA"
                         target="_blank"
@@ -320,7 +324,6 @@ export default function Footer() {
                         WORLD OF SPAS - 6201 CENTRE S
                       </ContactLink>
                     </li>
-                    
                   </ul>
                 </div>
                 <Socials>
@@ -374,10 +377,7 @@ export default function Footer() {
                       target="_blank"
                       href="https://www.houzz.com/professionals/landscape-architects-and-landscape-designers/project-landscape-ltd-pfvwus-pf~816279347/__public"
                     >
-                      <img
-                        src={Houzz}
-                        alt="calgary landscaping company"
-                      />
+                      <img src={Houzz} alt="calgary landscaping company" />
                     </a>
                   </div>
                   <div>
@@ -385,10 +385,7 @@ export default function Footer() {
                       target="_blank"
                       href="https://www.google.com/search?q=project%20landscape&rlz=1C1JZAP_enCA1008CA1008&oq=project+landscape&aqs=chrome..69i57j69i59j69i64j69i65j69i60l2j69i65.4202j0j9&sourceid=chrome&ie=UTF-8&tbs=lf:1,lf_ui:14&tbm=lcl&sxsrf=APwXEde42p-FOu2e0riecHHuoBMahO47kQ:1682655163573&rflfq=1&num=10&serdesk=1&rldimm=11747008283103314784&lqi=ChFwcm9qZWN0IGxhbmRzY2FwZUi-z42FnKuAgAhaGxAAEAEYABgBIhFwcm9qZWN0IGxhbmRzY2FwZXoHQ2FsZ2FyeZIBEmxhbmRzY2FwZV9kZXNpZ25lcqoBORABMh4QASIaKaI3Foxmm9yUEJWVyMjPvBmgI2VvlzimO9cyFRACIhFwcm9qZWN0IGxhbmRzY2FwZQ&ved=2ahUKEwiBlLf62sv-AhUXITQIHeg0D40QvS56BAgVEAE&sa=X&rlst=f#rlfi=hd:;si:11747008283103314784,l,ChFwcm9qZWN0IGxhbmRzY2FwZUi-z42FnKuAgAhaGxAAEAEYABgBIhFwcm9qZWN0IGxhbmRzY2FwZXoHQ2FsZ2FyeZIBEmxhbmRzY2FwZV9kZXNpZ25lcqoBORABMh4QASIaKaI3Foxmm9yUEJWVyMjPvBmgI2VvlzimO9cyFRACIhFwcm9qZWN0IGxhbmRzY2FwZQ;mv:[[51.0443109,-113.9770916],[50.992142799999996,-114.1041654]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:14"
                     >
-                      <img
-                        src={GooglePlus}
-                        alt="calgary landscaping company"
-                      />
+                      <img src={GooglePlus} alt="calgary landscaping company" />
                     </a>
                   </div>
                 </Socials>
@@ -527,18 +524,14 @@ export default function Footer() {
                     </Link>
                   </h3>
                   <li>
-                    <StyledLink to="/decks-calgary">
-                      decks
-                    </StyledLink>
+                    <StyledLink to="/decks-calgary">decks</StyledLink>
                   </li>
                   <li>
-                    <StyledLink to="/gazebos-pergolas">
-                      pergolas
-                    </StyledLink>
+                    <StyledLink to="/gazebos-pergolas">pergolas</StyledLink>
                   </li>
                   <li>
                     <StyledLink to="/landscape-lighting-services-calgary">
-                     landscape lighting
+                      landscape lighting
                     </StyledLink>
                   </li>
                   <li>
@@ -568,9 +561,7 @@ export default function Footer() {
                     </StyledLink>
                   </li>
                   <li>
-                    <StyledLink to="/railings">
-                      deck railings
-                    </StyledLink>
+                    <StyledLink to="/railings">deck railings</StyledLink>
                   </li>
                   <li>
                     <StyledLink to="/residential-services/landscape-construction/outdoor-kitchens">
@@ -592,14 +583,10 @@ export default function Footer() {
               <div>
                 <ul>
                   <h3 className="subheader">
-                    <Link to="/about">
-                     company information
-                    </Link>
+                    <Link to="/about">company information</Link>
                   </h3>
                   <li>
-                    <StyledLink to="/about">
-                      about us
-                    </StyledLink>
+                    <StyledLink to="/about">about us</StyledLink>
                   </li>
                   <li>
                     <StyledLink to="/customer-resource-center">
@@ -607,14 +594,10 @@ export default function Footer() {
                     </StyledLink>
                   </li>
                   <li>
-                    <StyledLink to="/our-process">
-                      our process
-                    </StyledLink>
+                    <StyledLink to="/our-process">our process</StyledLink>
                   </li>
                   <li>
-                    <StyledLink to="/careers">
-                      careers
-                    </StyledLink>
+                    <StyledLink to="/careers">careers</StyledLink>
                   </li>
                   <li>
                     <StyledLink to="/residential-services">
@@ -627,49 +610,33 @@ export default function Footer() {
                     </StyledLink>
                   </li>
                   <li>
-                    <StyledLink to="/faq">
-                      FAQ
-                    </StyledLink>
+                    <StyledLink to="/faq">FAQ</StyledLink>
                   </li>
                   <li>
-                    <StyledLink to="/service-areas">
-                      service areas
-                    </StyledLink>
+                    <StyledLink to="/service-areas">service areas</StyledLink>
                   </li>
                   <li>
-                    <StyledLink to="/blog">
-                      blogs
-                    </StyledLink>
+                    <StyledLink to="/blog">blogs</StyledLink>
                   </li>
                   <li>
-                    <StyledLink to="/testimonials">
-                      testimonials
-                    </StyledLink>
+                    <StyledLink to="/testimonials">testimonials</StyledLink>
                   </li>
                   <li>
-                    <StyledLink to="/packages">
-                      packages
-                    </StyledLink>
+                    <StyledLink to="/packages">packages</StyledLink>
                   </li>
                   <li>
                     <StyledLink to="/strategic-partners">
-                    strategic partners
+                      strategic partners
                     </StyledLink>
                   </li>
                   <li>
-                    <StyledLink to="/portfolio">
-                   portfolio
-                    </StyledLink>
+                    <StyledLink to="/portfolio">portfolio</StyledLink>
                   </li>
                   <li>
-                    <StyledLink to="/financing">
-                      financing
-                    </StyledLink>
+                    <StyledLink to="/financing">financing</StyledLink>
                   </li>
                   <li>
-                    <StyledLink to="/contact">
-                      get a quote
-                    </StyledLink>
+                    <StyledLink to="/contact">get a quote</StyledLink>
                   </li>
                 </ul>
               </div>
@@ -681,12 +648,14 @@ export default function Footer() {
               <li>{Info.name}</li>
               <li>All Rights Reserved</li>
               <li>
-                <Link className="a" to="/terms-of-use">terms of use</Link>
-        
+                <Link className="a" to="/terms-of-use">
+                  terms of use
+                </Link>
               </li>
               <li>
-                <Link className="a" to="/privacy-policy">Privacy Policy</Link>
-        
+                <Link className="a" to="/privacy-policy">
+                  Privacy Policy
+                </Link>
               </li>
             </ul>
           </Copyright>

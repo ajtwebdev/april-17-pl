@@ -81,6 +81,8 @@ const Headerbottom = styled.div`
 const LogoContainer = styled.div`
   img {
     height: 70px;
+    width: 200px;
+    object-fit: cover;
     transition: 0.4s;
 
     &[data-active="true"] {

@@ -153,25 +153,33 @@ export default function TabsSide({ title, tabsContent }) {
         <Section>
           <Container>
             <Flex>
-              <div className="spacing">
-                <h3 className="subheader accent">{tab.tabTitle}</h3>
-                <p
-                  dangerouslySetInnerHTML={{
-                    __html: `${tab.tabBody}`,
-                  }}
-                />
-                <ListBox>
-                  <div
-                    dangerouslySetInnerHTML={{
-                      __html: `${tab.tabList}`,
-                    }}
-                  />
-                </ListBox>
-              </div>
-              <GatsbyImage
-                image={tab.tabImage.localFile.childImageSharp.gatsbyImageData}
-                alt={tab.tabImage.altText}
-              />
+              {tabsContent.map(tab => {
+                return (
+                  <Flex>
+                    <div className="spacing">
+                      <h3 className="subheader accent">{tab.tabTitle}</h3>
+                      <p
+                        dangerouslySetInnerHTML={{
+                          __html: `${tab.tabBody}`,
+                        }}
+                      />
+                      <ListBox>
+                        <div
+                          dangerouslySetInnerHTML={{
+                            __html: `${tab.tabList}`,
+                          }}
+                        />
+                      </ListBox>
+                    </div>
+                    <GatsbyImage
+                      image={
+                        tab.tabImage.localFile.childImageSharp.gatsbyImageData
+                      }
+                      alt={tab.tabImage.altText}
+                    />
+                  </Flex>
+                )
+              })}
             </Flex>
           </Container>
         </Section>
