@@ -1,6 +1,6 @@
 import { StaticImage } from "gatsby-plugin-image"
 import React from "react"
-import { ButtonPrimary } from "./buttons"
+import { ButtonInline, ButtonPrimary } from "./buttons"
 import { Container, GridThree, Section } from "./layoutComponents"
 
 export default function Why() {
@@ -22,13 +22,14 @@ export default function Why() {
               We Bring Your ideas to life
             </h3>
             <p>
-              Hiring a professional Calgary landscape designer means that you’ll have a
-              partner who is committed to bringing your landscaping dreams to
-              life. Whether you have a vague idea of what you want or a specific
-              vision in mind, a professional designer can help you clarify your
-              ideas and bring them to fruition. They’ll work closely with you to
-              ensure that your outdoor space is not only functional but also
-              beautiful.
+              Hiring a professional Calgary landscape{" "}
+              <ButtonInline to="/landscape-design">designer</ButtonInline> means
+              that you’ll have a partner who is committed to bringing your
+              landscaping dreams to life. Whether you have a vague idea of what
+              you want or a specific vision in mind, a professional designer can
+              help you clarify your ideas and bring them to fruition. They’ll
+              work closely with you to ensure that your outdoor space is not
+              only functional but also beautiful.
             </p>
           </div>
           <div className="spacing">
@@ -41,10 +42,10 @@ export default function Why() {
               we save you money and time
             </h3>
             <p>
-              When you work with a professional landscaping Calgary designer, you’re not
-              just investing in the beauty of your home’s exterior, but you’re
-              also saving yourself time and money in the long run. A designer
-              has the experience, skills, and tools to get the job done
+              When you work with a professional landscaping Calgary designer,
+              you’re not just investing in the beauty of your home’s exterior,
+              but you’re also saving yourself time and money in the long run. A
+              designer has the experience, skills, and tools to get the job done
               correctly and efficiently. They can help you select the right
               materials for your project, work within your budget, and avoid
               costly mistakes.
@@ -60,12 +61,12 @@ export default function Why() {
               we can enhance your property value
             </h3>
             <p>
-              Professional landscaping in Calgary not only enhances the aesthetics of your
-              home, but it can also increase its value. A well-designed
-              landscape is a selling point that can make your home stand out
-              from the competition. Working with a professional landscape
-              designer ensures that your landscaping investment pays off by
-              increasing your property value.
+              Professional landscaping in Calgary not only enhances the
+              aesthetics of your home, but it can also increase its value. A
+              well-designed landscape is a selling point that can make your home
+              stand out from the competition. Working with a professional
+              landscape designer ensures that your landscaping investment pays
+              off by increasing your property value.
             </p>
           </div>
           <div className="spacing">
@@ -80,10 +81,14 @@ export default function Why() {
             <p>
               A professional landscaper in Calgary understands the importance of
               environmental sustainability in landscaping. They can recommend
-              the right plants and trees that are native to your area, conserve
-              water, and reduce the use of fertilizers and pesticides. With
-              their expertise, they can create a beautiful and eco-friendly
-              landscape that will benefit both your family and the environment.
+              the right{" "}
+              <ButtonInline to="/residential-services/landscape-construction/tree-shrub-planting">
+                plants and trees
+              </ButtonInline>{" "}
+              that are native to your area, conserve water, and reduce the use
+              of fertilizers and pesticides. With their expertise, they can
+              create a beautiful and eco-friendly landscape that will benefit
+              both your family and the environment.
             </p>
           </div>
           <div className="spacing">

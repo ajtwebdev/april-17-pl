@@ -153,12 +153,18 @@ export default function HeroSlider(props) {
         <HeroBottomText>
           <Container>
             <p>
-              Transform your outdoor space into a serene haven with our unique
-              Calgary landscaping services. From custom{" "}
+              Transform your{" "}
+              <ButtonInline to="/residential-services/outdoor-living">
+                outdoor space
+              </ButtonInline>{" "}
+              into a serene haven with our unique Calgary landscaping services.
+              From custom{" "}
               <ButtonInline to="/landscape-design">design</ButtonInline> to
               expert installation, our team of experts will help you create a
               personalized and functional living space that showcases your
-              personality and style. Get started with your transformation today!
+              personality and style.{" "}
+              <ButtonInline to="/contact">Get started</ButtonInline> with your
+              transformation today!
             </p>
           </Container>
         </HeroBottomText>

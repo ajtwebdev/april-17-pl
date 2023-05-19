@@ -45,7 +45,7 @@ export default function ContactBanner() {
             </Link>
             <p>
               When professional is what you want, professional is what you’ll
-              get. We are your trusted team landscaping experts who put your
+              get. We are your trusted team of landscaping experts who put your
               needs first.
             </p>
           </Item>

@@ -9,12 +9,13 @@
  */
 module.exports = {
   siteMetadata: {
-    title: "Landscaper Calgary",
+    title: "Landscaper Calgary | Project Landscape Ltd.",
     titleTemplate: "%s",
-    description: "Project Landscape",
+    description:
+      "Your home is your pride and joy, and we are the professionals who can help you maintain its outdoor beauty.",
     url: "https://www.projectlandscape.ca", // No trailing slash allowed!
     siteUrl: "https://www.projectlandscape.ca",
-    image: "/logo-light.jpg", // Path to your image you placed in the 'static' folder
+    image: "/logo-dark.jpg", // Path to your image you placed in the 'static' folder
     twitterUsername: "",
   },
   plugins: [

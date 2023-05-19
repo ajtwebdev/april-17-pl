@@ -1,7 +1,7 @@
 import { StaticImage } from "gatsby-plugin-image"
 import React from "react"
 import styled from "styled-components"
-import { ButtonUnderline } from "../buttons"
+import { ButtonInline, ButtonUnderline } from "../buttons"
 import { Container, Section } from "../layoutComponents"
 import { Link } from "gatsby"
 
@@ -65,7 +65,7 @@ const ItemLink = styled(props => <Link {...props} />)`
   .img {
     max-height: 500px;
     max-width: 450px;
-  }  
+  }
 `
 
 export default function MainServicesLinks(props) {
@@ -76,14 +76,28 @@ export default function MainServicesLinks(props) {
           <Text className="spacing">
             <div>
               {/* <p className="subheader accent">find the services you need</p> */}
-              <h1 className="title">
-                {props.title}
-                
-              </h1>
+              <h1 className="title">{props.title}</h1>
             </div>
             <p>
-              {props.description}
-              
+              Your home is your pride and joy, and we are the{" "}
+              <ButtonInline to="/">landscape professionals</ButtonInline> who
+              can help you maintain its outdoor beauty. Increasing your
+              property's value and making your yard the envy of the block,
+              <ButtonInline to="/about">Project Landscape</ButtonInline> ensures
+              that your landscaping needs are met. From{" "}
+              <ButtonInline to="/residential-services/irrigation-landscape-lighting">
+                irrigation
+              </ButtonInline>
+              , seasonal clean-up,{" "}
+              <ButtonInline to=".residential-services/hardscaping/">
+                construction
+              </ButtonInline>{" "}
+              and{" "}
+              <ButtonInline to="/residential-services">
+                more services
+              </ButtonInline>
+              , we are the Calgary Landscaping experts you can trust for all
+              your residential landscaping needs
             </p>
           </Text>
         </Container>
@@ -91,7 +105,7 @@ export default function MainServicesLinks(props) {
           <List>
             <ItemLink to="/residential-services/hardscaping">
               <StaticImage
-              className="img"
+                className="img"
                 src="../../images/hardscaping-calgary.jpg"
                 alt="calgary hardscaping services"
               />
@@ -107,7 +121,7 @@ export default function MainServicesLinks(props) {
             </ItemLink>
             <ItemLink to="/residential-services/softscaping">
               <StaticImage
-              className="img"
+                className="img"
                 src="../../images/softscaping-calgary.jpg"
                 alt="calgary softscaping services"
               />
@@ -123,7 +137,7 @@ export default function MainServicesLinks(props) {
             </ItemLink>
             <ItemLink to="/residential-services/outdoor-living">
               <StaticImage
-              className="img"
+                className="img"
                 src="../../images/outdoor-living-calgary.jpg"
                 alt="outdoor landscaping services calgary"
               />

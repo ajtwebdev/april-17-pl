@@ -51,11 +51,26 @@ export default function MainVideo() {
               <div>
                 <h3 className="subheader">redefining landscaping in calgary</h3>
                 <p>
-                  Project Landscape redefines the fundamentals of landscape
-                  installation, landscape maintenance and service throughout
-                  Calgary and <ButtonInline to="/areas-we-service">surrounding areas</ButtonInline>. We design, build and maintain
-                  landscapes for both <ButtonInline to="/residential-services">Residential</ButtonInline> and the business community.
-                  Hire our landscaping Calgary team today.
+                  Project Landscape redefines the fundamentals of{" "}
+                  <ButtonInline to="/residential-services/irrigation-landscape-lighting">
+                    landscape installation
+                  </ButtonInline>
+                  , landscape maintenance and landscape services throughout
+                  Calgary and{" "}
+                  <ButtonInline to="/areas-we-service">
+                    surrounding areas
+                  </ButtonInline>
+                  . We design, build and maintain landscapes for both{" "}
+                  <ButtonInline to="/residential-services">
+                    Residential
+                  </ButtonInline>{" "}
+                  and the{" "}
+                  <ButtonInline to="/commercial-services">
+                    business
+                  </ButtonInline>{" "}
+                  community.{" "}
+                  <ButtonInline to="/contact">Contact us</ButtonInline> to hire
+                  our landscaping Calgary team today!
                 </p>
               </div>
               <div>
@@ -64,10 +79,16 @@ export default function MainVideo() {
                 </h3>
                 <p>
                   Our professional experience and knowledge helps us tackle any
-                  project thrown our way - weather its installing a complete
-                  landscape or giving a Calgary business a more attractive
-                  curb-appeal. We give our customers a personal paradise, with
-                  minimal maintenance so they can just sit back and enjoy.
+                  <ButtonInline to="/portfolio">
+                    landscaping project
+                  </ButtonInline>{" "}
+                  thrown our way - weather its installing a complete landscape
+                  or giving a Calgary business a more attractive{" "}
+                  <ButtonInline to="/concrete-curbing">
+                    curb - appeal
+                  </ButtonInline>
+                  . We give our customers a personal paradise, with minimal
+                  maintenance so they can just sit back and enjoy.
                 </p>
               </div>
               <div>
@@ -75,10 +96,21 @@ export default function MainVideo() {
                   increasing the beauty of your Calgary landscape
                 </h3>
                 <p>
-                  <ButtonInline to="/about">Project Landscape</ButtonInline> has all of the expertise, the highest
-                  insurance that the industry has to offer, we are in good
-                  standing with the workers compensation board and have the
-                  staff to increase the beauty of your property through <ButtonInline to="/decks-calgary">deck building</ButtonInline>, <ButtonInline to="/residential-services/landscape-construction/patio-surfaces">deck installs</ButtonInline>, <ButtonInline to="/residential-services/landscape-construction/patio-surfaces">deck patios</ButtonInline>, landscaping and more.
+                  <ButtonInline to="/about">Project Landscape</ButtonInline> has
+                  all of the expertise, the highest insurance that the industry
+                  has to offer, we are in good standing with the workers
+                  compensation board and have the staff to increase the beauty
+                  of your property through{" "}
+                  <ButtonInline to="/decks-calgary">deck building</ButtonInline>
+                  ,{" "}
+                  <ButtonInline to="/residential-services/landscape-construction/patio-surfaces">
+                    deck installs
+                  </ButtonInline>
+                  ,{" "}
+                  <ButtonInline to="/residential-services/landscape-construction/patio-surfaces">
+                    deck patios
+                  </ButtonInline>
+                  , landscaping and more.
                 </p>
               </div>
 
