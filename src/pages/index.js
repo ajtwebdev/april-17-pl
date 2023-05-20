@@ -138,11 +138,11 @@ export default function index() {
       />
       <ShowroomSection />
       <MainVideo />
-      {/* <LandscapingImg
+      <LandscapingImg
         title="Landscaping services in Calgary"
         to="/about"
         button="more about us"
-      /> */}
+      />
       <OasisImg
         title="Bring your outdoor oasis to life"
         to="/contact"
