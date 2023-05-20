@@ -6,6 +6,10 @@ import { GatsbyImage } from "gatsby-plugin-image"
 
 const Wrapper = styled.div`
   .css-1xhq01z {
+    @media screen and (max-width: 800px) {
+      display: flex;
+      flex-direction: column;
+    }
   }
 
   .css-52dxnr {

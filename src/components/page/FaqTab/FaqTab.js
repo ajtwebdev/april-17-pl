@@ -34,6 +34,11 @@ const Wrapper = styled.div`
     padding: 2em;
     border: 1px solid var(--clr-tan);
     border-radius: var(--br);
+
+    @media screen and (max-width: 1000px) {
+      display: flex;
+      flex-direction: column;
+    }
   }
 `
 
@@ -43,6 +48,11 @@ const TabWrapper = styled.div`
   border-radius: var(--br);
   .css-13o7eu2 {
     display: flex;
+
+    @media screen and (max-width: 1000px) {
+      display: flex;
+      flex-direction: column;
+    }
   }
 `
 
@@ -72,28 +82,29 @@ export default function FaqTab({ tabsContent, title }) {
                       <Accordion className="spacing">
                         {tab.questions.map(questionContent => {
                           return (
-                          <AccordionItem style={AccordionStyle}>
-                            <h2>
-                              <AccordionButton>
-                                <Box
-                                  className="subheader"
-                                  as="span"
-                                  flex="1"
-                                  textAlign="left"
-                                >
-                                  {/* QUESTION */}
-                                  {questionContent.question}
-                                </Box>
-                                <AccordionIcon />
-                              </AccordionButton>
-                            </h2>
-                            <AccordionPanel
-                              pb={4}
-                              dangerouslySetInnerHTML={{
-                                __html: `${questionContent.answer}`,
-                              }}
-                            />
-                          </AccordionItem>)
+                            <AccordionItem style={AccordionStyle}>
+                              <h2>
+                                <AccordionButton>
+                                  <Box
+                                    className="subheader"
+                                    as="span"
+                                    flex="1"
+                                    textAlign="left"
+                                  >
+                                    {/* QUESTION */}
+                                    {questionContent.question}
+                                  </Box>
+                                  <AccordionIcon />
+                                </AccordionButton>
+                              </h2>
+                              <AccordionPanel
+                                pb={4}
+                                dangerouslySetInnerHTML={{
+                                  __html: `${questionContent.answer}`,
+                                }}
+                              />
+                            </AccordionItem>
+                          )
                         })}
                       </Accordion>
                     </TabPanel>
