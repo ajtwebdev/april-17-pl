@@ -63,6 +63,10 @@ const FooterWrapperTop = styled.div`
   ul {
     list-style-type: none;
   }
+
+  .about {
+    color: var(--clr-light);
+  }
 `
 
 const FooterWrapperBottom = styled.div`
@@ -409,7 +413,7 @@ export default function Footer() {
                 </Socials>
                 <div>
                   <h4 className="subheader">about us</h4>
-                  <p>
+                  <p className="about">
                     Project landscape redefines the fundamentals of landscape
                     installation, landscape maintenance and service through-out
                     Calgary landscaping, snow removal and{" "}

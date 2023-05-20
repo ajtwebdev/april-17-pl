@@ -30,28 +30,28 @@ export default function Badges({ title }) {
       <div className="spacing">
         {title ? <h2 className="title center">{title}</h2> : null}
         <Slider {...settings}>
-          <a
+          {/* <a
             href="https://threebestrated.ca/landscaping-companies-in-calgary-ab"
             taget="_blank"
-          >
-            <StaticImage
-              src="../../../images/badges/best-landscaping-companies-in-calgary-1.svg"
-              alt="best landscaping companies in calgary"
-              style={ImgStyle}
-              objectFit="contain"
-            />
-          </a>
-          <a
+          > */}
+          <StaticImage
+            src="../../../images/badges/best-landscaping-companies-in-calgary-1.svg"
+            alt="best landscaping companies in calgary"
+            style={ImgStyle}
+            objectFit="contain"
+          />
+          {/* </a> */}
+          {/* <a
             href="https://trustedpros.ca/company/project-landscape-ltd"
             target="_blank"
-          >
-            <StaticImage
-              src="../../../images/badges/best-landscaping-companies-in-calgary-2.svg"
-              alt="best landscaping companies in calgary"
-              style={ImgStyle}
-              objectFit="contain"
-            />
-          </a>
+          > */}
+          <StaticImage
+            src="../../../images/badges/best-landscaping-companies-in-calgary-2.svg"
+            alt="best landscaping companies in calgary"
+            style={ImgStyle}
+            objectFit="contain"
+          />
+          {/* </a> */}
           <StaticImage
             src="../../../images/badges/best-landscaping-companies-in-calgary-3.svg"
             alt="best landscaping companies in calgary"
@@ -88,28 +88,28 @@ export default function Badges({ title }) {
             style={ImgStyle}
             objectFit="contain"
           />
-          <a
+          {/* <a
             href="https://homestars.com/companies/2895459-project-landscape-ltd?service_area=2119137"
             target="_blank"
-          >
-            <StaticImage
-              src="../../../images/badges/landscaping-calgary-top-rated-experts-3.svg"
-              alt="best landscaping companies in calgary"
-              style={ImgStyle}
-              objectFit="contain"
-            />
-          </a>
-          <a
+          > */}
+          <StaticImage
+            src="../../../images/badges/landscaping-calgary-top-rated-experts-3.svg"
+            alt="best landscaping companies in calgary"
+            style={ImgStyle}
+            objectFit="contain"
+          />
+          {/* </a> */}
+          {/* <a
             href="https://www.houzz.com/professionals/landscape-architects-and-landscape-designers/project-landscape-ltd-pfvwus-pf~816279347/__public"
             taget="_blank"
-          >
-            <StaticImage
-              src="../../../images/badges/landscaping-calgary-top-rated-experts-4.svg"
-              alt="best landscaping companies in calgary"
-              style={ImgStyle}
-              objectFit="contain"
-            />
-          </a>
+          > */}
+          <StaticImage
+            src="../../../images/badges/landscaping-calgary-top-rated-experts-4.svg"
+            alt="best landscaping companies in calgary"
+            style={ImgStyle}
+            objectFit="contain"
+          />
+          {/* </a> */}
           <StaticImage
             src="../../../images/badges/landscaping-calgary-top-rated-experts-5.svg"
             alt="best landscaping companies in calgary"
@@ -140,28 +140,28 @@ export default function Badges({ title }) {
             style={ImgStyle}
             objectFit="contain"
           />
-          <a
+          {/* <a
             href="https://www.bbb.org/ca/ab/calgary/profile/landscape-contractors/project-landscape-ltd-0017-100724"
             taget="_blank"
-          >
-            <StaticImage
-              src="../../../images/badges/landscaping-calgary-top-rated-experts-10.svg"
-              alt="best landscaping companies in calgary"
-              style={ImgStyle}
-              objectFit="contain"
-            />
-          </a>
-          <a
+          > */}
+          <StaticImage
+            src="../../../images/badges/landscaping-calgary-top-rated-experts-10.svg"
+            alt="best landscaping companies in calgary"
+            style={ImgStyle}
+            objectFit="contain"
+          />
+          {/* </a> */}
+          {/* <a
             href="https://homestars.com/companies/2895459-project-landscape-ltd?service_area=2119137"
             target="_blank"
-          >
-            <StaticImage
-              src="../../../images/badges/landscaping-calgary-top-rated-experts-11.svg"
-              alt="best landscaping companies in calgary"
-              style={ImgStyle}
-              objectFit="contain"
-            />
-          </a>
+          > */}
+          <StaticImage
+            src="../../../images/badges/landscaping-calgary-top-rated-experts-11.svg"
+            alt="best landscaping companies in calgary"
+            style={ImgStyle}
+            objectFit="contain"
+          />
+          {/* </a> */}
         </Slider>
       </div>
     </Section>

@@ -6,7 +6,7 @@ import { GatsbyImage } from "gatsby-plugin-image"
 
 const Wrapper = styled.div`
   .css-1xhq01z {
-    justify-content: center;
+    display: block; !important
 
     @media screen and (max-width: 76em) {
       display: block;
@@ -30,6 +30,11 @@ const Wrapper = styled.div`
     padding: 2em;
     border: 1px solid var(--clr-tan);
     border-radius: var(--br);
+
+    @media screen and (max-width: 76em) {
+      display: flex; !important
+      flex-direction: column;
+    }
   }
 `
 

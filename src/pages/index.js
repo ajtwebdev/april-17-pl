@@ -138,14 +138,11 @@ export default function index() {
       />
       <ShowroomSection />
       <MainVideo />
-      {/* <LandscapingImg subheader=""
+      <LandscapingImg
         title="Landscaping services in Calgary"
-        body="Since 2016, Project landscape has helped hundreds of homeowners create beautiful and functional outdoor living spaces that are filled with relaxation and enjoyment. Whether it's a complete landscape design and construction transformation or helping homeowners create a jaw-dropping curb appeal to be the envy of your neighbours, experienced and certified landscaping professionals are here to help.
-
-We understand how frustrating it can be to deal with unreliable landscapers and ones that promise more than they can offer. Improving your landscape shouldn't be an impossible task, filled with exhausting research of unreliable landscape companies. 
-If you're going to invest your time and money into hiring a landscape company for your Calgary home, you deserve the attention,expertise, great customer service and detailed focus that you invested into."
         to="/about"
-        button="more about us" /> */}
+        button="more about us"
+      />
       <OasisImg
         title="Bring your outdoor oasis to life"
         to="/contact"
