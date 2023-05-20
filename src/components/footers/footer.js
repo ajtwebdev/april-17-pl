@@ -345,17 +345,23 @@ export default function Footer() {
                     </a>
                   </div>
                   <div>
-                    <a target="_blank" href={Instagram}>
+                    <a
+                      target="_blank"
+                      href="https://www.instagram.com/project__landscape/?hl=en"
+                    >
                       <img
-                        src="../../images/socials/instagram.svg"
+                        src={Instagram}
                         alt="calgary landscaping company instagram"
                       />
                     </a>
                   </div>
                   <div>
-                    <a target="_blank" href={Youtube}>
+                    <a
+                      target="_blank"
+                      href="https://www.youtube.com/@projectlandscapeltd.9811"
+                    >
                       <img
-                        src="../../images/socials/youtube.svg"
+                        src={Youtube}
                         alt="calgary landscaping company youtube"
                       />
                     </a>
@@ -387,7 +393,7 @@ export default function Footer() {
                       <img src={GooglePlus} alt="calgary landscaping company" />
                     </a>
                   </div>
-                  {/* <div>
+                  <div>
                     <a
                       href="https://trustedpros.ca/company/project-landscape-ltd"
                       target="blank"
@@ -397,7 +403,7 @@ export default function Footer() {
                         alt="calgary landscaping pros"
                       />
                     </a>
-                  </div> */}
+                  </div>
                 </Socials>
                 <div>
                   <h4 className="subheader">about us</h4>
