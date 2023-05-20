@@ -393,7 +393,7 @@ export default function Footer() {
                       <img src={GooglePlus} alt="calgary landscaping company" />
                     </a>
                   </div>
-                  <div>
+                  {/* <div>
                     <a
                       href="https://trustedpros.ca/company/project-landscape-ltd"
                       target="blank"
@@ -403,7 +403,7 @@ export default function Footer() {
                         alt="calgary landscaping pros"
                       />
                     </a>
-                  </div>
+                  </div> */}
                 </Socials>
                 <div>
                   <h4 className="subheader">about us</h4>
