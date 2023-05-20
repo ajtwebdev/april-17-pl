@@ -15,6 +15,7 @@ import { ButtonPrimary, ButtonSecondaryLight } from "../../buttons"
 const Wrapper = styled.div`
   .css-1xhq01z {
     justify-content: center;
+    flex-direction: column;
   }
 
   .css-52dxnr {

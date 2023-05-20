@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import { ButtonSecondaryLight } from "../buttons"
 import { Container, Flex, FlexMobileOpp, Section } from "../layoutComponents"
-import { GatsbyImage } from "gatsby-plugin-image"
+import { GatsbyImage, StaticImage } from "gatsby-plugin-image"
 
 const Wrapper = styled.div`
   background: var(--clr-accent);
@@ -26,7 +26,7 @@ export default function LandscapingImg(props) {
       <Section>
         <Container>
           <FlexMobileOpp>
-            <GatsbyImage
+            <StaticImage
               className="img"
               src="../../images/banner-image-2.jpg"
               alt="landscaping services in calgary AB"
