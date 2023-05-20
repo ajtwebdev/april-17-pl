@@ -338,29 +338,23 @@ export default function Footer() {
                       target="_blank"
                       href="https://www.facebook.com/profile.php?id=100063556661393&ref=aymt_homepage_panel"
                     >
-                      <StaticImage
-                        src="../../images/socials/facebook.svg"
+                      <img
+                        src={Facebook}
                         alt="calgary landscaping company facebook"
                       />
                     </a>
                   </div>
                   <div>
-                    <a
-                      target="_blank"
-                      href="https://www.instagram.com/project__landscape/?hl=en"
-                    >
-                      <StaticImage
+                    <a target="_blank" href={Instagram}>
+                      <img
                         src="../../images/socials/instagram.svg"
                         alt="calgary landscaping company instagram"
                       />
                     </a>
                   </div>
                   <div>
-                    <a
-                      target="_blank"
-                      href="https://www.youtube.com/@projectlandscapeltd.9811"
-                    >
-                      <StaticImage
+                    <a target="_blank" href={Youtube}>
+                      <img
                         src="../../images/socials/youtube.svg"
                         alt="calgary landscaping company youtube"
                       />
@@ -371,8 +365,8 @@ export default function Footer() {
                       target="_blank"
                       href="https://www.pinterest.ca/projectland0734/"
                     >
-                      <StaticImage
-                        src="../../images/socials/pinterest.svg"
+                      <img
+                        src={Pinterest}
                         alt="calgary landscaping company pinterest"
                       />
                     </a>
@@ -382,10 +376,7 @@ export default function Footer() {
                       target="_blank"
                       href="https://www.houzz.com/professionals/landscape-architects-and-landscape-designers/project-landscape-ltd-pfvwus-pf~816279347/__public"
                     >
-                      <StaticImage
-                        src="../../images/socials/houzz.svg"
-                        alt="calgary landscaping company"
-                      />
+                      <img src={Houzz} alt="calgary landscaping company" />
                     </a>
                   </div>
                   <div>
@@ -393,23 +384,20 @@ export default function Footer() {
                       target="_blank"
                       href="https://www.google.com/search?q=project%20landscape&rlz=1C1JZAP_enCA1008CA1008&oq=project+landscape&aqs=chrome..69i57j69i59j69i64j69i65j69i60l2j69i65.4202j0j9&sourceid=chrome&ie=UTF-8&tbs=lf:1,lf_ui:14&tbm=lcl&sxsrf=APwXEde42p-FOu2e0riecHHuoBMahO47kQ:1682655163573&rflfq=1&num=10&serdesk=1&rldimm=11747008283103314784&lqi=ChFwcm9qZWN0IGxhbmRzY2FwZUi-z42FnKuAgAhaGxAAEAEYABgBIhFwcm9qZWN0IGxhbmRzY2FwZXoHQ2FsZ2FyeZIBEmxhbmRzY2FwZV9kZXNpZ25lcqoBORABMh4QASIaKaI3Foxmm9yUEJWVyMjPvBmgI2VvlzimO9cyFRACIhFwcm9qZWN0IGxhbmRzY2FwZQ&ved=2ahUKEwiBlLf62sv-AhUXITQIHeg0D40QvS56BAgVEAE&sa=X&rlst=f#rlfi=hd:;si:11747008283103314784,l,ChFwcm9qZWN0IGxhbmRzY2FwZUi-z42FnKuAgAhaGxAAEAEYABgBIhFwcm9qZWN0IGxhbmRzY2FwZXoHQ2FsZ2FyeZIBEmxhbmRzY2FwZV9kZXNpZ25lcqoBORABMh4QASIaKaI3Foxmm9yUEJWVyMjPvBmgI2VvlzimO9cyFRACIhFwcm9qZWN0IGxhbmRzY2FwZQ;mv:[[51.0443109,-113.9770916],[50.992142799999996,-114.1041654]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:14"
                     >
-                      <StaticImage
-                        src="../../images/socials/google-plus.svg"
-                        alt="calgary landscaping company"
-                      />
+                      <img src={GooglePlus} alt="calgary landscaping company" />
                     </a>
                   </div>
-                  <div>
+                  {/* <div>
                     <a
                       href="https://trustedpros.ca/company/project-landscape-ltd"
                       target="blank"
                     >
-                      <StaticImage
+                      <img
                         src="../../socials/images/calgary-landscaping-pros-trusted.svg"
                         alt="calgary landscaping pros"
                       />
                     </a>
-                  </div>
+                  </div> */}
                 </Socials>
                 <div>
                   <h4 className="subheader">about us</h4>
